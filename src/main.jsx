@@ -65,6 +65,7 @@ function App() {
 function DutyCard({ duty, dayType, onBack }) {
   const ticket = duty.display_duty_number || duty.duty_number || duty.ticket_machine_number || '---';
   const today = new Date().toLocaleDateString('en-IE');
+  console.log(duty.events);
   const events = filterDriverEvents(duty.events || []);
 
   return (
@@ -193,17 +194,18 @@ function filterDriverEvents(events = []) {
   });
 
   return removeDuplicateDriverEvents(cleaned);
-}
-
-function removeDuplicateDriverEvents(events = []) {
+  function removeDuplicateDriverEvents(events = []) {
   const seen = new Set();
 
   return events.filter((event) => {
-    const location = String(event.location || '').toLowerCase();
-    const type = event.event_type || '';
-    const key = `${event.event_time}|${location}|${type}`;
+    const location = String(event.location || '').toLowerCase().trim();
+    const time = String(event.event_time || '').trim();
+
+    // Use only time + location to detect duplicates
+    const key = `${time}|${location}`;
 
     if (seen.has(key)) return false;
+
     seen.add(key);
     return true;
   });
