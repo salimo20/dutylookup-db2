@@ -25,32 +25,50 @@ export function findRosterRow(rows, roster) {
 }
 
 export function parseDz4RosterRow(row, dayType) {
+  const isWeekday = dayType === 'weekday';
+
+  const dutyIndex = isWeekday ? 3 : 2;
+  const signOnIndex = isWeekday ? 4 : 3;
+  const startTimeIndex = isWeekday ? 5 : 4;
+  const startLocationIndex = isWeekday ? 6 : 5;
+  const breakTimeIndex = isWeekday ? 7 : 6;
+  const breakLocationIndex = isWeekday ? 8 : 7;
+  const resumeTimeIndex = isWeekday ? 9 : 8;
+  const resumeLocationIndex = isWeekday ? 11 : 10;
+  const finishTimeIndex = isWeekday ? 14 : 13;
+  const finishLocationIndex = isWeekday ? 13 : 12;
+  const paidTimeIndex = isWeekday ? 15 : 14;
+  const workTimeIndex = isWeekday ? 16 : 15;
+  const breakDurationIndex = isWeekday ? 17 : 16;
+
+  const dutyNumber = String(Number(row[dutyIndex]));
+
   return {
     garage: 'DB2',
     zone: 'DZ4',
     roster_number: row[0],
     route: 'E1',
     day_type: dayType,
-    duty_number: String(Number(row[3] || row[2])),
-    display_duty_number: String(Number(row[3] || row[2])),
-    ticket_machine_number: String(Number(row[3] || row[2])),
-    sign_on_time: row[4],
-    start_time: row[5],
-    start_location: normalizeLocation(row[6]),
-    break_time: row[7],
-    break_location: normalizeLocation(row[8]),
-    resume_time: row[9],
-    resume_location: normalizeLocation(row[11]),
-    finish_time: row[14],
-    finish_location: normalizeLocation(row[13]),
-    paid_time: row[15],
-    work_time: row[16],
-    break_duration: row[17],
+    duty_number: dutyNumber,
+    display_duty_number: dutyNumber,
+    ticket_machine_number: dutyNumber,
+    sign_on_time: row[signOnIndex],
+    start_time: row[startTimeIndex],
+    start_location: normalizeLocation(row[startLocationIndex]),
+    break_time: row[breakTimeIndex],
+    break_location: normalizeLocation(row[breakLocationIndex]),
+    resume_time: row[resumeTimeIndex],
+    resume_location: normalizeLocation(row[resumeLocationIndex]),
+    finish_time: row[finishTimeIndex],
+    finish_location: normalizeLocation(row[finishLocationIndex]),
+    paid_time: row[paidTimeIndex],
+    work_time: row[workTimeIndex],
+    break_duration: row[breakDurationIndex],
     events: [
-      { event_type: 'START', event_time: row[5], location: normalizeLocation(row[6]) },
-      { event_type: 'BREAK_START', event_time: row[7], location: normalizeLocation(row[8]), notes: '23 → 7' },
-      { event_type: 'RESUME', event_time: row[9], location: normalizeLocation(row[11]), notes: '220 → 23' },
-      { event_type: 'FINISH', event_time: row[14], location: normalizeLocation(row[13]), notes: '23 → 44' }
+      { event_type: 'START', event_time: row[startTimeIndex], location: normalizeLocation(row[startLocationIndex]) },
+      { event_type: 'BREAK_START', event_time: row[breakTimeIndex], location: normalizeLocation(row[breakLocationIndex]), notes: '23 → 7' },
+      { event_type: 'RESUME', event_time: row[resumeTimeIndex], location: normalizeLocation(row[resumeLocationIndex]), notes: '220 → 23' },
+      { event_type: 'FINISH', event_time: row[finishTimeIndex], location: normalizeLocation(row[finishLocationIndex]), notes: '23 → 44' }
     ]
   };
 }
