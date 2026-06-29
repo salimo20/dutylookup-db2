@@ -1,5 +1,6 @@
 import fs from 'fs';
 import XLSX from 'xlsx';
+import { detectCttSheets } from '../parser/db2/sheetDetector.js';
 
 const inputFiles = [
   'DB2-Z4-Routes E1-X1 Oct 2025.xlsx',
@@ -17,9 +18,12 @@ for (const file of inputFiles) {
   }
 
   const workbook = XLSX.readFile(file);
+  const cttSheets = detectCttSheets(workbook.SheetNames);
+
   console.log(`\nFOUND: ${file}`);
-  console.log('Sheets:');
-  workbook.SheetNames.forEach((name, index) => {
-    console.log(`  ${index + 1}. ${name}`);
+  console.log('Driver CTT sheets only:');
+
+  cttSheets.forEach((sheet) => {
+    console.log(`  ${sheet.dayType}: ${sheet.name}`);
   });
 }
