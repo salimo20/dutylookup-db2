@@ -39,20 +39,12 @@ function App() {
         <h1>Duty Lookup</h1>
 
         <label>Roster Number</label>
-        <input
-          value={rosterInput}
-          onChange={(e) => setRosterInput(e.target.value)}
-          placeholder="DZ4/23"
-        />
+        <input value={rosterInput} onChange={(e) => setRosterInput(e.target.value)} placeholder="DZ4/23" />
 
         <label>Day</label>
         <div className="day-buttons">
           {Object.entries(dayLabels).map(([key, label]) => (
-            <button
-              key={key}
-              className={dayType === key ? 'active' : ''}
-              onClick={() => setDayType(key)}
-            >
+            <button key={key} className={dayType === key ? 'active' : ''} onClick={() => setDayType(key)}>
               {label}
             </button>
           ))}
@@ -67,18 +59,13 @@ function App() {
     );
   }
 
-  return (
-    <DutyCard
-      duty={duty}
-      dayType={dayType}
-      onBack={() => setPage('search')}
-    />
-  );
+  return <DutyCard duty={duty} dayType={dayType} onBack={() => setPage('search')} />;
 }
 
 function DutyCard({ duty, dayType, onBack }) {
   const ticket = duty.display_duty_number || duty.duty_number || duty.ticket_machine_number || '---';
   const today = new Date().toLocaleDateString('en-IE');
+  const events = filterDriverEvents(duty.events || []);
 
   return (
     <main className="screen card-screen">
@@ -119,7 +106,7 @@ function DutyCard({ duty, dayType, onBack }) {
       </div>
 
       <section className="timeline">
-        {(duty.events || []).map((event, index) => (
+        {events.map((event, index) => (
           <TimelineItem event={event} key={index} />
         ))}
       </section>
@@ -138,9 +125,7 @@ function TimelineItem({ event }) {
       <div className="timeline-item break">
         <Coffee size={18} />
         <div>
-          <strong>
-            {event.event_time} <span className={locationClass}>{event.location}</span>
-          </strong>
+          <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
           <p>Break</p>
           {event.notes && <em>{event.notes}</em>}
         </div>
@@ -153,9 +138,7 @@ function TimelineItem({ event }) {
       <div className="timeline-item resume">
         <Play size={18} />
         <div>
-          <strong>
-            {event.event_time} <span className={locationClass}>{event.location}</span>
-          </strong>
+          <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
           <p>Resume</p>
           {event.notes && <em>{event.notes}</em>}
         </div>
@@ -168,9 +151,7 @@ function TimelineItem({ event }) {
       <div className="timeline-item finish">
         <Flag size={18} />
         <div>
-          <strong>
-            {event.event_time} <span className={locationClass}>{event.location}</span>
-          </strong>
+          <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
           <p>Finish</p>
           {event.notes && <em>{event.notes}</em>}
         </div>
@@ -182,12 +163,50 @@ function TimelineItem({ event }) {
     <div className="timeline-item">
       <span className="dot" />
       <div>
-        <strong>
-          {event.event_time} <span className={locationClass}>{event.location}</span>
-        </strong>
+        <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
       </div>
     </div>
   );
+}
+
+function filterDriverEvents(events = []) {
+  const importantTypes = new Set(['START', 'BREAK_START', 'RESUME', 'FINISH']);
+  const importantPlaces = ['garage', 'northwood', 'ballywaltrim', 'eglington'];
+
+  const cleaned = events.filter((event, index) => {
+    const type = event.event_type || '';
+    const location = String(event.location || '').toLowerCase();
+
+    if (type === 'SIGN_OFF') return false;
+    if (importantTypes.has(type)) return true;
+    if (importantPlaces.some((place) => location.includes(place))) return true;
+
+    if (
+      location.includes('brook church') ||
+      location.includes("d'brook church") ||
+      location.includes('donnybrook church')
+    ) {
+      return type === 'FINISH' || index === events.length - 1;
+    }
+
+    return false;
+  });
+
+  return removeDuplicateDriverEvents(cleaned);
+}
+
+function removeDuplicateDriverEvents(events = []) {
+  const seen = new Set();
+
+  return events.filter((event) => {
+    const location = String(event.location || '').toLowerCase();
+    const type = event.event_type || '';
+    const key = `${event.event_time}|${location}|${type}`;
+
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 function getLocationClass(location = '') {
