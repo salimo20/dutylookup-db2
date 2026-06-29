@@ -1,8 +1,7 @@
-import React, { useMemo, useState } from 'react';
+import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { Search, CalendarDays, Ticket, Route, Clock, MapPin, Repeat2, Coffee, Flag, LogIn, UploadCloud, Database, ShieldAlert } from 'lucide-react';
+import { Search, CalendarDays, Ticket, ArrowLeft, Coffee, Flag, Play } from 'lucide-react';
 import { normalizeRoster, resolveDutyFromRoster } from './lib/rosterResolver.js';
-import { hasSupabaseConfig, supabase } from './lib/supabaseClient.js';
 import { findDemoDuty } from './lib/demoData.js';
 import './styles.css';
 
@@ -12,166 +11,159 @@ const dayLabels = {
   sunday: 'Sunday'
 };
 
-function eventIcon(type) {
-  if (type === 'BREAK_START' || type === 'RESUME') return <Coffee size={18} />;
-  if (type === 'HAND_OVER' || type === 'TAKE_OVER') return <Repeat2 size={18} />;
-  if (type === 'FINISH') return <Flag size={18} />;
-  if (type === 'SIGN_ON' || type === 'START') return <Clock size={18} />;
-  return <MapPin size={18} />;
-}
-
 function App() {
+  const [page, setPage] = useState('search');
   const [rosterInput, setRosterInput] = useState('DZ4/23');
   const [dayType, setDayType] = useState('weekday');
-  const [duty, setDuty] = useState(findDemoDuty('DZ4/23', 'weekday'));
-  const [status, setStatus] = useState('Demo data loaded. Connect Supabase after running the SQL schema.');
+  const [duty, setDuty] = useState(null);
 
-  const resolver = useMemo(() => resolveDutyFromRoster(rosterInput), [rosterInput]);
-
-  async function searchDuty() {
+  function searchDuty() {
     const roster = normalizeRoster(rosterInput);
     const resolved = resolveDutyFromRoster(roster);
+    const found = findDemoDuty(roster, dayType);
 
-    setStatus(`Searching ${roster} • ${dayLabels[dayType]} • rule ${resolved.rule}`);
+    setDuty(found || {
+      roster_number: roster,
+      route: 'E1',
+      display_duty_number: resolved.resolvedDutyNumber || '---',
+      shift_type: resolved.shiftHint === 'BOGEY' ? 'BOGEY' : 'EARLY',
+      events: []
+    });
 
-    if (hasSupabaseConfig) {
-      const { data, error } = await supabase
-        .from('duty_cards')
-        .select('*')
-        .eq('roster_number', roster)
-        .eq('day_type', dayType)
-        .eq('is_active', true)
-        .maybeSingle();
-
-      if (!error && data) {
-        const { data: events, error: eventsError } = await supabase
-          .from('timeline_events')
-          .select('*')
-          .eq('duty_id', data.duty_id)
-          .order('sequence', { ascending: true });
-
-        if (!eventsError) {
-          setDuty({ ...data, events: events || [] });
-          setStatus('Loaded from Supabase.');
-          return;
-        }
-      }
-    }
-
-    const demo = findDemoDuty(roster, dayType);
-    if (demo) {
-      setDuty(demo);
-      setStatus('Loaded from local demo data.');
-    } else {
-      setDuty(null);
-      setStatus(`No duty found yet. Resolver result: ${resolved.resolvedDutyNumber || 'lookup table required'}`);
-    }
+    setPage('card');
   }
 
+  if (page === 'search') {
+    return (
+      <main className="screen search-screen">
+        <h1>Duty Lookup</h1>
+
+        <label>Roster Number</label>
+        <input value={rosterInput} onChange={(e) => setRosterInput(e.target.value)} placeholder="DZ4/23" />
+
+        <label>Day</label>
+        <div className="day-buttons">
+          {Object.entries(dayLabels).map(([key, label]) => (
+            <button key={key} className={dayType === key ? 'active' : ''} onClick={() => setDayType(key)}>
+              {label}
+            </button>
+          ))}
+        </div>
+
+        <button className="search-button" onClick={searchDuty}>
+          <Search size={18} /> Search Duty
+        </button>
+
+        <p className="safety">⚠️ Do not use mobile while driving.</p>
+      </main>
+    );
+  }
+
+  return <DutyCard duty={duty} dayType={dayType} onBack={() => setPage('search')} />;
+}
+
+function DutyCard({ duty, dayType, onBack }) {
+  const ticket = duty.display_duty_number || duty.duty_number || duty.ticket_machine_number || '---';
+  const today = new Date().toLocaleDateString('en-IE');
+
   return (
-    <main className="app-shell">
-      <section className="hero">
+    <main className="screen card-screen">
+      <button className="back-button" onClick={onBack}>
+        <ArrowLeft size={18} /> Back
+      </button>
+
+      <h2>{dayLabels[dayType]}</h2>
+
+      <div className="mini-row">
+        <span><CalendarDays size={16} /> {today}</span>
+        <span><Ticket size={16} /> {ticket}</span>
+      </div>
+
+      <div className="route-box">
+        <small>Route</small>
+        <strong>{duty.route || '---'}</strong>
+      </div>
+
+      <div className="details-row">
         <div>
-          <p className="eyebrow">DB2 Driver Duty Lookup</p>
-          <h1>DutyLookup DB2</h1>
-          <p className="subtitle">Search by roster number. The app resolves the ticket-machine duty number and displays the full driver exchange timeline.</p>
+          <small>Roster</small>
+          <strong>{duty.roster_number}</strong>
         </div>
-        <div className="warning"><ShieldAlert size={18} /> Do not use while driving.</div>
-      </section>
-
-      <section className="grid">
-        <div className="panel search-panel">
-          <h2><Search size={20} /> Search Duty</h2>
-          <label>Roster Number</label>
-          <input value={rosterInput} onChange={(e) => setRosterInput(e.target.value)} placeholder="DZ4/23" />
-
-          <label>Day Type</label>
-          <div className="day-buttons">
-            {Object.entries(dayLabels).map(([key, label]) => (
-              <button key={key} className={dayType === key ? 'active' : ''} onClick={() => setDayType(key)}>{label}</button>
-            ))}
-          </div>
-
-          <button className="primary" onClick={searchDuty}>Search</button>
-
-          <div className="resolver-box">
-            <strong>Resolver</strong>
-            <span>Roster: {resolver.roster || '—'}</span>
-            <span>Zone: {resolver.zone || '—'}</span>
-            <span>Duty: {resolver.resolvedDutyNumber || 'table lookup'}</span>
-            <span>Rule: {resolver.rule}</span>
-          </div>
-          <p className="status">{status}</p>
+        <div>
+          <small>Shift</small>
+          <strong className={`shift ${String(duty.shift_type || '').toLowerCase()}`}>{duty.shift_type || 'SHIFT'}</strong>
         </div>
+      </div>
 
-        <DutyCard duty={duty} dayType={dayType} />
+      <section className="timeline">
+        {(duty.events || []).map((event, index) => (
+          <TimelineItem event={event} key={index} />
+        ))}
       </section>
 
-      <section className="panel admin-note">
-        <h2><UploadCloud size={20} /> Admin Roadmap</h2>
-        <p>Upload each new Dublin Bus bill as a new duty-book version. Import, verify, then activate. The driver app stays the same when routes or times change.</p>
-        <div className="chips"><span>DZ4 E1/X1</span><span>DZ5 7/7A/7B/47</span><span>L25 standalone</span><span>Future DB1/BG</span></div>
-      </section>
+      <p className="safety">⚠️ Do not use mobile while driving.</p>
     </main>
   );
 }
 
-function DutyCard({ duty, dayType }) {
-  if (!duty) {
-    return <div className="panel duty-card empty"><Database size={36} /><h2>No duty loaded</h2><p>Import the real Excel data or use demo roster DZ4/23.</p></div>;
+function TimelineItem({ event }) {
+  const type = event.event_type || '';
+  const locationClass = getLocationClass(event.location);
+
+  if (type === 'BREAK_START') {
+    return (
+      <div className="timeline-item break">
+        <Coffee size={18} />
+        <div>
+          <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
+          <p>Break</p>
+          {event.notes && <em>{event.notes}</em>}
+        </div>
+      </div>
+    );
   }
 
-  const takeovers = (duty.events || []).filter(e => e.event_type === 'TAKE_OVER');
-  const handovers = (duty.events || []).filter(e => e.event_type === 'HAND_OVER');
+  if (type === 'RESUME') {
+    return (
+      <div className="timeline-item resume">
+        <Play size={18} />
+        <div>
+          <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
+          <p>Resume</p>
+          {event.notes && <em>{event.notes}</em>}
+        </div>
+      </div>
+    );
+  }
+
+  if (type === 'FINISH') {
+    return (
+      <div className="timeline-item finish">
+        <Flag size={18} />
+        <div>
+          <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
+          <p>Finish</p>
+          {event.notes && <em>{event.notes}</em>}
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div className="panel duty-card">
-      <div className="card-top">
-        <div><p className="eyebrow">{duty.garage} • {duty.zone}</p><h2>{dayLabels[dayType] || duty.day_type}</h2></div>
-        <span className="shift">{duty.shift_type || 'SHIFT'}</span>
+    <div className="timeline-item">
+      <span className="dot" />
+      <div>
+        <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
       </div>
-
-      <div className="duty-number-box">
-        <Ticket size={28} />
-        <div><p>Ticket Machine Duty Number</p><strong>{duty.display_duty_number || duty.duty_number}</strong><span>Enter this number on the ticket machine</span></div>
-      </div>
-
-      <div className="facts">
-        <Fact label="Roster" value={duty.roster_number} />
-        <Fact label="Route" value={duty.route} icon={<Route size={16} />} />
-        <Fact label="Ticket Machine" value={duty.ticket_machine_number || '000'} />
-        <Fact label="Sign On" value={`${duty.sign_on_time || '—'} • ${duty.sign_on_location || ''}`} />
-        <Fact label="Finish" value={`${duty.finish_time || '—'} • ${duty.finish_location || ''}`} />
-      </div>
-
-      {(takeovers.length || handovers.length) ? (
-        <section className="exchange-section">
-          <h3><Repeat2 size={18} /> Driver Exchange</h3>
-          {takeovers.map((e, idx) => <Exchange key={`t-${idx}`} title="Take over from" duty={e.from_duty_number} time={e.event_time} location={e.location} />)}
-          {handovers.map((e, idx) => <Exchange key={`h-${idx}`} title="Hand over to" duty={e.to_duty_number} time={e.event_time} location={e.location} />)}
-        </section>
-      ) : null}
-
-      <section className="timeline">
-        <h3><CalendarDays size={18} /> Timeline</h3>
-        {(duty.events || []).map((event, index) => (
-          <div className={`event ${event.event_type?.toLowerCase()}`} key={index}>
-            <div className="event-icon">{eventIcon(event.event_type)}</div>
-            <div className="event-time">{event.event_time}</div>
-            <div className="event-body"><strong>{event.location}</strong><span>{event.event_type?.replaceAll('_', ' ')}</span>{event.notes && <small>{event.notes}</small>}</div>
-          </div>
-        ))}
-      </section>
     </div>
   );
 }
 
-function Fact({ label, value, icon }) {
-  return <div className="fact"><span>{icon}{label}</span><strong>{value || '—'}</strong></div>;
-}
-
-function Exchange({ title, duty, time, location }) {
-  return <div className="exchange-card"><span>{title}</span><strong>Duty {duty || '—'}</strong><small>{time || '—'} • {location || '—'}</small></div>;
+function getLocationClass(location = '') {
+  const value = location.toLowerCase();
+  if (value.includes('northwood')) return 'northwood';
+  if (value.includes('ballywaltrim')) return 'ballywaltrim';
+  return '';
 }
 
 createRoot(document.getElementById('root')).render(<App />);
