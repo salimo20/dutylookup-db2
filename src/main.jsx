@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { Search, CalendarDays, Ticket, ArrowLeft, Coffee, Flag, Play } from 'lucide-react';
+import { ArrowLeft, CalendarDays, Coffee, Flag, Play, Search, Ticket } from 'lucide-react';
 import { normalizeRoster, resolveDutyFromRoster } from './lib/rosterResolver.js';
 import { findDemoDuty } from './lib/demoData.js';
 import './styles.css';
@@ -39,12 +39,20 @@ function App() {
         <h1>Duty Lookup</h1>
 
         <label>Roster Number</label>
-        <input value={rosterInput} onChange={(e) => setRosterInput(e.target.value)} placeholder="DZ4/23" />
+        <input
+          value={rosterInput}
+          onChange={(e) => setRosterInput(e.target.value)}
+          placeholder="DZ4/23"
+        />
 
         <label>Day</label>
         <div className="day-buttons">
           {Object.entries(dayLabels).map(([key, label]) => (
-            <button key={key} className={dayType === key ? 'active' : ''} onClick={() => setDayType(key)}>
+            <button
+              key={key}
+              className={dayType === key ? 'active' : ''}
+              onClick={() => setDayType(key)}
+            >
               {label}
             </button>
           ))}
@@ -59,7 +67,13 @@ function App() {
     );
   }
 
-  return <DutyCard duty={duty} dayType={dayType} onBack={() => setPage('search')} />;
+  return (
+    <DutyCard
+      duty={duty}
+      dayType={dayType}
+      onBack={() => setPage('search')}
+    />
+  );
 }
 
 function DutyCard({ duty, dayType, onBack }) {
@@ -75,8 +89,15 @@ function DutyCard({ duty, dayType, onBack }) {
       <h2>{dayLabels[dayType]}</h2>
 
       <div className="mini-row">
-        <span><CalendarDays size={16} /> {today}</span>
-        <span><Ticket size={16} /> {ticket}</span>
+        <span>
+          <CalendarDays size={16} /> {today}
+        </span>
+
+        <span className="ticket-mini">
+          <Ticket size={16} />
+          <small>Ticket Machine</small>
+          <strong>{ticket}</strong>
+        </span>
       </div>
 
       <div className="route-box">
@@ -91,7 +112,9 @@ function DutyCard({ duty, dayType, onBack }) {
         </div>
         <div>
           <small>Shift</small>
-          <strong className={`shift ${String(duty.shift_type || '').toLowerCase()}`}>{duty.shift_type || 'SHIFT'}</strong>
+          <strong className={`shift ${String(duty.shift_type || '').toLowerCase()}`}>
+            {duty.shift_type || 'SHIFT'}
+          </strong>
         </div>
       </div>
 
@@ -115,7 +138,9 @@ function TimelineItem({ event }) {
       <div className="timeline-item break">
         <Coffee size={18} />
         <div>
-          <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
+          <strong>
+            {event.event_time} <span className={locationClass}>{event.location}</span>
+          </strong>
           <p>Break</p>
           {event.notes && <em>{event.notes}</em>}
         </div>
@@ -128,7 +153,9 @@ function TimelineItem({ event }) {
       <div className="timeline-item resume">
         <Play size={18} />
         <div>
-          <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
+          <strong>
+            {event.event_time} <span className={locationClass}>{event.location}</span>
+          </strong>
           <p>Resume</p>
           {event.notes && <em>{event.notes}</em>}
         </div>
@@ -141,7 +168,9 @@ function TimelineItem({ event }) {
       <div className="timeline-item finish">
         <Flag size={18} />
         <div>
-          <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
+          <strong>
+            {event.event_time} <span className={locationClass}>{event.location}</span>
+          </strong>
           <p>Finish</p>
           {event.notes && <em>{event.notes}</em>}
         </div>
@@ -153,7 +182,9 @@ function TimelineItem({ event }) {
     <div className="timeline-item">
       <span className="dot" />
       <div>
-        <strong>{event.event_time} <span className={locationClass}>{event.location}</span></strong>
+        <strong>
+          {event.event_time} <span className={locationClass}>{event.location}</span>
+        </strong>
       </div>
     </div>
   );
