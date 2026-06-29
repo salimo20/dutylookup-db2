@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ArrowLeft, CalendarDays, Coffee, Flag, Play, Search, Ticket } from 'lucide-react';
 import { normalizeRoster, resolveDutyFromRoster } from './lib/rosterResolver.js';
 import { findDemoDuty } from './lib/demoData.js';
+import { getRouteInfo } from './lib/driverFacilities.js';
 import './styles.css';
 
 const dayLabels = {
@@ -67,6 +68,7 @@ function DutyCard({ duty, dayType, onBack }) {
   const today = new Date().toLocaleDateString('en-IE');
   console.log(duty.events);
   const events = filterDriverEvents(duty.events || []);
+  const driverInfo = getRouteInfo(duty.route);
 
   return (
     <main className="screen card-screen">
@@ -111,7 +113,7 @@ function DutyCard({ duty, dayType, onBack }) {
           <TimelineItem event={event} key={index} />
         ))}
       </section>
-
+        {driverInfo && <DriverInfo route={duty.route} info={driverInfo} />}
       <p className="safety">⚠️ Do not use mobile while driving.</p>
     </main>
   );
@@ -169,7 +171,38 @@ function TimelineItem({ event }) {
     </div>
   );
 }
+function DriverInfo({ route, info }) {
+  return (
+    <section className="driver-info">
+      <h3>Driver Facilities & Contact</h3>
 
+      {info.routeNote && (
+        <div className="route-note">
+          <strong>{route}</strong>
+          <p>{info.routeNote}</p>
+        </div>
+      )}
+
+      <div className="facility-list">
+        {info.facilities.map((item, index) => (
+          <div className="facility-item" key={index}>
+            <strong>{item.place}</strong>
+            {item.lines.map((line, lineIndex) => (
+              <p key={lineIndex}>{line}</p>
+            ))}
+          </div>
+        ))}
+      </div>
+
+      <div className="controller-box">
+        <small>Controller Contact</small>
+        <strong>{info.controllerPhone}</strong>
+        <span>{info.controllerRoutes}</span>
+        <a href={`tel:${info.controllerPhone.replace(/\s+/g, '')}`}>Call Controller</a>
+      </div>
+    </section>
+  );
+}
 function filterDriverEvents(events = []) {
   const importantTypes = new Set(['START', 'BREAK_START', 'RESUME', 'FINISH']);
   const importantPlaces = ['garage', 'northwood', 'ballywaltrim', 'eglington'];
@@ -194,22 +227,22 @@ function filterDriverEvents(events = []) {
   });
 
   return removeDuplicateDriverEvents(cleaned);
-  function removeDuplicateDriverEvents(events = []) {
+}
+
+function removeDuplicateDriverEvents(events = []) {
   const seen = new Set();
 
   return events.filter((event) => {
     const location = String(event.location || '').toLowerCase().trim();
     const time = String(event.event_time || '').trim();
-
-    // Use only time + location to detect duplicates
     const key = `${time}|${location}`;
 
     if (seen.has(key)) return false;
-
     seen.add(key);
     return true;
   });
 }
+
 
 function getLocationClass(location = '') {
   const value = location.toLowerCase();

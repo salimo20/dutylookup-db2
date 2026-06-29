@@ -247,3 +247,88 @@ input {
 .ballywaltrim {
   color: #5aa7ff;
 }
+.driver-info {
+  margin-top: 18px;
+  background: #0b1728;
+  border: 1px solid #28455f;
+  border-radius: 24px;
+  padding: 18px;
+}
+
+.driver-info h3 {
+  margin: 0 0 14px;
+  font-size: 18px;
+}
+
+.facility-list {
+  display: grid;
+  gap: 12px;
+}
+
+.facility-item {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+  padding-bottom: 12px;
+}
+
+.facility-item:last-child {
+  border-bottom: 0;
+}
+
+.facility-item strong {
+  display: block;
+  color: #67e8f9;
+  margin-bottom: 5px;
+}
+
+.facility-item p {
+  margin: 3px 0;
+  color: #dbeafe;
+}
+
+.route-note {
+  background: rgba(34, 211, 238, 0.08);
+  border: 1px solid rgba(34, 211, 238, 0.2);
+  border-radius: 16px;
+  padding: 12px;
+  margin-bottom: 14px;
+}
+
+.route-note p {
+  margin: 6px 0 0;
+  color: #dbeafe;
+}
+
+.controller-box {
+  margin-top: 16px;
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  border-radius: 18px;
+  padding: 14px;
+  display: grid;
+  gap: 5px;
+}
+
+.controller-box small {
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.controller-box strong {
+  font-size: 24px;
+}
+
+.controller-box span {
+  color: #bbf7d0;
+}
+
+.controller-box a {
+  margin-top: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #00131a;
+  background: #22c55e;
+  padding: 12px;
+  border-radius: 14px;
+  font-weight: 900;
+}
