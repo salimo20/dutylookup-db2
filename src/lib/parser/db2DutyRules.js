@@ -32,4 +32,4 @@ export function getShiftType({ zone, rosterNumber, startTime }) {
   if (hour >= 10 && hour < 14) return 'RELIEF';
   if (hour >= 14 && hour < 19) return 'LATE';
   return 'NIGHT';
-}
+import-db2-excel.js}
