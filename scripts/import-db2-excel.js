@@ -1,4 +1,5 @@
 import fs from 'fs';
+import XLSX from 'xlsx';
 
 const inputFiles = [
   'DB2-Z4-Routes E1-X1 Oct 2025.xlsx',
@@ -7,11 +8,18 @@ const inputFiles = [
 ];
 
 console.log('DutyLookup DB2 Importer');
-console.log('Checking source files...');
+console.log('Reading source files...');
 
 for (const file of inputFiles) {
-  const exists = fs.existsSync(file);
-  console.log(`${exists ? 'FOUND' : 'MISSING'}: ${file}`);
-}
+  if (!fs.existsSync(file)) {
+    console.log(`MISSING: ${file}`);
+    continue;
+  }
 
-console.log('Next step: parse workbook sheets and build duty cards.');
+  const workbook = XLSX.readFile(file);
+  console.log(`\nFOUND: ${file}`);
+  console.log('Sheets:');
+  workbook.SheetNames.forEach((name, index) => {
+    console.log(`  ${index + 1}. ${name}`);
+  });
+}
