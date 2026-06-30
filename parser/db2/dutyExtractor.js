@@ -36,7 +36,8 @@ const DZ4_LAYOUTS = {
     finishTime: 14,
     paidTime: 15,
     workTime: 16,
-    breakDuration: 17
+    breakDuration: 17,
+    journeyNote: 28
   },
   weekend: {
     duty: 2,
@@ -51,12 +52,14 @@ const DZ4_LAYOUTS = {
     finishTime: 13,
     paidTime: 14,
     workTime: 15,
-    breakDuration: 16
+    breakDuration: 16,
+    journeyNote: 28
   }
 };
 
 export function parseDz4RosterRow(row, dayType, sheetName = '') {
   const layout = dayType === 'weekday' ? DZ4_LAYOUTS.weekday : DZ4_LAYOUTS.weekend;
+  const route = resolveDz4Route({ sheetName, row });
 
   const dutyNumber = String(Number(row[layout.duty]));
 
@@ -103,14 +106,13 @@ export function parseDz4RosterRow(row, dayType, sheetName = '') {
     location: normalizeLocation(row[layout.finishLocation]),
     notes: ''
   });
-  const journey_note = normalizeJourney(row[28]);
 
   return {
     garage: 'DB2',
     zone: 'DZ4',
     roster_number: row[0],
-    route: 'E1',
-    journey_note,
+    route,
+    journey_note: normalizeJourney(row[layout.journeyNote]),
     day_type: dayType,
     shift_type: shiftType,
     duty_type: shiftType === 'WORKOUT' ? 'WORKOUT' : 'NORMAL',
@@ -136,14 +138,16 @@ export function parseDz4RosterRow(row, dayType, sheetName = '') {
 
 function normalizeLocation(value) {
   const text = String(value || '').trim();
+  const lower = text.toLowerCase();
 
-  if (text.toLowerCase() === 'garage') return 'Donnybrook Garage';
-  if (text.toLowerCase().includes('dbrk')) return 'Donnybrook Church';
-  if (text.toLowerCase().includes('eglinton')) return 'Eglinton Road';
-  const route = resolveDz4Route({ sheetName, row });
-  if (text.toLowerCase().includes('northwoord')) return 'Northwood';
+  if (lower === 'garage') return 'Donnybrook Garage';
+  if (lower.includes('dbrk')) return 'Donnybrook Church';
+  if (lower.includes('eglinton')) return 'Eglinton Road';
+  if (lower.includes('northwoord')) return 'Northwood';
+
   return text;
 }
+
 function normalizeJourney(value) {
   const text = String(value || '').trim();
 

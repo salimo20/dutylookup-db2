@@ -169,7 +169,12 @@ function DutyCard({ duty, dayType, onBack }) {
           <strong>{duty.paid_time || '—'}</strong>
         </div>
       </div>
-
+      {duty.journey_note && (
+  <div className="journey-note">
+    <small>Journey</small>
+    <strong>{duty.journey_note}</strong>
+  </div>
+)}
       <section className="timeline">
         {events.map((event, index) => (
           <TimelineItem event={event} key={index} />
