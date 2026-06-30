@@ -1,5 +1,6 @@
 import XLSX from 'xlsx';
 import { classifyShift, getDutyParts } from './shiftClassifier.js';
+import { resolveDz4Route } from './routeResolver.js';
 
 export function extractSheetRows(workbook, sheetName) {
   const sheet = workbook.Sheets[sheetName];
@@ -54,7 +55,7 @@ const DZ4_LAYOUTS = {
   }
 };
 
-export function parseDz4RosterRow(row, dayType) {
+export function parseDz4RosterRow(row, dayType, sheetName = '') {
   const layout = dayType === 'weekday' ? DZ4_LAYOUTS.weekday : DZ4_LAYOUTS.weekend;
 
   const dutyNumber = String(Number(row[layout.duty]));
@@ -137,6 +138,7 @@ function normalizeLocation(value) {
   if (text.toLowerCase() === 'garage') return 'Donnybrook Garage';
   if (text.toLowerCase().includes('dbrk')) return 'Donnybrook Church';
   if (text.toLowerCase().includes('eglinton')) return 'Eglinton Road';
+  const route = resolveDz4Route({ sheetName, row });
 
   return text;
 }

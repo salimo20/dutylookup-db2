@@ -20,7 +20,7 @@ console.log(`Workbook: ${file}`);
 for (const sheet of cttSheets) {
   const rows = extractSheetRows(workbook, sheet.name);
   const rosterRows = findRosterRows(rows);
-  const duties = rosterRows.map((row) => parseDz4RosterRow(row, sheet.dayType));
+  const duties = rosterRows.map((row) => parseDz4RosterRow(row, sheet.dayType, sheet.name));
 
   allDuties.push(...duties);
 
