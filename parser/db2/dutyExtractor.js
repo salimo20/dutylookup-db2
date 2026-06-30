@@ -103,12 +103,14 @@ export function parseDz4RosterRow(row, dayType, sheetName = '') {
     location: normalizeLocation(row[layout.finishLocation]),
     notes: ''
   });
+  const journey_note = normalizeJourney(row[28]);
 
   return {
     garage: 'DB2',
     zone: 'DZ4',
     roster_number: row[0],
     route: 'E1',
+    journey_note,
     day_type: dayType,
     shift_type: shiftType,
     duty_type: shiftType === 'WORKOUT' ? 'WORKOUT' : 'NORMAL',
@@ -139,6 +141,15 @@ function normalizeLocation(value) {
   if (text.toLowerCase().includes('dbrk')) return 'Donnybrook Church';
   if (text.toLowerCase().includes('eglinton')) return 'Eglinton Road';
   const route = resolveDz4Route({ sheetName, row });
-
+  if (text.toLowerCase().includes('northwoord')) return 'Northwood';
   return text;
+}
+function normalizeJourney(value) {
+  const text = String(value || '').trim();
+
+  if (!text) return '';
+
+  return text
+    .replace(/Northwoord/gi, 'Northwood')
+    .replace(/\bGar\b/gi, 'Donnybrook Garage');
 }
