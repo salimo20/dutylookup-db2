@@ -348,3 +348,30 @@ input {
 .data-version strong {
   color: #dbeafe;
 }
+.hours-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.hours-summary div {
+  background: #0b1728;
+  border: 1px solid #28455f;
+  border-radius: 16px;
+  padding: 12px;
+  text-align: center;
+}
+
+.hours-summary small {
+  display: block;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.hours-summary strong {
+  font-size: 18px;
+}

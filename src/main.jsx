@@ -36,16 +36,14 @@ try {
 
 const found = findDemoDuty(roster, dayType);
 
-setDuty(found || {
-  roster_number: roster,
+setDuty(found || {roster_number: roster,
   route: 'E1',
   display_duty_number: resolved.resolvedDutyNumber || '---',
   ticket_machine_number: resolved.resolvedDutyNumber || '---',
   shift_type: resolved.shiftHint === 'BOGEY' ? 'BOGEY' : 'EARLY',
-  events: []
-  data_source: found ? 'Demo Data' : 'Resolver Only',
-  data_version: 'Demo'
-});
+  events: [],
+  data_source: 'Resolver Only',
+  data_version: 'Demo'});
 
 setPage('card');}
 
@@ -120,6 +118,21 @@ function DutyCard({ duty, dayType, onBack }) {
           <strong>{duty.roster_number}</strong>
         </div>
         <div>
+          <div className="hours-summary">
+  <div>
+    <small>Work</small>
+    <strong>{duty.work_time || '—'}</strong>
+  </div>
+  <div>
+    <small>Break</small>
+    <strong>{duty.break_duration || '—'}</strong>
+  </div>
+  <div>
+    <small>Total</small>
+    <strong>{duty.paid_time || '—'}</strong>
+  </div>
+</div>
+
           <small>Shift</small>
           <strong className={`shift ${String(duty.shift_type || '').toLowerCase()}`}>
             {duty.shift_type || 'SHIFT'}
