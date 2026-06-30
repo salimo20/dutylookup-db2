@@ -36,7 +36,16 @@ const report = {
   byDutyType: countBy(allDuties, 'duty_type')
 };
 
-fs.writeFileSync('output/duties-db2-dz4.json', JSON.stringify(allDuties, null, 2));
+const packageData = {
+  version: 'DB2-DZ4-OCT-2025',
+  garage: 'DB2',
+  zone: 'DZ4',
+  sourceFile: file,
+  generatedAt: new Date().toISOString(),
+  duties: allDuties
+};
+
+fs.writeFileSync('output/duties-db2-dz4.json', JSON.stringify(packageData, null, 2));
 fs.writeFileSync('output/import-report-db2-dz4.json', JSON.stringify(report, null, 2));
 
 console.log('\nImport complete');
