@@ -4,6 +4,7 @@ import { ArrowLeft, CalendarDays, Coffee, Flag, Play, Search, Ticket } from 'luc
 import { normalizeRoster, resolveDutyFromRoster } from './lib/rosterResolver.js';
 import { findDemoDuty } from './lib/demoData.js';
 import { getRouteInfo } from './lib/driverFacilities.js';
+import { findImportedDuty } from './lib/dutyRepository.js';
 import './styles.css';
 
 const dayLabels = {
@@ -18,21 +19,35 @@ function App() {
   const [dayType, setDayType] = useState('weekday');
   const [duty, setDuty] = useState(null);
 
-  function searchDuty() {
-    const roster = normalizeRoster(rosterInput);
-    const resolved = resolveDutyFromRoster(roster);
-    const found = findDemoDuty(roster, dayType);
+ async function searchDuty() {const roster = normalizeRoster(rosterInput);
+const resolved = resolveDutyFromRoster(roster);
 
-    setDuty(found || {
-      roster_number: roster,
-      route: 'E1',
-      display_duty_number: resolved.resolvedDutyNumber || '---',
-      shift_type: resolved.shiftHint === 'BOGEY' ? 'BOGEY' : 'EARLY',
-      events: []
-    });
+try {
+  const { duty: importedDuty } = await findImportedDuty(roster, dayType);
 
+  if (importedDuty) {
+    setDuty(importedDuty);
     setPage('card');
+    return;
   }
+} catch (error) {
+  console.warn('Imported duty lookup failed, falling back to demo data.', error);
+}
+
+const found = findDemoDuty(roster, dayType);
+
+setDuty(found || {
+  roster_number: roster,
+  route: 'E1',
+  display_duty_number: resolved.resolvedDutyNumber || '---',
+  ticket_machine_number: resolved.resolvedDutyNumber || '---',
+  shift_type: resolved.shiftHint === 'BOGEY' ? 'BOGEY' : 'EARLY',
+  events: []
+  data_source: found ? 'Demo Data' : 'Resolver Only',
+  data_version: 'Demo'
+});
+
+setPage('card');}
 
   if (page === 'search') {
     return (
@@ -69,6 +84,10 @@ function DutyCard({ duty, dayType, onBack }) {
   console.log(duty.events);
   const events = filterDriverEvents(duty.events || []);
   const driverInfo = getRouteInfo(duty.route);
+  <div className="data-version">
+  <span>{duty.data_source || 'Data Source'}</span>
+  <strong>{duty.data_version || 'Unknown Version'}</strong>
+</div>
 
   return (
     <main className="screen card-screen">
