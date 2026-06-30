@@ -30,4 +30,30 @@ export async function findImportedDuty(rosterNumber, dayType) {
     version: packageData.version,
     generatedAt: packageData.generatedAt
   };
+  export async function getImportedDutySuggestions(query, dayType) {
+  const response = await fetch('/duties-db2-dz4.json');
+
+  if (!response.ok) return [];
+
+  const packageData = await response.json();
+  const q = String(query || '').toUpperCase().replace(/\s+/g, '');
+
+  if (!q) return [];
+
+  return packageData.duties
+    .filter((duty) => duty.day_type === dayType)
+    .filter((duty) => {
+      const roster = String(duty.roster_number || '').toUpperCase();
+      const dutyNo = String(duty.duty_number || '').toUpperCase();
+      const shift = String(duty.shift_type || '').toUpperCase();
+
+      return (
+        roster.includes(q) ||
+        dutyNo.includes(q) ||
+        shift.includes(q)
+      );
+    })
+    .slice(0, 8);
+}
+
 }

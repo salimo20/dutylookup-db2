@@ -375,3 +375,23 @@ input {
 .hours-summary strong {
   font-size: 18px;
 }
+.suggestions {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.suggestions button {
+  border: 1px solid #28455f;
+  background: #0b1728;
+  color: white;
+  border-radius: 14px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestions span {
+  color: #67e8f9;
+  font-size: 12px;
+}
