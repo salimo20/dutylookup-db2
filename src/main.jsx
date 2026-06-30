@@ -120,7 +120,7 @@ function DutyCard({ duty, dayType, onBack }) {
         <div>
           <div className="hours-summary">
   <div>
-    <small>Work</small>
+    <small>Hours</small>
     <strong>{duty.work_time || '—'}</strong>
   </div>
   <div>
