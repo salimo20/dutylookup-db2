@@ -1,4 +1,5 @@
 import XLSX from 'xlsx';
+import { classifyShift, getDutyParts } from './shiftClassifier.js';
 
 export function extractSheetRows(workbook, sheetName) {
   const sheet = workbook.Sheets[sheetName];
@@ -14,13 +15,9 @@ export function extractSheetRows(workbook, sheetName) {
   });
 }
 
-export function findRosterRow(rows, roster) {
-  const target = String(roster).toUpperCase();
-
-  return rows.find(row =>
-    row.some(cell =>
-      String(cell).toUpperCase().trim() === target
-    )
+export function findRosterRows(rows) {
+  return rows.filter((row) =>
+    /^DZ4\/\d{1,2}X?$/.test(String(row[0] || '').toUpperCase().trim())
   );
 }
 
@@ -43,12 +40,59 @@ export function parseDz4RosterRow(row, dayType) {
 
   const dutyNumber = String(Number(row[dutyIndex]));
 
+  const shiftType = classifyShift({
+    rosterNumber: row[0],
+    startTime: row[startTimeIndex],
+    breakTime: row[breakTimeIndex],
+    resumeTime: row[resumeTimeIndex]
+  });
+
+  const parts = getDutyParts({
+    breakTime: row[breakTimeIndex],
+    resumeTime: row[resumeTimeIndex]
+  });
+
+  const events = [
+    {
+      event_type: 'START',
+      event_time: row[startTimeIndex],
+      location: normalizeLocation(row[startLocationIndex])
+    }
+  ];
+
+  if (parts === 2) {
+    events.push(
+      {
+        event_type: 'BREAK_START',
+        event_time: row[breakTimeIndex],
+        location: normalizeLocation(row[breakLocationIndex]),
+        notes: ''
+      },
+      {
+        event_type: 'RESUME',
+        event_time: row[resumeTimeIndex],
+        location: normalizeLocation(row[resumeLocationIndex]),
+        notes: ''
+      }
+    );
+  }
+
+  events.push({
+    event_type: 'FINISH',
+    event_time: row[finishTimeIndex],
+    location: normalizeLocation(row[finishLocationIndex]),
+    notes: ''
+  });
+
   return {
     garage: 'DB2',
     zone: 'DZ4',
     roster_number: row[0],
     route: 'E1',
     day_type: dayType,
+    shift_type: shiftType,
+    duty_type: shiftType === 'WORKOUT' ? 'WORKOUT' : 'NORMAL',
+    parts,
     duty_number: dutyNumber,
     display_duty_number: dutyNumber,
     ticket_machine_number: dutyNumber,
@@ -64,12 +108,7 @@ export function parseDz4RosterRow(row, dayType) {
     paid_time: row[paidTimeIndex],
     work_time: row[workTimeIndex],
     break_duration: row[breakDurationIndex],
-    events: [
-      { event_type: 'START', event_time: row[startTimeIndex], location: normalizeLocation(row[startLocationIndex]) },
-      { event_type: 'BREAK_START', event_time: row[breakTimeIndex], location: normalizeLocation(row[breakLocationIndex]), notes: '23 → 7' },
-      { event_type: 'RESUME', event_time: row[resumeTimeIndex], location: normalizeLocation(row[resumeLocationIndex]), notes: '220 → 23' },
-      { event_type: 'FINISH', event_time: row[finishTimeIndex], location: normalizeLocation(row[finishLocationIndex]), notes: '23 → 44' }
-    ]
+    events
   };
 }
 

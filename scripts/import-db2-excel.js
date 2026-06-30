@@ -1,7 +1,7 @@
 import fs from 'fs';
 import XLSX from 'xlsx';
 import { detectCttSheets } from '../parser/db2/sheetDetector.js';
-import { extractSheetRows, findRosterRow, parseDz4RosterRow } from '../parser/db2/dutyExtractor.js';
+import { extractSheetRows, findRosterRows, parseDz4RosterRow } from '../parser/db2/dutyExtractor.js';
 
 const file = 'DB2-Z4-Routes E1-X1 Oct 2025.xlsx';
 const testRoster = 'DZ4/23';
@@ -19,15 +19,10 @@ console.log(`Searching for: ${testRoster}`);
 
 for (const sheet of cttSheets) {
   const rows = extractSheetRows(workbook, sheet.name);
-  const row = findRosterRow(rows, testRoster);
+  const rosterRows = findRosterRows(rows);
+  const duties = rosterRows.map((row) => parseDz4RosterRow(row, sheet.dayType));
 
   console.log(`\nSheet: ${sheet.name} (${sheet.dayType})`);
-
- if (row) {
-  const duty = parseDz4RosterRow(row, sheet.dayType);
-  console.log('PARSED DUTY:');
-  console.log(JSON.stringify(duty, null, 2));
-} else {
-    console.log('Not found');
-  }
+  console.log(`Parsed duties: ${duties.length}`);
+  console.log(JSON.stringify(duties.slice(0, 3), null, 2));
 }
