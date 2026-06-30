@@ -1,13 +1,17 @@
 export function normalizeRoster(input) {
-  return String(input || '')
+  const raw = String(input || '')
     .trim()
     .toUpperCase()
     .replace(/\s+/g, '')
     .replace('DZ4-', 'DZ4/')
     .replace('DZ5-', 'DZ5/')
     .replace('L25-', 'L25/');
-}
 
+  if (/^\d{1,2}X$/.test(raw)) return `DZ4/${raw}`;
+  if (/^\d{1,2}$/.test(raw)) return `DZ4/${Number(raw)}`;
+
+  return raw;
+}
 export function resolveDutyFromRoster(roster) {
   const value = normalizeRoster(roster);
 
