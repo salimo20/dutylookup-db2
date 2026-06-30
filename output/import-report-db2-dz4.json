@@ -1,0 +1,20 @@
+{
+  "total": 202,
+  "byDay": {
+    "weekday": 97,
+    "saturday": 63,
+    "sunday": 42
+  },
+  "byShift": {
+    "EARLY": 55,
+    "WORKOUT": 17,
+    "RELIEF": 33,
+    "LATE": 39,
+    "BOGEY": 39,
+    "NIGHT": 19
+  },
+  "byDutyType": {
+    "NORMAL": 185,
+    "WORKOUT": 17
+  }
+}

@@ -21,42 +21,61 @@ export function findRosterRows(rows) {
   );
 }
 
+const DZ4_LAYOUTS = {
+  weekday: {
+    duty: 3,
+    signOn: 4,
+    startTime: 5,
+    startLocation: 6,
+    breakTime: 7,
+    breakLocation: 8,
+    resumeTime: 9,
+    resumeLocation: 11,
+    finishLocation: 13,
+    finishTime: 14,
+    paidTime: 15,
+    workTime: 16,
+    breakDuration: 17
+  },
+  weekend: {
+    duty: 2,
+    signOn: 3,
+    startTime: 4,
+    startLocation: 5,
+    breakTime: 6,
+    breakLocation: 7,
+    resumeTime: 8,
+    resumeLocation: 10,
+    finishLocation: 12,
+    finishTime: 13,
+    paidTime: 14,
+    workTime: 15,
+    breakDuration: 16
+  }
+};
+
 export function parseDz4RosterRow(row, dayType) {
-  const isWeekday = dayType === 'weekday';
+  const layout = dayType === 'weekday' ? DZ4_LAYOUTS.weekday : DZ4_LAYOUTS.weekend;
 
-  const dutyIndex = isWeekday ? 3 : 2;
-  const signOnIndex = isWeekday ? 4 : 3;
-  const startTimeIndex = isWeekday ? 5 : 4;
-  const startLocationIndex = isWeekday ? 6 : 5;
-  const breakTimeIndex = isWeekday ? 7 : 6;
-  const breakLocationIndex = isWeekday ? 8 : 7;
-  const resumeTimeIndex = isWeekday ? 9 : 8;
-  const resumeLocationIndex = isWeekday ? 11 : 10;
-  const finishTimeIndex = isWeekday ? 14 : 13;
-  const finishLocationIndex = isWeekday ? 13 : 12;
-  const paidTimeIndex = isWeekday ? 15 : 14;
-  const workTimeIndex = isWeekday ? 16 : 15;
-  const breakDurationIndex = isWeekday ? 17 : 16;
-
-  const dutyNumber = String(Number(row[dutyIndex]));
+  const dutyNumber = String(Number(row[layout.duty]));
 
   const shiftType = classifyShift({
     rosterNumber: row[0],
-    startTime: row[startTimeIndex],
-    breakTime: row[breakTimeIndex],
-    resumeTime: row[resumeTimeIndex]
+    startTime: row[layout.startTime],
+    breakTime: row[layout.breakTime],
+    resumeTime: row[layout.resumeTime]
   });
 
   const parts = getDutyParts({
-    breakTime: row[breakTimeIndex],
-    resumeTime: row[resumeTimeIndex]
+    breakTime: row[layout.breakTime],
+    resumeTime: row[layout.resumeTime]
   });
 
   const events = [
     {
       event_type: 'START',
-      event_time: row[startTimeIndex],
-      location: normalizeLocation(row[startLocationIndex])
+      event_time: row[layout.startTime],
+      location: normalizeLocation(row[layout.startLocation])
     }
   ];
 
@@ -64,14 +83,14 @@ export function parseDz4RosterRow(row, dayType) {
     events.push(
       {
         event_type: 'BREAK_START',
-        event_time: row[breakTimeIndex],
-        location: normalizeLocation(row[breakLocationIndex]),
+        event_time: row[layout.breakTime],
+        location: normalizeLocation(row[layout.breakLocation]),
         notes: ''
       },
       {
         event_type: 'RESUME',
-        event_time: row[resumeTimeIndex],
-        location: normalizeLocation(row[resumeLocationIndex]),
+        event_time: row[layout.resumeTime],
+        location: normalizeLocation(row[layout.resumeLocation]),
         notes: ''
       }
     );
@@ -79,8 +98,8 @@ export function parseDz4RosterRow(row, dayType) {
 
   events.push({
     event_type: 'FINISH',
-    event_time: row[finishTimeIndex],
-    location: normalizeLocation(row[finishLocationIndex]),
+    event_time: row[layout.finishTime],
+    location: normalizeLocation(row[layout.finishLocation]),
     notes: ''
   });
 
@@ -96,18 +115,18 @@ export function parseDz4RosterRow(row, dayType) {
     duty_number: dutyNumber,
     display_duty_number: dutyNumber,
     ticket_machine_number: dutyNumber,
-    sign_on_time: row[signOnIndex],
-    start_time: row[startTimeIndex],
-    start_location: normalizeLocation(row[startLocationIndex]),
-    break_time: row[breakTimeIndex],
-    break_location: normalizeLocation(row[breakLocationIndex]),
-    resume_time: row[resumeTimeIndex],
-    resume_location: normalizeLocation(row[resumeLocationIndex]),
-    finish_time: row[finishTimeIndex],
-    finish_location: normalizeLocation(row[finishLocationIndex]),
-    paid_time: row[paidTimeIndex],
-    work_time: row[workTimeIndex],
-    break_duration: row[breakDurationIndex],
+    sign_on_time: row[layout.signOn],
+    start_time: row[layout.startTime],
+    start_location: normalizeLocation(row[layout.startLocation]),
+    break_time: row[layout.breakTime],
+    break_location: normalizeLocation(row[layout.breakLocation]),
+    resume_time: row[layout.resumeTime],
+    resume_location: normalizeLocation(row[layout.resumeLocation]),
+    finish_time: row[layout.finishTime],
+    finish_location: normalizeLocation(row[layout.finishLocation]),
+    paid_time: row[layout.paidTime],
+    work_time: row[layout.workTime],
+    break_duration: row[layout.breakDuration],
     events
   };
 }
