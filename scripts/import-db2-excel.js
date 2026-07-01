@@ -2,6 +2,7 @@ import fs from 'fs';
 import XLSX from 'xlsx';
 import { detectCttSheets } from '../parser/db2/sheetDetector.js';
 import { extractSheetRows, findRosterRows, parseDz4RosterRow } from '../parser/db2/dutyExtractor.js';
+import { buildWorkbookMap } from '../parser/db2/workbook/workbookMap.js';
 
 const file = 'DB2-Z4-Routes E1-X1 Oct 2025.xlsx';
 
@@ -19,6 +20,7 @@ console.log(`Workbook: ${file}`);
 
 for (const sheet of cttSheets) {
   const rows = extractSheetRows(workbook, sheet.name);
+  const workbookMap = buildWorkbookMap(rows);
   const rosterRows = findRosterRows(rows);
   const duties = rosterRows.map((row) => parseDz4RosterRow(row, sheet.dayType, sheet.name));
 
@@ -26,6 +28,8 @@ for (const sheet of cttSheets) {
 
   console.log(`\n${sheet.name}`);
   console.log(`Day: ${sheet.dayType}`);
+  console.log(`Roster start row: ${workbookMap.rosterStartRow}`);
+  console.log(`Location rows found: ${workbookMap.locationRows.length}`);
   console.log(`Parsed duties: ${duties.length}`);
 }
 
