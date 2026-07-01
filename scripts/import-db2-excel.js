@@ -5,6 +5,7 @@ import { extractSheetRows, findRosterRows, parseDz4RosterRow } from '../parser/d
 import { buildWorkbookMap } from '../parser/db2/workbook/workbookMap.js';
 import { detectWorkbookSections } from '../parser/db2/workbook/sectionDetector.js';
 import { extractTripReferencesFromDuty, findTripColumns } from '../parser/db2/ctt/tripParser.js';
+import { detectTripColumns } from '../parser/db2/ctt/columnDetector.js';
 
 const file = 'DB2-Z4-Routes E1-X1 Oct 2025.xlsx';
 const inspectRoster = 'DZ4/23';
@@ -30,6 +31,7 @@ for (const sheet of cttSheets) {
       ? []
       : rows.slice(sections.timetable.start, sections.timetable.end + 1);
 
+  const tripColumns = detectTripColumns(timetableRows);
   const rosterRows = findRosterRows(rows);
   const duties = rosterRows.map((row) => parseDz4RosterRow(row, sheet.dayType, sheet.name));
 
@@ -39,6 +41,8 @@ for (const sheet of cttSheets) {
   console.log(`Day: ${sheet.dayType}`);
   console.log(`Roster start row: ${workbookMap.rosterStartRow}`);
   console.log(`Location rows found: ${workbookMap.locationRows.length}`);
+  console.log(`Trip columns detected: ${tripColumns.length}`);
+  console.log(`Trip columns: ${JSON.stringify(tripColumns)}`);
   console.log(`Parsed duties: ${duties.length}`);
 
   const inspectRow = rosterRows.find(
