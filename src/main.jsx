@@ -280,7 +280,13 @@ function DriverInfo({ route, info }) {
 }
 
 function filterDriverEvents(events = []) {
-  const importantTypes = new Set(['START', 'BREAK_START', 'RESUME', 'FINISH']);
+  const importantTypes = new Set([
+    'START',
+    'TIMING_POINT',
+    'BREAK_START',
+    'RESUME',
+    'FINISH'
+  ]);
 
   const cleaned = events.filter((event) => {
     const type = event.event_type || '';
