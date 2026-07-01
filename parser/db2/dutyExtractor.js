@@ -1,6 +1,7 @@
 import XLSX from 'xlsx';
 import { classifyShift, getDutyParts } from './shiftClassifier.js';
 import { resolveDz4Route } from './routeResolver.js';
+import { extractJourneyPoints } from './journeyExtractor.js';
 
 export function extractSheetRows(workbook, sheetName) {
   const sheet = workbook.Sheets[sheetName];
@@ -60,6 +61,8 @@ const DZ4_LAYOUTS = {
 export function parseDz4RosterRow(row, dayType, sheetName = '') {
   const layout = dayType === 'weekday' ? DZ4_LAYOUTS.weekday : DZ4_LAYOUTS.weekend;
   const route = resolveDz4Route({ sheetName, row });
+  const journeyNote = normalizeJourney(row[layout.journeyNote]);
+  const journeyPoints = extractJourneyPoints(journeyNote);
 
   const dutyNumber = String(Number(row[layout.duty]));
 
@@ -75,6 +78,39 @@ export function parseDz4RosterRow(row, dayType, sheetName = '') {
     resumeTime: row[layout.resumeTime]
   });
 
+  const events = buildDriverEvents(row, layout, parts);
+
+  return {
+    garage: 'DB2',
+    zone: 'DZ4',
+    roster_number: row[0],
+    route,
+    journey_note: journeyNote,
+    journey_points: journeyPoints,
+    day_type: dayType,
+    shift_type: shiftType,
+    duty_type: shiftType === 'WORKOUT' ? 'WORKOUT' : 'NORMAL',
+    parts,
+    duty_number: dutyNumber,
+    display_duty_number: dutyNumber,
+    ticket_machine_number: dutyNumber,
+    sign_on_time: row[layout.signOn],
+    start_time: row[layout.startTime],
+    start_location: normalizeLocation(row[layout.startLocation]),
+    break_time: row[layout.breakTime],
+    break_location: normalizeLocation(row[layout.breakLocation]),
+    resume_time: row[layout.resumeTime],
+    resume_location: normalizeLocation(row[layout.resumeLocation]),
+    finish_time: row[layout.finishTime],
+    finish_location: normalizeLocation(row[layout.finishLocation]),
+    paid_time: row[layout.paidTime],
+    work_time: row[layout.workTime],
+    break_duration: row[layout.breakDuration],
+    events
+  };
+}
+
+function buildDriverEvents(row, layout, parts) {
   const events = [
     {
       event_type: 'START',
@@ -107,33 +143,7 @@ export function parseDz4RosterRow(row, dayType, sheetName = '') {
     notes: ''
   });
 
-  return {
-    garage: 'DB2',
-    zone: 'DZ4',
-    roster_number: row[0],
-    route,
-    journey_note: normalizeJourney(row[layout.journeyNote]),
-    day_type: dayType,
-    shift_type: shiftType,
-    duty_type: shiftType === 'WORKOUT' ? 'WORKOUT' : 'NORMAL',
-    parts,
-    duty_number: dutyNumber,
-    display_duty_number: dutyNumber,
-    ticket_machine_number: dutyNumber,
-    sign_on_time: row[layout.signOn],
-    start_time: row[layout.startTime],
-    start_location: normalizeLocation(row[layout.startLocation]),
-    break_time: row[layout.breakTime],
-    break_location: normalizeLocation(row[layout.breakLocation]),
-    resume_time: row[layout.resumeTime],
-    resume_location: normalizeLocation(row[layout.resumeLocation]),
-    finish_time: row[layout.finishTime],
-    finish_location: normalizeLocation(row[layout.finishLocation]),
-    paid_time: row[layout.paidTime],
-    work_time: row[layout.workTime],
-    break_duration: row[layout.breakDuration],
-    events
-  };
+  return events;
 }
 
 function normalizeLocation(value) {
