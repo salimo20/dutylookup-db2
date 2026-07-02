@@ -3,7 +3,7 @@
   "garage": "DB2",
   "zone": "DZ4",
   "sourceFile": "DB2-Z4-Routes E1-X1 Oct 2025.xlsx",
-  "generatedAt": "2026-07-02T01:16:27.643Z",
+  "generatedAt": "2026-07-02T01:28:18.059Z",
   "duties": [
     {
       "garage": "DB2",
@@ -40,6 +40,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "4:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:15",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "8:20",
           "location": "Donnybrook Church",
@@ -52,13 +64,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "11:20",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        3
+      ]
     },
     {
       "garage": "DB2",
@@ -95,6 +115,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:00",
           "location": "Eglinton Road",
@@ -107,13 +139,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:15",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:20",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        46
+      ]
     },
     {
       "garage": "DB2",
@@ -150,6 +190,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:37",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "8:42",
           "location": "Donnybrook Church",
@@ -162,13 +214,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:00",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        7
+      ]
     },
     {
       "garage": "DB2",
@@ -205,6 +265,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:20",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:44",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "8:54",
           "location": "Donnybrook Church",
@@ -217,13 +289,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "11:50",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        8
+      ]
     },
     {
       "garage": "DB2",
@@ -258,6 +338,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:40",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:13",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:23",
           "location": "Eglinton Road",
@@ -270,13 +362,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:25",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        51
+      ]
     },
     {
       "garage": "DB2",
@@ -311,6 +411,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:57",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:07",
           "location": "Donnybrook Church",
@@ -323,13 +435,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:00",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        11
+      ]
     },
     {
       "garage": "DB2",
@@ -364,6 +484,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:20",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:30",
           "location": "Eglinton Road",
@@ -376,13 +508,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:30",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        52
+      ]
     },
     {
       "garage": "DB2",
@@ -421,6 +561,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:40",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:20",
           "location": "Donnybrook Church",
@@ -433,13 +585,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:20",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        13
+      ]
     },
     {
       "garage": "DB2",
@@ -474,13 +634,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:00",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "9:45",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        55
+      ]
     },
     {
       "garage": "DB2",
@@ -519,6 +693,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:17",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:23",
           "location": "Donnybrook Church",
@@ -531,13 +717,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:40",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        14
+      ]
     },
     {
       "garage": "DB2",
@@ -572,13 +766,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:43",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "9:53",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        56
+      ]
     },
     {
       "garage": "DB2",
@@ -616,6 +824,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:00",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:30",
           "location": "Donnybrook Church",
@@ -628,13 +848,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:50",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        16
+      ]
     },
     {
       "garage": "DB2",
@@ -669,6 +897,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:38",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:38",
           "location": "Donnybrook Church",
@@ -681,13 +921,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:55",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        20
+      ]
     },
     {
       "garage": "DB2",
@@ -722,6 +970,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:55",
           "location": "Eglinton Road",
@@ -734,13 +994,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:10",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        57
+      ]
     },
     {
       "garage": "DB2",
@@ -775,13 +1043,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:58",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "10:03",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        58
+      ]
     },
     {
       "garage": "DB2",
@@ -816,6 +1098,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:20",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:45",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:45",
           "location": "Donnybrook Church",
@@ -828,13 +1122,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:00",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:10",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        21
+      ]
     },
     {
       "garage": "DB2",
@@ -869,6 +1171,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:40",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:10",
           "location": "Eglinton Road",
@@ -881,13 +1195,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:15",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:20",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        61
+      ]
     },
     {
       "garage": "DB2",
@@ -922,6 +1244,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:55",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:55",
           "location": "Donnybrook Church",
@@ -934,13 +1268,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:20",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        23
+      ]
     },
     {
       "garage": "DB2",
@@ -975,6 +1317,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:05",
           "location": "Donnybrook Church",
@@ -987,13 +1341,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:20",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:30",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        24
+      ]
     },
     {
       "garage": "DB2",
@@ -1028,6 +1390,24 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:32",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:15",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:15",
           "location": "Eglinton Road",
@@ -1040,13 +1420,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:25",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:25",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        62
+      ]
     },
     {
       "garage": "DB2",
@@ -1081,13 +1469,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:43",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:15",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "10:05",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        25
+      ]
     },
     {
       "garage": "DB2",
@@ -1122,6 +1524,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:15",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:20",
           "location": "Donnybrook Church",
@@ -1134,13 +1548,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:30",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        26
+      ]
     },
     {
       "garage": "DB2",
@@ -1175,6 +1597,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:58",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:25",
           "location": "Eglinton Road",
@@ -1187,13 +1621,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:55",
           "location": "Donnybrook Church",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:55",
+          "location": "Ballywaltrim",
+          "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        63
+      ]
     },
     {
       "garage": "DB2",
@@ -1228,9 +1676,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:35",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:45",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -1240,13 +1706,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "14:15",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        65
+      ]
     },
     {
       "garage": "DB2",
@@ -1281,9 +1755,21 @@
           "location": "Garage (X1)"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:15",
           "location": "Garage (X1)",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:15",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -1299,7 +1785,9 @@
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        6
+      ]
     },
     {
       "garage": "DB2",
@@ -1334,9 +1822,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:13",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:45",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:55",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -1346,13 +1852,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:15",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "14:40",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        1
+      ]
     },
     {
       "garage": "DB2",
@@ -1387,6 +1901,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:53",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:25",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:15",
           "location": "Donnybrook Garage",
@@ -1405,7 +1931,9 @@
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        27
+      ]
     },
     {
       "garage": "DB2",
@@ -1440,9 +1968,21 @@
           "location": "Garage (X1)"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:00",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:30",
           "location": "Garage (X1)",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:30",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -1458,7 +1998,9 @@
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        9
+      ]
     },
     {
       "garage": "DB2",
@@ -1493,9 +2035,21 @@
           "location": "Garage (X1)"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:40",
           "location": "Garage (X1)",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:40",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -1511,7 +2065,9 @@
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        18
+      ]
     },
     {
       "garage": "DB2",
@@ -1546,9 +2102,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:00",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:25",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:30",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:40",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -1558,13 +2132,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:00",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:00",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        28
+      ]
     },
     {
       "garage": "DB2",
@@ -1599,6 +2181,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:23",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:48",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:23",
           "location": "Donnybrook Garage",
@@ -1617,7 +2211,9 @@
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        4
+      ]
     },
     {
       "garage": "DB2",
@@ -1652,9 +2248,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:08",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:40",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:50",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -1664,13 +2278,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:08",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:20",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        30
+      ]
     },
     {
       "garage": "DB2",
@@ -3849,9 +4471,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:55",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:55",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:05",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -3861,13 +4501,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:30",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        5
+      ]
     },
     {
       "garage": "DB2",
@@ -3902,9 +4550,21 @@
           "location": "Garage (X1)"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:00",
           "location": "Garage (X1)",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:00",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -3914,13 +4574,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:33",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "16:10",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        19
+      ]
     },
     {
       "garage": "DB2",
@@ -3955,9 +4623,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:15",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:45",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:50",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:00",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -3967,13 +4653,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:23",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:50",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        37
+      ]
     },
     {
       "garage": "DB2",
@@ -4008,9 +4702,21 @@
           "location": "Garage (X1)"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:40",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:10",
           "location": "Garage (X1)",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:10",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -4020,13 +4726,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:52",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "18:10",
           "location": "Eglinton Road",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "18:10",
+          "location": "Northwood",
+          "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        22
+      ]
     },
     {
       "garage": "DB2",
@@ -4061,9 +4781,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:23",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:55",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:00",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:10",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -4073,13 +4811,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "17:53",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        39
+      ]
     },
     {
       "garage": "DB2",
@@ -4114,9 +4866,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:15",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:15",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:25",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -4126,13 +4896,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:48",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "18:18",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        10
+      ]
     },
     {
       "garage": "DB2",
@@ -4167,9 +4951,21 @@
           "location": "Garage (X1)"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:20",
           "location": "Garage (X1)",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:20",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -4179,13 +4975,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "16:39",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "18:33",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        32
+      ]
     },
     {
       "garage": "DB2",
@@ -4220,6 +5024,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:56",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:46",
           "location": "Donnybrook Garage",
@@ -4238,7 +5054,9 @@
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        41
+      ]
     },
     {
       "garage": "DB2",
@@ -4273,9 +5091,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:38",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:10",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:20",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -4285,13 +5121,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:38",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:13",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "18:40",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        43
+      ]
     },
     {
       "garage": "DB2",
@@ -4326,6 +5176,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:04",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:00",
           "location": "Donnybrook Garage",
@@ -4338,13 +5200,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:03",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "18:50",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        12
+      ]
     },
     {
       "garage": "DB2",
@@ -4379,6 +5255,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:58",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:15",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:15",
           "location": "Donnybrook Garage",
@@ -4397,7 +5285,9 @@
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        48
+      ]
     },
     {
       "garage": "DB2",
@@ -4432,6 +5322,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:24",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:38",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:13",
           "location": "Donnybrook Garage",
@@ -4450,7 +5352,9 @@
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        15
+      ]
     },
     {
       "garage": "DB2",
@@ -4485,9 +5389,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:25",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:25",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:40",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -4497,13 +5419,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:00",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:10",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        50
+      ]
     },
     {
       "garage": "DB2",
@@ -4538,9 +5474,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:28",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:45",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:40",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:00",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -4550,13 +5504,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:23",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:55",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:20",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        54
+      ]
     },
     {
       "garage": "DB2",
@@ -4591,6 +5559,12 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:20",
           "location": "Donnybrook Garage",
@@ -4609,7 +5583,9 @@
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        3
+      ]
     },
     {
       "garage": "DB2",
@@ -4644,9 +5620,27 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:05",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:15",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:35",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -4656,13 +5650,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:08",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "19:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:55",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        7
+      ]
     },
     {
       "garage": "DB2",
@@ -4697,9 +5705,21 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:40",
           "location": "Donnybrook Garage",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:40",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -4709,13 +5729,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:08",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:55",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        8
+      ]
     },
     {
       "garage": "DB2",
@@ -4750,9 +5778,27 @@
           "location": "Eglinton Road"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:15",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "13:35",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:53",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -4762,13 +5808,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:28",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:22",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        46
+      ]
     },
     {
       "garage": "DB2",
@@ -4803,9 +5857,27 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:30",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:55",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -4815,13 +5887,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:28",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "19:36",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:38",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        11
+      ]
     },
     {
       "garage": "DB2",
@@ -4856,9 +5942,21 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:35",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:45",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -4868,13 +5966,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:43",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:35",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        13
+      ]
     },
     {
       "garage": "DB2",
@@ -4909,6 +6021,12 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:10",
           "location": "Donnybrook Garage",
@@ -4921,13 +6039,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "18:45",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:47",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        14
+      ]
     },
     {
       "garage": "DB2",
@@ -4962,9 +6088,27 @@
           "location": "Eglinton Road"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "13:55",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:08",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -4974,13 +6118,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:43",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:33",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        52
+      ]
     },
     {
       "garage": "DB2",
@@ -5015,9 +6167,27 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:45",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:55",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:18",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -5027,13 +6197,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:40",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        16
+      ]
     },
     {
       "garage": "DB2",
@@ -5068,9 +6246,21 @@
           "location": "Eglinton Road"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:55",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:55",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:10",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -5080,13 +6270,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "18:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:45",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        55
+      ]
     },
     {
       "garage": "DB2",
@@ -5121,9 +6325,27 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:00",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:25",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "14:30",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:45",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -5133,13 +6355,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "18:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:35",
           "location": "Garage (X1)",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        21
+      ]
     },
     {
       "garage": "DB2",
@@ -5174,9 +6404,27 @@
           "location": "Eglinton Road"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:20",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "14:25",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:38",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -5186,13 +6434,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "18:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:29",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        57
+      ]
     },
     {
       "garage": "DB2",
@@ -5612,13 +6868,33 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "9:45",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        1
+      ]
     },
     {
       "garage": "DB2",
@@ -5653,9 +6929,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:40",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "8:35",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:30",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -5665,13 +6959,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "11:55",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        24
+      ]
     },
     {
       "garage": "DB2",
@@ -5706,6 +7008,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "8:05",
           "location": "Donnybrook Church",
@@ -5718,13 +7032,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:15",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:00",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        6
+      ]
     },
     {
       "garage": "DB2",
@@ -5759,9 +7087,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:55",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "8:55",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:50",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -5771,13 +7117,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:25",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        26
+      ]
     },
     {
       "garage": "DB2",
@@ -5812,6 +7166,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:00",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "8:20",
           "location": "Donnybrook Church",
@@ -5824,13 +7190,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "11:45",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        8
+      ]
     },
     {
       "garage": "DB2",
@@ -5865,13 +7245,33 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "11:10",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        29
+      ]
     },
     {
       "garage": "DB2",
@@ -5906,6 +7306,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:15",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "8:30",
           "location": "Donnybrook Church",
@@ -5918,13 +7330,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:40",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:45",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:15",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        9
+      ]
     },
     {
       "garage": "DB2",
@@ -5959,9 +7385,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:20",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:20",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -5971,13 +7415,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:55",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        30
+      ]
     },
     {
       "garage": "DB2",
@@ -6012,6 +7464,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "8:45",
           "location": "Donnybrook Church",
@@ -6024,13 +7488,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:00",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:30",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        12
+      ]
     },
     {
       "garage": "DB2",
@@ -6065,13 +7543,33 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "11:30",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        31
+      ]
     },
     {
       "garage": "DB2",
@@ -6106,9 +7604,33 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:20",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:20",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:25",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -6118,13 +7640,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:05",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        14
+      ]
     },
     {
       "garage": "DB2",
@@ -6159,6 +7689,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:55",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:20",
           "location": "Donnybrook Church",
@@ -6171,13 +7713,33 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:40",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:45",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:15",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        16
+      ]
     },
     {
       "garage": "DB2",
@@ -6212,6 +7774,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:00",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:50",
           "location": "Donnybrook Church",
@@ -6224,13 +7798,33 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:25",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:45",
           "location": "Donnybrook Church",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:45",
+          "location": "Ballywaltrim",
+          "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        20
+      ]
     },
     {
       "garage": "DB2",
@@ -6265,9 +7859,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:00",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:15",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -6277,13 +7889,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:55",
           "location": "Eglinton Road",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:55",
+          "location": "Ballywaltrim",
+          "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        21
+      ]
     },
     {
       "garage": "DB2",
@@ -6318,6 +7944,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:55",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "12:00",
           "location": "Eglinton Road",
@@ -6330,13 +7968,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:15",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:35",
           "location": "Eglinton Road",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:35",
+          "location": "Ballywaltrim",
+          "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        19
+      ]
     },
     {
       "garage": "DB2",
@@ -6371,6 +8023,18 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:15",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "12:20",
           "location": "Donnybrook Church",
@@ -6383,13 +8047,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:45",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        6
+      ]
     },
     {
       "garage": "DB2",
@@ -6424,6 +8096,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:00",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:55",
           "location": "Donnybrook Church",
@@ -6436,13 +8120,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:15",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "16:56",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        4
+      ]
     },
     {
       "garage": "DB2",
@@ -6477,6 +8175,18 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "12:30",
           "location": "Donnybrook Church",
@@ -6489,13 +8199,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "16:00",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "16:05",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        8
+      ]
     },
     {
       "garage": "DB2",
@@ -6530,6 +8254,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:00",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "12:05",
           "location": "Donnybrook Church",
@@ -6542,13 +8278,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:40",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "17:45",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        5
+      ]
     },
     {
       "garage": "DB2",
@@ -6583,6 +8333,12 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:40",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:40",
           "location": "Eglinton Road",
@@ -6595,13 +8351,33 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:45",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:00",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "16:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "16:15",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        9
+      ]
     },
     {
       "garage": "DB2",
@@ -6636,6 +8412,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "12:40",
           "location": "Eglinton Road",
@@ -6648,13 +8436,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:55",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:55",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        23
+      ]
     },
     {
       "garage": "DB2",
@@ -6689,6 +8485,12 @@
           "location": "Eglinton Road"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:30",
           "location": "Donnybrook Church",
@@ -6701,13 +8503,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:45",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "16:05",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        24
+      ]
     },
     {
       "garage": "DB2",
@@ -6742,6 +8558,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:20",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:25",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "12:25",
           "location": "Donnybrook Church",
@@ -6754,13 +8582,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:40",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "16:00",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "17:55",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        7
+      ]
     },
     {
       "garage": "DB2",
@@ -6795,6 +8637,18 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:00",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "13:00",
           "location": "Donnybrook Church",
@@ -6807,13 +8661,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:20",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "16:05",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        12
+      ]
     },
     {
       "garage": "DB2",
@@ -8500,9 +10362,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:40",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:55",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "13:00",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:15",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -8512,13 +10392,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "16:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "18:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "18:35",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        25
+      ]
     },
     {
       "garage": "DB2",
@@ -8553,9 +10447,27 @@
           "location": "Eglinton Road"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "13:10",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:25",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -8565,13 +10477,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "16:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "18:25",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        26
+      ]
     },
     {
       "garage": "DB2",
@@ -8606,9 +10526,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:00",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:15",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "13:20",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:35",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -8618,13 +10556,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "16:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "18:35",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        28
+      ]
     },
     {
       "garage": "DB2",
@@ -8659,9 +10605,27 @@
           "location": "Eglinton Road"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "13:40",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:55",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -8671,13 +10635,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:15",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        30
+      ]
     },
     {
       "garage": "DB2",
@@ -8712,6 +10684,18 @@
           "location": "Eglinton Road"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:40",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:55",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "14:00",
           "location": "Eglinton Road",
@@ -8724,13 +10708,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "19:25",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        1
+      ]
     },
     {
       "garage": "DB2",
@@ -8765,9 +10757,27 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:25",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "14:20",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:45",
+          "location": "Ballywaltrim",
           "notes": ""
         },
         {
@@ -8777,13 +10787,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "17:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "18:55",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        20
+      ]
     },
     {
       "garage": "DB2",
@@ -9307,13 +11325,33 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "10:05",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        2
+      ]
     },
     {
       "garage": "DB2",
@@ -9350,13 +11388,33 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "5:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "10:30",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        13
+      ]
     },
     {
       "garage": "DB2",
@@ -9393,13 +11451,33 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "11:10",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        7
+      ]
     },
     {
       "garage": "DB2",
@@ -9436,13 +11514,33 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "11:35",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        18
+      ]
     },
     {
       "garage": "DB2",
@@ -9479,6 +11577,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "6:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "9:20",
           "location": "Donnybrook Church",
@@ -9491,13 +11601,33 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "14:40",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        8
+      ]
     },
     {
       "garage": "DB2",
@@ -9534,9 +11664,39 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "06:52",
+          "location": "Donnybrook Garage",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:40",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "11:40",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:35",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -9546,13 +11706,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:00",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        9
+      ]
     },
     {
       "garage": "DB2",
@@ -9589,9 +11757,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:20",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:20",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -9601,13 +11787,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:45",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        4
+      ]
     },
     {
       "garage": "DB2",
@@ -9644,13 +11844,33 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:10",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        11
+      ]
     },
     {
       "garage": "DB2",
@@ -9687,9 +11907,27 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "7:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:40",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "10:35",
           "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:35",
+          "location": "Northwood",
           "notes": ""
         },
         {
@@ -9699,13 +11937,27 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "13:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "15:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "15:55",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        5
+      ]
     },
     {
       "garage": "DB2",
@@ -9742,13 +11994,33 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "9:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "12:55",
           "location": "Eglinton Road",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        14
+      ]
     },
     {
       "garage": "DB2",
@@ -9783,13 +12055,33 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "8:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:10",
           "location": "Donnybrook Garage",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        17
+      ]
     },
     {
       "garage": "DB2",
@@ -9824,6 +12116,18 @@
           "location": "Donnybrook Garage"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:05",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "13:05",
           "location": "Eglinton Road",
@@ -9836,13 +12140,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "14:05",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "16:00",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        15
+      ]
     },
     {
       "garage": "DB2",
@@ -9930,13 +12242,27 @@
           "location": "Donnybrook Church"
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:25",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "12:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "FINISH",
           "event_time": "13:25",
           "location": "Donnybrook Church",
           "notes": ""
         }
       ],
-      "trip_columns": []
+      "trip_columns": [
+        8
+      ]
     },
     {
       "garage": "DB2",
