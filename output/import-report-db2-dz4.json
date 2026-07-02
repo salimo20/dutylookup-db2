@@ -16,5 +16,7 @@
   "byDutyType": {
     "NORMAL": 185,
     "WORKOUT": 17
-  }
+  },
+  "matchedTripParts": 201,
+  "fullyMatchedTwoPartDuties": 146
 }

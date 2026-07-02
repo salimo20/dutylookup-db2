@@ -1,72 +1,61 @@
-const IMPORTANT_LOCATIONS = [
-  'Northwood',
-  'Ballywaltrim',
-  'Eglinton',
-  'DBRK',
-  'Donnybrook',
-  'Garage'
-];
-
 export function extractTimingPointsFromTimetable(timetableRows = [], tripColumns = []) {
-  const timingPoints = [];
+  const points = [];
 
   timetableRows.forEach((row, rowIndex) => {
-    const location = normalizeTimingLocation(row[0]);
+    const location = normalizeLocation(row[0]);
 
     if (!location) return;
 
     tripColumns.forEach((columnIndex) => {
-      const time = cleanTime(row[columnIndex]);
+      const time = extractTime(row[columnIndex]);
 
       if (!time) return;
 
-      timingPoints.push({
+      points.push({
+        event_type: 'TIMING_POINT',
+        event_time: time,
+        time,
+        location,
         rowIndex,
         columnIndex,
-        location,
-        time,
-        event_type: 'TIMING_POINT'
+        notes: ''
       });
     });
   });
 
-  return removeDuplicateTimingPoints(timingPoints);
+  return removeDuplicates(points);
 }
 
-function normalizeTimingLocation(value) {
+function normalizeLocation(value) {
   const text = String(value || '').trim();
   const lower = text.toLowerCase();
 
   if (!text) return '';
 
   if (lower.includes('northwood')) return 'Northwood';
+  if (lower.includes('ballymun')) return 'Ballymun Rd';
+  if (lower.includes("d'brook") || lower.includes('d brook') || lower.includes('dbrk')) {
+    return "D'Brook Church";
+  }
   if (lower.includes('ballywaltrim')) return 'Ballywaltrim';
-  if (lower.includes('eglinton')) return 'Eglinton Road';
-  if (lower.includes('dbrk')) return 'Donnybrook Church';
-  if (lower.includes('donnybrook')) return 'Donnybrook';
-  if (lower === 'garage') return 'Donnybrook Garage';
+  if (lower.includes('foxrock')) return 'Foxrock Church';
+  if (lower.includes('eglinton') || lower.includes('eglington')) return 'Eglinton Road';
+  if (lower.includes('parnell')) return 'Parnell Sq West';
 
-  const isImportant = IMPORTANT_LOCATIONS.some((place) =>
-    lower.includes(place.toLowerCase())
-  );
-
-  return isImportant ? text : '';
+  return '';
 }
 
-function cleanTime(value) {
+function extractTime(value) {
   const text = String(value || '').trim();
-
-  if (!text) return '';
-
   const match = text.match(/^(\d{1,2}:\d{2})/);
   return match ? match[1] : '';
 }
 
-function removeDuplicateTimingPoints(points = []) {
+function removeDuplicates(points = []) {
   const seen = new Set();
 
   return points.filter((point) => {
-    const key = `${point.time}|${point.location}|${point.columnIndex}`;
+    const key = `${point.event_time}|${point.location}|${point.columnIndex}`;
 
     if (seen.has(key)) return false;
 

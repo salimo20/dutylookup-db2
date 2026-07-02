@@ -1,27 +1,56 @@
-export function findDutyTripColumnsFromHeader(timetableRows = [], duty = {}) {
+export function findDutyTripPartsFromHeaders(timetableRows = [], duty = {}) {
   const dutyNumber = padDutyNumber(duty.duty_number || duty.display_duty_number);
-  const startTime = normalizeTime(duty.start_time);
 
-  if (!dutyNumber || !startTime) return [];
+  if (!dutyNumber) return [];
 
-  const targetHeader = `${dutyNumber}-${startTime}`;
-  const matches = [];
+  const parts = [];
 
-  timetableRows.forEach((row, rowIndex) => {
-    row.forEach((cell, columnIndex) => {
-      const value = String(cell || '').trim();
+  const part1 = findTripColumnByHeader(timetableRows, dutyNumber, duty.start_time, 'PART_1');
+
+  if (part1) {
+    parts.push({
+      ...part1,
+      part: 1,
+      from: duty.start_time,
+      to: duty.break_time || duty.finish_time
+    });
+  }
+
+  if (duty.parts === 2 && duty.resume_time) {
+    const part2 = findTripColumnByHeader(timetableRows, dutyNumber, duty.resume_time, 'PART_2');
+
+    if (part2) {
+      parts.push({
+        ...part2,
+        part: 2,
+        from: duty.resume_time,
+        to: duty.finish_time
+      });
+    }
+  }
+
+  return parts;
+}
+
+function findTripColumnByHeader(timetableRows = [], dutyNumber, time, label) {
+  const normalizedTime = normalizeTime(time);
+  if (!normalizedTime) return null;
+
+  const targetHeader = `${dutyNumber}-${normalizedTime}`;
+
+  for (let rowIndex = 0; rowIndex < timetableRows.length; rowIndex++) {
+    const row = timetableRows[rowIndex] || [];
+
+    for (let columnIndex = 0; columnIndex < row.length; columnIndex++) {
+      const value = String(row[columnIndex] || '').trim();
 
       if (value === targetHeader) {
-        matches.push({
-          columnIndex,
-          rowIndex,
-          header: value
-        });
+        return { label, header: value, rowIndex, columnIndex };
       }
-    });
-  });
+    }
+  }
 
-  return matches;
+  return null;
 }
 
 function padDutyNumber(value) {
@@ -33,8 +62,6 @@ function padDutyNumber(value) {
 function normalizeTime(value) {
   const text = String(value || '').trim();
   const match = text.match(/^(\d{1,2}):(\d{2})$/);
-
   if (!match) return '';
-
   return `${String(Number(match[1])).padStart(2, '0')}:${match[2]}`;
 }

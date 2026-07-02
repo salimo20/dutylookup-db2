@@ -1,40 +1,68 @@
-export function buildDriverTimeline(baseEvents = [], timingPoints = [], duty = {}) {
-  const startMinutes = timeToMinutes(duty.start_time);
-  const finishMinutes = timeToMinutes(duty.finish_time);
+export function buildDriverTimeline(baseEvents = [], timingPointsByPart = [], duty = {}) {
+  const timingEvents = timingPointsByPart.flatMap((part) =>
+    (part.timingPoints || [])
+      .filter((point) => isBetween(point.time, part.from, part.to))
+      .map((point) => ({
+        event_type: 'TIMING_POINT',
+        event_time: point.time,
+        location: point.location,
+        notes: ''
+      }))
+  );
 
-  const filteredTimingPoints = timingPoints
-    .filter((point) => {
-      const minutes = timeToMinutes(point.time);
+  const base = baseEvents.map((event) => {
+    if (event.event_type === 'FINISH') {
+      return {
+        ...event,
+        event_type: 'SIGN_OFF',
+        location: 'Sign Off',
+        notes: ''
+      };
+    }
 
-      if (minutes === null) return false;
-      if (startMinutes !== null && minutes < startMinutes) return false;
-      if (finishMinutes !== null && minutes > finishMinutes) return false;
+    return event;
+  });
 
-      return true;
-    })
-    .map((point) => ({
-      event_type: 'TIMING_POINT',
-      event_time: point.time,
-      location: point.location,
-      notes: ''
-    }));
-
-  return [...baseEvents, ...filteredTimingPoints]
+  return [...base, ...timingEvents]
     .filter((event) => event.event_time && event.location)
-    .sort((a, b) => {
-      const aTime = timeToMinutes(a.event_time);
-      const bTime = timeToMinutes(b.event_time);
-      return (aTime ?? 0) - (bTime ?? 0);
-    })
-    .filter(removeDuplicateEvents);
+    .filter(removeTimingConflicts)
+    .sort((a, b) => timeToMinutes(a.event_time) - timeToMinutes(b.event_time))
+    .filter(removeDuplicates);
 }
 
-function removeDuplicateEvents(event, index, events) {
-  const key = `${event.event_time}|${String(event.location || '').toLowerCase()}`;
+function removeTimingConflicts(event, index, events) {
+  if (event.event_type !== 'TIMING_POINT') return true;
 
-  return events.findIndex((item) =>
-    `${item.event_time}|${String(item.location || '').toLowerCase()}` === key
-  ) === index;
+  const protectedTypes = new Set(['START', 'BREAK_START', 'RESUME', 'SIGN_OFF']);
+
+  return !events.some(
+    (item) =>
+      protectedTypes.has(item.event_type) &&
+      item.event_time === event.event_time
+  );
+}
+
+function removeDuplicates(event, index, events) {
+  const key = `${event.event_time}|${event.event_type}|${String(event.location).toLowerCase()}`;
+
+  return (
+    events.findIndex(
+      (item) =>
+        `${item.event_time}|${item.event_type}|${String(item.location).toLowerCase()}` === key
+    ) === index
+  );
+}
+
+function isBetween(time, from, to) {
+  const value = timeToMinutes(time);
+  const start = timeToMinutes(from);
+  const end = timeToMinutes(to);
+
+  if (value === null) return false;
+  if (start !== null && value < start) return false;
+  if (end !== null && value > end) return false;
+
+  return true;
 }
 
 function timeToMinutes(value) {
