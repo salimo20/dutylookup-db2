@@ -5,9 +5,9 @@ import { detectCttSheets } from '../parser/db2/sheetDetector.js';
 import { extractSheetRows, findRosterRows, parseDz4RosterRow } from '../parser/db2/dutyExtractor.js';
 import { buildWorkbookMap } from '../parser/db2/workbook/workbookMap.js';
 import { detectWorkbookSections } from '../parser/db2/workbook/sectionDetector.js';
-import { detectTripColumns } from '../parser/db2/ctt/columnDetector.js';
 import { extractTimingPointsFromTimetable } from '../parser/db2/ctt/timingPointExtractor.js';
 import { buildDriverTimeline } from '../parser/db2/ctt/eventBuilder.js';
+import { findDutyTripColumnsFromHeader } from '../parser/db2/ctt/dutyTripMatcher.js';
 
 const file = 'DB2-Z4-Routes E1-X1 Oct 2025.xlsx';
 
@@ -19,7 +19,7 @@ const workbook = XLSX.readFile(file);
 const cttSheets = detectCttSheets(workbook.SheetNames);
 const allDuties = [];
 
-console.log('DutyLookup DB2 Importer v2');
+console.log('DutyLookup DB2 Importer v3');
 console.log(`Workbook: ${file}`);
 
 for (const sheet of cttSheets) {
@@ -32,28 +32,30 @@ for (const sheet of cttSheets) {
       ? []
       : rows.slice(sections.timetable.start, sections.timetable.end + 1);
 
-  const tripColumns = detectTripColumns(timetableRows);
-  const timingPoints = extractTimingPointsFromTimetable(timetableRows, tripColumns);
-
   const rosterRows = findRosterRows(rows);
 
   const duties = rosterRows.map((row) => {
     const duty = parseDz4RosterRow(row, sheet.dayType, sheet.name);
+    const tripMatches = findDutyTripColumnsFromHeader(timetableRows, duty);
+    const tripColumns = tripMatches.map((match) => match.columnIndex);
+    const timingPoints = extractTimingPointsFromTimetable(timetableRows, tripColumns);
 
     return {
       ...duty,
+      trip_columns: tripColumns,
       events: buildDriverTimeline(duty.events, timingPoints, duty)
     };
   });
 
   allDuties.push(...duties);
 
+  const matchedDuties = duties.filter((duty) => duty.trip_columns.length > 0).length;
+
   console.log(`\n${sheet.name}`);
   console.log(`Day: ${sheet.dayType}`);
   console.log(`Roster start row: ${workbookMap.rosterStartRow}`);
-  console.log(`Trip columns detected: ${tripColumns.length}`);
-  console.log(`Timing points extracted: ${timingPoints.length}`);
   console.log(`Parsed duties: ${duties.length}`);
+  console.log(`Duties with matched trip columns: ${matchedDuties}`);
 }
 
 const report = {
