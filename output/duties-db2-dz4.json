@@ -3,7 +3,7 @@
   "garage": "DB2",
   "zone": "DZ4",
   "sourceFile": "DB2-Z4-Routes E1-X1 Oct 2025.xlsx",
-  "generatedAt": "2026-07-02T22:43:12.889Z",
+  "generatedAt": "2026-07-03T09:45:18.523Z",
   "duties": [
     {
       "garage": "DB2",
@@ -76,8 +76,20 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "08:20",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "9:23",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:23",
           "location": "Eglinton Road",
           "notes": ""
         },
@@ -88,10 +100,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "11:20",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "11:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -186,9 +204,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:00",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "9:55",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:55",
+          "location": "D'Brook Church",
           "notes": ""
         },
         {
@@ -204,10 +234,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:15",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -302,9 +338,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "08:42",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "9:38",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:38",
+          "location": "D'Brook Church",
           "notes": ""
         },
         {
@@ -320,10 +368,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "11:55",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:00",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -418,8 +472,20 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "08:54",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "9:48",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:48",
           "location": "Eglinton Road",
           "notes": ""
         },
@@ -430,10 +496,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "11:50",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "11:50",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -526,6 +598,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:23",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:15",
           "location": "Eglinton Road",
@@ -544,10 +622,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:20",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -640,8 +724,20 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:07",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "9:58",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:58",
           "location": "Eglinton Road",
           "notes": ""
         },
@@ -652,10 +748,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:00",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:00",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -748,6 +850,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:30",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:25",
           "location": "Eglinton Road",
@@ -766,10 +874,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:25",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -866,6 +980,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:20",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:10",
           "location": "Eglinton Road",
@@ -884,10 +1004,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:15",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -974,10 +1100,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "09:40",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "9:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -1065,6 +1197,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:23",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:20",
           "location": "Donnybrook Church",
@@ -1083,10 +1221,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:35",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:40",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -1173,10 +1317,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "09:48",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "9:53",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -1263,6 +1413,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:30",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:30",
           "location": "Donnybrook Church",
@@ -1281,10 +1437,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:45",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:50",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -1377,6 +1539,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:38",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:35",
           "location": "Eglinton Road",
@@ -1395,10 +1563,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:50",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -1491,6 +1665,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:55",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:55",
           "location": "Eglinton Road",
@@ -1509,10 +1689,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "13:05",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "13:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -1605,10 +1791,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "09:58",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "10:03",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -1692,6 +1884,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:45",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:50",
           "location": "Donnybrook Church",
@@ -1710,10 +1908,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "13:05",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "13:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -1824,10 +2028,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "13:15",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "13:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -1920,6 +2130,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:55",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "11:00",
           "location": "Donnybrook Church",
@@ -1938,10 +2154,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "13:15",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "13:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -2052,10 +2274,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "13:25",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "13:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -2178,10 +2406,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "13:20",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "13:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -2262,10 +2496,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "10:05",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "10:05",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -2367,10 +2607,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "13:25",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "13:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -2481,10 +2727,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "13:50",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "13:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -2585,8 +2837,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "14:15",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -2694,10 +2946,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "14:45",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "14:50",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -2798,8 +3056,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "14:40",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -2895,10 +3153,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "14:45",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "14:50",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -3015,10 +3279,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:13",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:18",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -3135,10 +3405,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:25",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -3249,10 +3525,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "14:55",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:00",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -3357,10 +3639,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:05",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -3471,10 +3759,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:15",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -3575,8 +3869,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "20:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -3696,10 +3990,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:30",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:35",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -3810,10 +4110,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "20:00",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "20:05",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -3936,10 +4242,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:25",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -4040,8 +4352,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "20:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -4155,10 +4467,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:23",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:23",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -4281,10 +4599,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:20",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -4395,10 +4719,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "20:50",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "20:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -4491,10 +4821,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "20:44",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "20:44",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -4590,10 +4926,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:00",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:00",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -4704,10 +5046,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:55",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:00",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -4818,10 +5166,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:15",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -4920,10 +5274,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:15",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -5025,10 +5385,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:20",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -5139,10 +5505,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:50",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -5253,10 +5625,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:25",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -5349,10 +5727,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "23:32",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "23:32",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -5460,10 +5844,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "23:22",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "23:22",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -5586,10 +5976,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "23:20",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "23:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -5694,10 +6090,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:45",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -5751,8 +6153,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:33",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -5865,10 +6267,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "23:51",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "23:51",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -5922,8 +6330,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:02",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -6006,8 +6414,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:12",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -6102,8 +6510,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:22",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -6165,8 +6573,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:32",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -6312,10 +6720,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:55",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -6369,8 +6783,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:52",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -6465,8 +6879,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "1:02",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -6567,8 +6981,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "1:03",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -6663,8 +7077,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:43",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -6747,8 +7161,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "1:23",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -6867,10 +7281,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:25",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -6981,10 +7401,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "16:05",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "16:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7095,10 +7521,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:45",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:50",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7209,10 +7641,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "18:05",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "18:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7313,8 +7751,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "17:53",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7406,8 +7844,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "18:18",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7509,10 +7947,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "18:28",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "18:33",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7607,8 +8051,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "18:35",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7722,10 +8166,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "18:40",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "18:40",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7842,10 +8292,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "18:50",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "18:50",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7940,8 +8396,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "19:00",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -8027,8 +8483,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "19:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -8142,10 +8598,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:10",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -8274,10 +8736,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:15",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -8335,6 +8803,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "08:20",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "9:45",
           "location": "Ballywaltrim",
           "notes": ""
@@ -8382,10 +8856,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "18:18",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "18:23",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -8443,6 +8923,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "08:42",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "10:05",
           "location": "Ballywaltrim",
           "notes": ""
@@ -8468,8 +8954,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "19:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -8518,6 +9004,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "08:54",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "10:05",
           "location": "Ballywaltrim",
           "notes": ""
@@ -8537,8 +9029,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "19:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -8587,6 +9079,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "09:00",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "10:15",
           "location": "Northwood",
           "notes": ""
@@ -8630,8 +9128,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "19:22",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -8677,6 +9175,12 @@
           "event_type": "START",
           "event_time": "9:07",
           "location": "Donnybrook Church"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:07",
+          "location": "D'Brook Church",
+          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -8727,10 +9231,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:38",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:38",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -8788,6 +9298,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "09:20",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "10:35",
           "location": "Ballywaltrim",
           "notes": ""
@@ -8841,10 +9357,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:30",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:35",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -8902,6 +9424,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "09:23",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "10:35",
           "location": "Ballywaltrim",
           "notes": ""
@@ -8943,10 +9471,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:47",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:47",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -9004,6 +9538,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "09:30",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "10:35",
           "location": "Northwood",
           "notes": ""
@@ -9047,8 +9587,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "19:33",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -9094,6 +9634,12 @@
           "event_type": "START",
           "event_time": "9:30",
           "location": "Donnybrook Church"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:30",
+          "location": "D'Brook Church",
+          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -9144,10 +9690,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:40",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:40",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -9205,6 +9757,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "09:40",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "10:55",
           "location": "Northwood",
           "notes": ""
@@ -9258,10 +9816,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:40",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -9319,6 +9883,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "09:45",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "11:00",
           "location": "Ballywaltrim",
           "notes": ""
@@ -9362,8 +9932,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "19:35",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -9409,6 +9979,12 @@
           "event_type": "START",
           "event_time": "9:55",
           "location": "Eglinton Road"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:55",
+          "location": "Eglinton Road",
+          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -9459,10 +10035,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:29",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:29",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -9516,8 +10098,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "2:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -9618,8 +10200,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "3:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -9720,8 +10302,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "3:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -9824,6 +10406,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "02:15",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "3:50",
           "location": "Northwood",
           "notes": ""
@@ -9847,16 +10435,16 @@
           "notes": ""
         },
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "6:00",
-          "location": "Sign Off",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
+          "event_type": "END_OF_DUTY",
           "event_time": "06:00",
           "location": "Foxrock Church",
-          "notes": ""
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "6:00",
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -9926,6 +10514,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "02:40",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "3:30",
           "location": "Ballywaltrim",
           "notes": ""
@@ -9951,8 +10545,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "5:42",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -10022,6 +10616,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "03:15",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "4:50",
           "location": "Northwood",
           "notes": ""
@@ -10051,16 +10651,22 @@
           "notes": ""
         },
         {
-          "event_type": "SIGN_OFF",
+          "event_type": "TIMING_POINT",
           "event_time": "7:00",
-          "location": "Sign Off",
+          "location": "Ballymun Rd",
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "END_OF_DUTY",
           "event_time": "07:00",
           "location": "Foxrock Church",
-          "notes": ""
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "7:00",
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -10130,6 +10736,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "03:40",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "4:30",
           "location": "Ballywaltrim",
           "notes": ""
@@ -10155,8 +10767,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "6:43",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -10266,10 +10878,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "09:40",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "9:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -10353,6 +10971,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "08:35",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "9:57",
           "location": "Donnybrook Garage",
@@ -10361,8 +10985,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "11:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -10446,6 +11070,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "08:05",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "9:02",
           "location": "Donnybrook Garage",
@@ -10454,8 +11084,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "13:00",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -10539,6 +11169,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "08:55",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:00",
           "location": "Donnybrook Church",
@@ -10557,10 +11193,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:20",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -10653,9 +11295,21 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "08:20",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "9:20",
           "location": "Donnybrook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:20",
+          "location": "D'Brook Church",
           "notes": ""
         },
         {
@@ -10671,10 +11325,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "11:40",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "11:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -10779,10 +11439,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "11:05",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "11:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -10866,6 +11532,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "08:30",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "9:22",
           "location": "Donnybrook Garage",
@@ -10874,8 +11546,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "13:15",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -10959,6 +11631,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:20",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:30",
           "location": "Donnybrook Church",
@@ -10977,10 +11655,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:50",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -11073,6 +11757,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "08:45",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "9:42",
           "location": "Donnybrook Garage",
@@ -11081,8 +11771,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "13:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -11178,10 +11868,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "11:25",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "11:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -11301,10 +11997,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:00",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:05",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -11397,6 +12099,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:20",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:40",
           "location": "Eglinton Road",
@@ -11433,10 +12141,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:10",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:15",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -11529,6 +12243,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:50",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "11:05",
           "location": "Donnybrook Church",
@@ -11565,10 +12285,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:40",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -11697,10 +12423,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:50",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -11811,10 +12543,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:30",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:35",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -11872,6 +12610,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "08:05",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "9:10",
           "location": "Ballywaltrim",
           "notes": ""
@@ -11925,10 +12669,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:40",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -12051,10 +12801,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "16:56",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "16:56",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -12112,6 +12868,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "08:20",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "9:30",
           "location": "Ballywaltrim",
           "notes": ""
@@ -12165,10 +12927,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "16:00",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "16:05",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -12297,10 +13065,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "17:40",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "17:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -12358,6 +13132,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "08:30",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "9:40",
           "location": "Ballywaltrim",
           "notes": ""
@@ -12411,10 +13191,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "16:10",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "16:15",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -12525,10 +13311,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:50",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -12586,6 +13378,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "08:35",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "9:30",
           "location": "Northwood",
           "notes": ""
@@ -12639,10 +13437,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "16:00",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "16:05",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -12771,10 +13575,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "17:50",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "17:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -12832,6 +13642,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "08:45",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "10:00",
           "location": "Ballywaltrim",
           "notes": ""
@@ -12879,10 +13695,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "16:05",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "16:05",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -13005,10 +13827,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "20:55",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "20:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -13113,10 +13941,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "20:00",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "20:00",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -13217,8 +14051,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "21:35",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -13314,10 +14148,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "20:15",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "20:15",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -13410,10 +14250,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "20:50",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "20:50",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -13533,10 +14379,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:15",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -13641,10 +14493,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "20:50",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "20:50",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -13767,10 +14625,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:50",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -13869,10 +14733,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:20",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -13974,10 +14844,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "20:40",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "20:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -14100,10 +14976,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:15",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:15",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -14232,10 +15114,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:15",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -14358,10 +15246,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "23:25",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "23:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -14472,10 +15366,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:20",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -14592,10 +15492,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "23:25",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "23:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -14706,10 +15612,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:30",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:35",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -14820,10 +15732,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "23:00",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "23:05",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -14877,8 +15795,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -14961,8 +15879,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:17",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -15045,8 +15963,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:47",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -15147,8 +16065,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "1:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -15243,8 +16161,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -15339,8 +16257,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "1:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -15441,8 +16359,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "1:07",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -15606,10 +16524,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "18:35",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "18:35",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -15667,6 +16591,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "08:55",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "9:50",
           "location": "Northwood",
           "notes": ""
@@ -15720,10 +16650,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "18:20",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "18:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -15834,10 +16770,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "18:30",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "18:35",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -15892,6 +16834,12 @@
           "event_type": "START",
           "event_time": "9:20",
           "location": "Eglinton Road"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:20",
+          "location": "Eglinton Road",
+          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -15960,10 +16908,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:15",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:15",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -16021,6 +16975,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "09:40",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "10:40",
           "location": "Northwood",
           "notes": ""
@@ -16064,8 +17024,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "19:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -16111,6 +17071,12 @@
           "event_type": "START",
           "event_time": "9:50",
           "location": "Donnybrook Church"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:50",
+          "location": "D'Brook Church",
+          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -16167,10 +17133,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "18:50",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "18:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -16269,10 +17241,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "18:50",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "18:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -16356,10 +17334,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:45",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -16404,8 +17388,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "3:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -16506,8 +17490,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "2:40",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -16595,6 +17579,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "01:15",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "2:50",
           "location": "Northwood",
           "notes": ""
@@ -16618,16 +17608,16 @@
           "notes": ""
         },
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "5:10",
-          "location": "Sign Off",
-          "notes": ""
-        },
-        {
           "event_type": "TIMING_POINT",
           "event_time": "05:10",
           "location": "Foxrock Church",
           "notes": ""
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "5:10",
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -16727,6 +17717,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "01:35",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "3:30",
           "location": "Ballywaltrim",
           "notes": ""
@@ -16750,16 +17746,16 @@
           "notes": ""
         },
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "5:47",
-          "location": "Sign Off",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
+          "event_type": "END_OF_DUTY",
           "event_time": "05:47",
           "location": "Ballymun Rd",
-          "notes": ""
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "5:47",
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -16829,6 +17825,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "02:15",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "3:50",
           "location": "Northwood",
           "notes": ""
@@ -16854,8 +17856,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "6:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -16916,6 +17918,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "02:35",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "4:30",
           "location": "Ballywaltrim",
           "notes": ""
@@ -16939,16 +17947,16 @@
           "notes": ""
         },
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "6:47",
-          "location": "Sign Off",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
+          "event_type": "END_OF_DUTY",
           "event_time": "06:47",
           "location": "Ballymun Rd",
-          "notes": ""
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "6:47",
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -17009,6 +18017,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "03:15",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "4:50",
           "location": "Northwood",
           "notes": ""
@@ -17034,8 +18048,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "7:00",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -17147,10 +18161,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "10:00",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "10:05",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -17248,10 +18268,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "10:25",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "10:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -17349,10 +18375,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "11:05",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "11:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -17450,10 +18482,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "11:30",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "11:35",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -17539,6 +18577,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:20",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "10:20",
           "location": "Eglinton Road",
@@ -17575,10 +18619,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "14:35",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "14:40",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -17709,10 +18759,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "14:55",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:00",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -17843,10 +18899,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:40",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -17953,10 +19015,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:05",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18078,10 +19146,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:50",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18188,10 +19262,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "12:50",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "12:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18281,10 +19361,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "13:10",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "13:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18330,6 +19416,12 @@
           "event_type": "START",
           "event_time": "9:00",
           "location": "Donnybrook Garage"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "09:00",
+          "location": "Eglinton Road",
+          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -18386,10 +19478,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:55",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "16:00",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18470,10 +19568,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "15:50",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "15:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18522,6 +19626,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "09:20",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "10:25",
           "location": "Ballywaltrim",
           "notes": ""
@@ -18551,10 +19661,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "13:20",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "13:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18604,8 +19720,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "13:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": []
@@ -18673,10 +19789,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "14:05",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "14:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18766,10 +19888,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "20:05",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "20:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18889,10 +20017,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:05",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:10",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -19021,10 +20155,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:20",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -19123,10 +20263,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:00",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:05",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -19246,10 +20392,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:15",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:20",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -19354,10 +20506,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "20:30",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "20:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -19486,10 +20644,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "22:00",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "22:05",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -19600,10 +20764,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:25",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -19708,10 +20878,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "21:25",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "21:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -19765,8 +20941,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:29",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -19942,10 +21118,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "23:10",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "23:15",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -19999,8 +21181,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -20095,8 +21277,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "1:29",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -20197,8 +21379,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:49",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -20293,8 +21475,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "1:09",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -20395,8 +21577,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "0:55",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -20524,10 +21706,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "17:20",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "17:25",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -20647,10 +21835,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:40",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:45",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -20773,10 +21967,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:40",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:40",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -20875,10 +22075,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "19:25",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "19:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -20974,10 +22180,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "18:19",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "18:19",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -21031,8 +22243,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "3:30",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -21109,8 +22321,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "2:35",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -21213,6 +22425,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "03:25",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "4:30",
           "location": "Ballywaltrim",
           "notes": ""
@@ -21236,16 +22454,16 @@
           "notes": ""
         },
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "6:35",
-          "location": "Sign Off",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
+          "event_type": "END_OF_DUTY",
           "event_time": "06:35",
           "location": "Ballymun Rd",
-          "notes": ""
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "6:35",
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -21315,6 +22533,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "01:30",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "2:30",
           "location": "Ballywaltrim",
           "notes": ""
@@ -21356,16 +22580,16 @@
           "notes": ""
         },
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "5:52",
-          "location": "Sign Off",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
+          "event_type": "END_OF_DUTY",
           "event_time": "05:52",
           "location": "Foxrock Church",
-          "notes": ""
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "5:52",
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",
@@ -21435,6 +22659,12 @@
         },
         {
           "event_type": "TIMING_POINT",
+          "event_time": "02:30",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
           "event_time": "3:30",
           "location": "Ballywaltrim",
           "notes": ""
@@ -21478,8 +22708,8 @@
         {
           "event_type": "SIGN_OFF",
           "event_time": "6:52",
-          "location": "Sign Off",
-          "notes": ""
+          "location": "",
+          "notes": "Sign Off"
         },
         {
           "event_type": "START",

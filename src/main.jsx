@@ -235,6 +235,18 @@ function TimelineItem({ event }) {
       </div>
     );
   }
+  
+  if (type === 'SIGN_OFF') {
+  return (
+    <div className="timeline-item finish">
+      <Flag size={18} />
+      <div>
+        <strong>{event.event_time} <span>{event.location}</span></strong>
+        <p>Sign Off</p>
+      </div>
+    </div>
+  );
+}
 
   return (
     <div className="timeline-item">
@@ -282,20 +294,35 @@ function DriverInfo({ route, info }) {
 function filterDriverEvents(events = []) {
   const importantTypes = new Set([
     'START',
-    'TIMING_POINT',
     'BREAK_START',
     'RESUME',
+    'SIGN_OFF',
     'FINISH'
   ]);
 
+  const importantTimingPlaces = [
+    'northwood',
+    'ballywaltrim',
+    "d'brook church",
+    'donnybrook church',
+    'eglinton'
+  ];
+
   const cleaned = events.filter((event) => {
     const type = event.event_type || '';
-    return importantTypes.has(type);
+    const location = String(event.location || '').toLowerCase();
+
+    if (importantTypes.has(type)) return true;
+
+    if (type === 'TIMING_POINT') {
+      return importantTimingPlaces.some((place) => location.includes(place));
+    }
+
+    return false;
   });
 
   return removeDuplicateDriverEvents(cleaned);
 }
-
 function removeDuplicateDriverEvents(events = []) {
   const seen = new Set();
 

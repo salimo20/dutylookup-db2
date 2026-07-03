@@ -47,7 +47,11 @@ function normalizeLocation(value) {
 
 function extractTime(value) {
   const text = String(value || '').trim();
-  const match = text.match(/^(\d{1,2}:\d{2})/);
+
+  if (!text) return '';
+
+  const match = text.match(/(\d{1,2}:\d{2})/);
+
   return match ? match[1] : '';
 }
 

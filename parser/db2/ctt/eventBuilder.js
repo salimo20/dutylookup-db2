@@ -10,22 +10,54 @@ export function buildDriverTimeline(baseEvents = [], timingPointsByPart = [], du
       }))
   );
 
-  const base = baseEvents.map((event) => {
-    if (event.event_type === 'FINISH') {
-      return {
-        ...event,
-        event_type: 'SIGN_OFF',
-        location: 'Sign Off',
-        notes: ''
-      };
-    }
+  const baseWithoutFinish = baseEvents.filter((event) => event.event_type !== 'FINISH');
 
-    return event;
+  const merged = [...baseWithoutFinish, ...timingEvents]
+    .filter((event) => event.event_time)
+    .filter(removeTimingConflicts)
+    .sort((a, b) => timeToMinutes(a.event_time) - timeToMinutes(b.event_time))
+    .filter(removeDuplicates);
+
+  return addDutyCompletion(merged, duty);
+}
+
+function addDutyCompletion(events = [], duty = {}) {
+  const finishTime = duty.finish_time;
+  const finishMinutes = timeToMinutes(finishTime);
+
+  const lastTimingPoint = [...events]
+    .reverse()
+    .find((event) => event.event_type === 'TIMING_POINT');
+
+  let finalEvents = [...events];
+
+  if (lastTimingPoint) {
+    const lastMinutes = timeToMinutes(lastTimingPoint.event_time);
+    const gap = finishMinutes !== null && lastMinutes !== null ? finishMinutes - lastMinutes : null;
+
+    if (gap !== null && gap >= 0 && gap <= 10) {
+      finalEvents = finalEvents.map((event) => {
+        if (event === lastTimingPoint) {
+          return {
+            ...event,
+            event_type: 'END_OF_DUTY',
+            notes: 'End of Duty'
+          };
+        }
+
+        return event;
+      });
+    }
+  }
+
+  finalEvents.push({
+    event_type: 'SIGN_OFF',
+    event_time: finishTime,
+    location: '',
+    notes: 'Sign Off'
   });
 
-  return [...base, ...timingEvents]
-    .filter((event) => event.event_time && event.location)
-    .filter(removeTimingConflicts)
+  return finalEvents
     .sort((a, b) => timeToMinutes(a.event_time) - timeToMinutes(b.event_time))
     .filter(removeDuplicates);
 }
@@ -33,22 +65,20 @@ export function buildDriverTimeline(baseEvents = [], timingPointsByPart = [], du
 function removeTimingConflicts(event, index, events) {
   if (event.event_type !== 'TIMING_POINT') return true;
 
-  const protectedTypes = new Set(['START', 'BREAK_START', 'RESUME', 'SIGN_OFF']);
+  const protectedTypes = new Set(['START', 'BREAK_START', 'RESUME']);
 
   return !events.some(
-    (item) =>
-      protectedTypes.has(item.event_type) &&
-      item.event_time === event.event_time
+    (item) => protectedTypes.has(item.event_type) && item.event_time === event.event_time
   );
 }
 
 function removeDuplicates(event, index, events) {
-  const key = `${event.event_time}|${event.event_type}|${String(event.location).toLowerCase()}`;
+  const key = `${event.event_time}|${event.event_type}|${String(event.location || '').toLowerCase()}`;
 
   return (
     events.findIndex(
       (item) =>
-        `${item.event_time}|${item.event_type}|${String(item.location).toLowerCase()}` === key
+        `${item.event_time}|${item.event_type}|${String(item.location || '').toLowerCase()}` === key
     ) === index
   );
 }
