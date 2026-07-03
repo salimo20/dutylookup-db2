@@ -235,7 +235,17 @@ function TimelineItem({ event }) {
       </div>
     );
   }
-  
+  if (type === 'END_OF_DUTY') {
+  return (
+    <div className="timeline-item finish">
+      <Flag size={18} />
+      <div>
+        <strong>{event.event_time} <span>{event.location}</span></strong>
+        <p>End of Duty</p>
+      </div>
+    </div>
+  );
+}
   if (type === 'SIGN_OFF') {
   return (
     <div className="timeline-item finish">
@@ -296,6 +306,7 @@ function filterDriverEvents(events = []) {
     'START',
     'BREAK_START',
     'RESUME',
+    'END_OF_DUTY',
     'SIGN_OFF',
     'FINISH'
   ]);
