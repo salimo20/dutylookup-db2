@@ -14,7 +14,7 @@ export function buildDriverTimeline(baseEvents = [], timingPointsByPart = [], du
 
   const merged = [...baseWithoutFinish, ...timingEvents]
     .filter((event) => event.event_time)
-    .sort((a, b) => timeToMinutes(a.event_time) - timeToMinutes(b.event_time));
+    .sort((a, b) => timelineMinutes(a.event_time, duty.start_time) - timelineMinutes(b.event_time, duty.start_time));
 
   const cleaned = removeDuplicateSameTimeSamePlace(merged);
 
@@ -23,13 +23,15 @@ export function buildDriverTimeline(baseEvents = [], timingPointsByPart = [], du
 
 function addDutyCompletion(events = [], duty = {}) {
   const finishTime = duty.finish_time;
-  const finishMinutes = timeToMinutes(finishTime);
+  const finishMinutes = timelineMinutes(finishTime, duty.start_time);
   let finalEvents = [...events];
 
-  const lastTimingPoint = [...finalEvents].reverse().find((event) => event.event_type === 'TIMING_POINT');
+  const lastTimingPoint = [...finalEvents]
+    .reverse()
+    .find((event) => event.event_type === 'TIMING_POINT');
 
   if (lastTimingPoint) {
-    const lastMinutes = timeToMinutes(lastTimingPoint.event_time);
+    const lastMinutes = timelineMinutes(lastTimingPoint.event_time, duty.start_time);
     const gap = finishMinutes !== null && lastMinutes !== null ? finishMinutes - lastMinutes : null;
 
     if (gap !== null && gap >= 0 && gap <= 10) {
@@ -49,7 +51,9 @@ function addDutyCompletion(events = [], duty = {}) {
   });
 
   return removeDuplicateSameTimeSamePlace(
-    finalEvents.sort((a, b) => timeToMinutes(a.event_time) - timeToMinutes(b.event_time))
+    finalEvents.sort(
+      (a, b) => timelineMinutes(a.event_time, duty.start_time) - timelineMinutes(b.event_time, duty.start_time)
+    )
   );
 }
 
@@ -60,6 +64,7 @@ function removeDuplicateSameTimeSamePlace(events = []) {
     RESUME: 1,
     END_OF_DUTY: 1,
     SIGN_OFF: 1,
+    GARAGE: 1,
     TIMING_POINT: 2
   };
 
@@ -83,14 +88,30 @@ function removeDuplicateSameTimeSamePlace(events = []) {
 
 function isBetween(time, from, to) {
   const value = timeToMinutes(time);
-  const start = timeToMinutes(from);
-  const end = timeToMinutes(to);
+  let start = timeToMinutes(from);
+  let end = timeToMinutes(to);
 
   if (value === null) return false;
-  if (start !== null && value < start) return false;
-  if (end !== null && value > end) return false;
+  if (start === null || end === null) return true;
 
-  return true;
+  let adjustedValue = value;
+
+  if (end < start) {
+    end += 1440;
+    if (adjustedValue < start) adjustedValue += 1440;
+  }
+
+  return adjustedValue >= start && adjustedValue <= end;
+}
+
+function timelineMinutes(value, dutyStart) {
+  const minutes = timeToMinutes(value);
+  const start = timeToMinutes(dutyStart);
+
+  if (minutes === null) return 0;
+  if (start === null) return minutes;
+
+  return minutes < start ? minutes + 1440 : minutes;
 }
 
 function timeToMinutes(value) {

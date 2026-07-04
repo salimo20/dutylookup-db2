@@ -350,19 +350,22 @@ function filterDriverEvents(events = []) {
   return removeDuplicateDriverEvents(cleaned);
 }
 function removeDuplicateDriverEvents(events = []) {
+  const startEvent = events.find((event) => event.event_type === 'START');
+  const dutyStart = startEvent?.event_time;
+
   const priority = {
     START: 1,
     BREAK_START: 1,
     RESUME: 1,
     END_OF_DUTY: 1,
     SIGN_OFF: 1,
-    FINISH: 1,
+    GARAGE: 1,
     TIMING_POINT: 2
   };
 
   const sorted = [...events].sort((a, b) => {
-    const timeA = timeToMinutes(a.event_time);
-    const timeB = timeToMinutes(b.event_time);
+    const timeA = timelineMinutes(a.event_time, dutyStart);
+    const timeB = timelineMinutes(b.event_time, dutyStart);
 
     if (timeA !== timeB) return timeA - timeB;
 
@@ -372,7 +375,7 @@ function removeDuplicateDriverEvents(events = []) {
   const seen = new Set();
 
   return sorted.filter((event) => {
-    const key = `${event.event_time}|${normalizeDriverLocation(event.location)}`;
+    const key = `${timelineMinutes(event.event_time, dutyStart)}|${normalizeDriverLocation(event.location)}`;
 
     if (seen.has(key)) return false;
 
@@ -380,6 +383,17 @@ function removeDuplicateDriverEvents(events = []) {
     return true;
   });
 }
+
+function timelineMinutes(value, dutyStart) {
+  const minutes = timeToMinutes(value);
+  const start = timeToMinutes(dutyStart);
+
+  if (minutes === null) return 0;
+  if (start === null) return minutes;
+
+  return minutes < start ? minutes + 1440 : minutes;
+}
+
 
 function normalizeDriverLocation(value = '') {
   return String(value)
