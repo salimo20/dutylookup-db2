@@ -3,7 +3,7 @@
   "garage": "DB2",
   "zone": "DZ4",
   "sourceFile": "DB2-Z4-Routes E1-X1 Oct 2025.xlsx",
-  "generatedAt": "2026-07-03T09:45:18.523Z",
+  "generatedAt": "2026-07-04T00:48:53.662Z",
   "duties": [
     {
       "garage": "DB2",
@@ -76,20 +76,8 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:20",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "9:23",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:23",
           "location": "Eglinton Road",
           "notes": ""
         },
@@ -131,7 +119,8 @@
           "from": "9:23",
           "to": "11:20"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -204,21 +193,9 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:00",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "9:55",
           "location": "Donnybrook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:55",
-          "location": "D'Brook Church",
           "notes": ""
         },
         {
@@ -265,7 +242,8 @@
           "from": "9:55",
           "to": "12:20"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -338,40 +316,10 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:42",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "9:38",
           "location": "Donnybrook Church",
           "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:38",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:50",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "11:35",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "11:55",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
         },
         {
           "event_type": "SIGN_OFF",
@@ -398,6 +346,16 @@
           "part": 2,
           "from": "9:38",
           "to": "12:00"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441066",
+          "departure": "Bus 44B",
+          "origin": "17:50",
+          "destination": "X1",
+          "arrival": "19:40",
+          "garageArrival": "20:30"
         }
       ]
     },
@@ -436,56 +394,14 @@
           "location": "Donnybrook Garage"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:20",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:25",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:44",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:59",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "8:54",
           "location": "Donnybrook Church",
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:54",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "9:48",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:48",
           "location": "Eglinton Road",
           "notes": ""
         },
@@ -526,6 +442,16 @@
           "part": 2,
           "from": "9:48",
           "to": "11:50"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441051",
+          "departure": "Bus 11B",
+          "origin": "14:40",
+          "destination": "15:30",
+          "arrival": "15:50",
+          "garageArrival": "17:53"
         }
       ]
     },
@@ -598,34 +524,10 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:23",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "10:15",
           "location": "Eglinton Road",
           "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "11:25",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "11:40",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "12:20",
-          "location": "D'Brook Church",
-          "notes": "End of Duty"
         },
         {
           "event_type": "SIGN_OFF",
@@ -652,6 +554,16 @@
           "part": 2,
           "from": "10:15",
           "to": "12:25"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441068",
+          "departure": "Bus 42C",
+          "origin": "0:50",
+          "destination": "1:00",
+          "arrival": "1:40",
+          "garageArrival": "07:00"
         }
       ]
     },
@@ -724,34 +636,10 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:07",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "9:58",
           "location": "Eglinton Road",
           "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:58",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "11:15",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "12:00",
-          "location": "Ballymun Rd",
-          "notes": "End of Duty"
         },
         {
           "event_type": "SIGN_OFF",
@@ -778,6 +666,16 @@
           "part": 2,
           "from": "9:58",
           "to": "12:00"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441054",
+          "departure": "Bus 25B",
+          "origin": "15:45",
+          "destination": "16:00",
+          "arrival": "16:45",
+          "garageArrival": ""
         }
       ]
     },
@@ -850,12 +748,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:30",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "10:25",
           "location": "Eglinton Road",
@@ -905,7 +797,8 @@
           "from": "10:25",
           "to": "12:30"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -980,12 +873,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:20",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "10:10",
           "location": "Eglinton Road",
@@ -1035,7 +922,8 @@
           "from": "10:10",
           "to": "12:20"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -1122,7 +1010,8 @@
           "from": "5:10",
           "to": "9:45"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -1161,45 +1050,9 @@
           "location": "Donnybrook Garage"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:50",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:30",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:55",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:17",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:32",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "9:23",
           "location": "Donnybrook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:23",
-          "location": "D'Brook Church",
           "notes": ""
         },
         {
@@ -1251,6 +1104,16 @@
           "part": 2,
           "from": "10:20",
           "to": "12:40"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441062",
+          "departure": "Bus 40B",
+          "origin": "16:50",
+          "destination": "X1",
+          "arrival": "18:45",
+          "garageArrival": "19:35"
         }
       ]
     },
@@ -1339,7 +1202,8 @@
           "from": "5:20",
           "to": "9:53"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -1413,12 +1277,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:30",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "10:30",
           "location": "Donnybrook Church",
@@ -1468,7 +1326,8 @@
           "from": "10:30",
           "to": "12:50"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -1503,45 +1362,9 @@
           "location": "Donnybrook Garage"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:50",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:38",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:53",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "9:38",
           "location": "Donnybrook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:38",
-          "location": "D'Brook Church",
           "notes": ""
         },
         {
@@ -1593,6 +1416,16 @@
           "part": 2,
           "from": "10:35",
           "to": "12:55"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441066",
+          "departure": "Bus 44B",
+          "origin": "17:50",
+          "destination": "X1",
+          "arrival": "19:40",
+          "garageArrival": "20:30"
         }
       ]
     },
@@ -1665,12 +1498,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:55",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "10:55",
           "location": "Eglinton Road",
@@ -1720,7 +1547,8 @@
           "from": "10:55",
           "to": "13:10"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -1755,48 +1583,6 @@
           "location": "Donnybrook Garage"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "06:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:30",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:40",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:35",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:58",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "9:38",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "09:58",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "10:03",
           "location": "",
@@ -1812,6 +1598,16 @@
           "part": 1,
           "from": "5:40",
           "to": "10:03"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441054",
+          "departure": "Bus 25B",
+          "origin": "15:45",
+          "destination": "16:00",
+          "arrival": "16:45",
+          "garageArrival": ""
         }
       ]
     },
@@ -1884,12 +1680,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:45",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "10:50",
           "location": "Donnybrook Church",
@@ -1939,7 +1729,8 @@
           "from": "10:50",
           "to": "13:10"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -2059,7 +1850,8 @@
           "from": "11:05",
           "to": "13:20"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -2130,12 +1922,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:55",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "11:00",
           "location": "Donnybrook Church",
@@ -2185,7 +1971,8 @@
           "from": "11:00",
           "to": "13:20"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -2305,7 +2092,8 @@
           "from": "11:10",
           "to": "13:30"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -2341,44 +2129,8 @@
         },
         {
           "event_type": "TIMING_POINT",
-          "event_time": "6:32",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
           "event_time": "07:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:55",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "9:15",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "9:55",
-          "location": "Foxrock Church",
+          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -2437,6 +2189,16 @@
           "from": "11:15",
           "to": "13:25"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441068",
+          "departure": "Bus 42C",
+          "origin": "0:50",
+          "destination": "1:00",
+          "arrival": "1:40",
+          "garageArrival": "07:00"
+        }
       ]
     },
     {
@@ -2472,36 +2234,6 @@
           "location": "Donnybrook Garage"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:43",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:23",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:48",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "9:15",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "10:05",
-          "location": "Ballymun Rd",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "10:05",
           "location": "",
@@ -2517,6 +2249,16 @@
           "part": 1,
           "from": "6:03",
           "to": "10:05"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441058",
+          "departure": "Bus 31B",
+          "origin": "16:12",
+          "destination": "16:57",
+          "arrival": "18:30",
+          "garageArrival": ""
         }
       ]
     },
@@ -2638,7 +2380,8 @@
           "from": "11:30",
           "to": "13:30"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -2758,7 +2501,8 @@
           "from": "11:35",
           "to": "13:55"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -2851,7 +2595,8 @@
           "from": "6:10",
           "to": "10:35"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -2888,13 +2633,13 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "6:50",
-          "location": "Ballywaltrim",
+          "location": "Killcoole",
           "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
           "event_time": "8:45",
-          "location": "D'Brook Church",
+          "location": "Hawkins St.",
           "notes": ""
         },
         {
@@ -2906,7 +2651,7 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "09:15",
-          "location": "Ballywaltrim",
+          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -2976,6 +2721,16 @@
           "part": 2,
           "from": "10:05",
           "to": "14:50"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "X1",
+          "departure": "6:50",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "8:45",
+          "garageArrival": "09:15"
         }
       ]
     },
@@ -3070,7 +2825,8 @@
           "from": "6:13",
           "to": "10:45"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -3103,30 +2859,6 @@
           "event_type": "START",
           "event_time": "6:13",
           "location": "Donnybrook Garage"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:53",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:38",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:03",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "9:25",
-          "location": "Northwood",
-          "notes": ""
         },
         {
           "event_type": "BREAK_START",
@@ -3184,6 +2916,16 @@
           "from": "12:15",
           "to": "14:50"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441067",
+          "departure": "Bus 11C",
+          "origin": "18:30",
+          "destination": "X1",
+          "arrival": "20:05",
+          "garageArrival": "20:55"
+        }
       ]
     },
     {
@@ -3221,13 +2963,13 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "7:00",
-          "location": "Ballywaltrim",
+          "location": "Killcoole",
           "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
           "event_time": "9:00",
-          "location": "D'Brook Church",
+          "location": "Hawkins St.",
           "notes": ""
         },
         {
@@ -3239,7 +2981,7 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "09:30",
-          "location": "Ballywaltrim",
+          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -3310,6 +3052,16 @@
           "from": "10:40",
           "to": "15:18"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "X1",
+          "departure": "7:00",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "9:00",
+          "garageArrival": "09:30"
+        }
       ]
     },
     {
@@ -3347,13 +3099,13 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "7:10",
-          "location": "Ballywaltrim",
+          "location": "Killcoole",
           "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
           "event_time": "9:10",
-          "location": "D'Brook Church",
+          "location": "Hawkins St.",
           "notes": ""
         },
         {
@@ -3365,7 +3117,7 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "09:40",
-          "location": "Ballywaltrim",
+          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -3435,6 +3187,16 @@
           "part": 2,
           "from": "10:45",
           "to": "15:30"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "X1",
+          "departure": "7:10",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "9:10",
+          "garageArrival": "09:40"
         }
       ]
     },
@@ -3513,24 +3275,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "13:45",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:35",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "14:55",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "15:00",
           "location": "",
@@ -3555,6 +3299,16 @@
           "part": 2,
           "from": "12:20",
           "to": "15:00"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441068",
+          "departure": "Bus 42C",
+          "origin": "0:50",
+          "destination": "1:00",
+          "arrival": "1:40",
+          "garageArrival": "07:00"
         }
       ]
     },
@@ -3589,30 +3343,6 @@
           "event_type": "START",
           "event_time": "6:23",
           "location": "Donnybrook Garage"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:23",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:38",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:33",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "9:48",
-          "location": "Ballywaltrim",
-          "notes": ""
         },
         {
           "event_type": "BREAK_START",
@@ -3669,6 +3399,16 @@
           "part": 2,
           "from": "12:25",
           "to": "15:10"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441063",
+          "departure": "Bus 42B",
+          "origin": "E1 Short",
+          "destination": "17:30",
+          "arrival": "17:55",
+          "garageArrival": "19:22"
         }
       ]
     },
@@ -3790,7 +3530,8 @@
           "from": "12:50",
           "to": "15:20"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -3883,7 +3624,8 @@
           "from": "11:40",
           "to": "16:23"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -4021,7 +3763,8 @@
           "from": "17:37",
           "to": "21:35"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -4141,7 +3884,8 @@
           "from": "15:15",
           "to": "20:05"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -4174,30 +3918,6 @@
           "event_type": "START",
           "event_time": "11:55",
           "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "13:15",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "13:30",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:20",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:38",
-          "location": "Ballywaltrim",
-          "notes": ""
         },
         {
           "event_type": "BREAK_START",
@@ -4272,6 +3992,16 @@
           "part": 2,
           "from": "17:24",
           "to": "21:30"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441066",
+          "departure": "Bus 44B",
+          "origin": "17:50",
+          "destination": "X1",
+          "arrival": "19:40",
+          "garageArrival": "20:30"
         }
       ]
     },
@@ -4366,7 +4096,8 @@
           "from": "12:15",
           "to": "17:04"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -4498,7 +4229,8 @@
           "from": "18:55",
           "to": "22:23"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -4575,33 +4307,9 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:45",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:20",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:40",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:34",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
           "event_type": "END_OF_DUTY",
           "event_time": "22:20",
-          "location": "Ballymun Rd",
+          "location": "Donnybrook Garage",
           "notes": "End of Duty"
         },
         {
@@ -4629,6 +4337,16 @@
           "part": 2,
           "from": "18:30",
           "to": "22:20"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441053",
+          "departure": "Bus 1B",
+          "origin": "15:03",
+          "destination": "15:53",
+          "arrival": "16:13",
+          "garageArrival": "22:20"
         }
       ]
     },
@@ -4750,7 +4468,8 @@
           "from": "16:40",
           "to": "20:55"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -4843,7 +4562,8 @@
           "from": "16:23",
           "to": "20:44"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -4957,7 +4677,8 @@
           "from": "17:04",
           "to": "21:00"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -5077,7 +4798,8 @@
           "from": "18:05",
           "to": "22:00"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -5197,7 +4919,8 @@
           "from": "18:28",
           "to": "22:20"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -5246,38 +4969,8 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "18:30",
-          "location": "Northwood",
+          "location": "16:57",
           "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:40",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:20",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "21:15",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
         },
         {
           "event_type": "SIGN_OFF",
@@ -5295,6 +4988,16 @@
           "part": 2,
           "from": "17:17",
           "to": "21:20"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441058",
+          "departure": "Bus 31B",
+          "origin": "16:12",
+          "destination": "16:57",
+          "arrival": "18:30",
+          "garageArrival": ""
         }
       ]
     },
@@ -5416,7 +5119,8 @@
           "from": "18:08",
           "to": "22:25"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -5453,31 +5157,7 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "15:25",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:15",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:35",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:00",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:10",
-          "location": "Ballymun Rd",
+          "location": "13:20",
           "notes": ""
         },
         {
@@ -5535,6 +5215,16 @@
           "part": 2,
           "from": "20:00",
           "to": "21:55"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441047",
+          "departure": "Bus 21B",
+          "origin": "13:05",
+          "destination": "13:20",
+          "arrival": "15:25",
+          "garageArrival": ""
         }
       ]
     },
@@ -5656,7 +5346,8 @@
           "from": "18:35",
           "to": "22:30"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -5703,36 +5394,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:20",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:30",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:10",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:02",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "23:32",
-          "location": "Foxrock Church",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "23:32",
           "location": "",
@@ -5748,6 +5409,16 @@
           "part": 2,
           "from": "20:20",
           "to": "23:32"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "X1",
+          "departure": "6:50",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "8:45",
+          "garageArrival": "09:15"
         }
       ]
     },
@@ -5782,30 +5453,6 @@
           "event_type": "START",
           "event_time": "14:55",
           "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:15",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:30",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:15",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:40",
-          "location": "Ballywaltrim",
-          "notes": ""
         },
         {
           "event_type": "BREAK_START",
@@ -5875,6 +5522,16 @@
           "from": "20:10",
           "to": "23:22"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441068",
+          "departure": "Bus 42C",
+          "origin": "0:50",
+          "destination": "1:00",
+          "arrival": "1:40",
+          "garageArrival": "07:00"
+        }
       ]
     },
     {
@@ -5910,30 +5567,6 @@
           "location": "Donnybrook Garage"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:33",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:23",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:43",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:00",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "18:45",
           "location": "Donnybrook Garage",
@@ -5944,42 +5577,6 @@
           "event_time": "19:50",
           "location": "Donnybrook Church",
           "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:00",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:30",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:45",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:30",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:40",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "23:20",
-          "location": "D'Brook Church",
-          "notes": "End of Duty"
         },
         {
           "event_type": "SIGN_OFF",
@@ -6006,6 +5603,24 @@
           "part": 2,
           "from": "19:50",
           "to": "23:25"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "X1",
+          "departure": "7:30",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "9:30",
+          "garageArrival": "10:00"
+        },
+        {
+          "route": "X1",
+          "departure": "7:50",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "9:50",
+          "garageArrival": "10:20"
         }
       ]
     },
@@ -6066,36 +5681,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:20",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:30",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:10",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "22:45",
-          "location": "Foxrock Church",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "22:45",
           "location": "",
@@ -6120,6 +5705,16 @@
           "part": 2,
           "from": "19:15",
           "to": "22:45"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441048",
+          "departure": "Bus 4B",
+          "origin": "13:30",
+          "destination": "14:15",
+          "arrival": "15:53",
+          "garageArrival": ""
         }
       ]
     },
@@ -6184,7 +5779,8 @@
           "from": "19:40",
           "to": "0:33"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -6298,7 +5894,8 @@
           "from": "22:15",
           "to": "23:51"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -6382,6 +5979,16 @@
           "from": "19:05",
           "to": "0:02"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "X1",
+          "departure": "7:40",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "9:40",
+          "garageArrival": "10:10"
+        }
       ]
     },
     {
@@ -6425,25 +6032,7 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "17:20",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:22",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:24",
-          "location": "Northwood",
+          "location": "15:00",
           "notes": ""
         },
         {
@@ -6477,6 +6066,24 @@
           "part": 2,
           "from": "21:15",
           "to": "0:12"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441050",
+          "departure": "Bus 10B",
+          "origin": "14:45",
+          "destination": "15:00",
+          "arrival": "17:20",
+          "garageArrival": "20:09"
+        },
+        {
+          "route": "02441058",
+          "departure": "Bus 31B",
+          "origin": "16:12",
+          "destination": "16:57",
+          "arrival": "18:30",
+          "garageArrival": ""
         }
       ]
     },
@@ -6541,7 +6148,8 @@
           "from": "21:25",
           "to": "0:22"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -6612,6 +6220,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "20:03",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "21:30",
           "location": "Eglinton Road",
@@ -6637,7 +6251,8 @@
           "from": "21:30",
           "to": "0:32"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -6751,7 +6366,8 @@
           "from": "19:30",
           "to": "22:55"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -6822,6 +6438,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "20:11",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "21:55",
           "location": "Eglinton Road",
@@ -6847,7 +6469,8 @@
           "from": "21:55",
           "to": "0:52"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -6949,7 +6572,8 @@
           "from": "22:05",
           "to": "1:02"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -7020,6 +6644,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "20:26",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "21:50",
           "location": "Donnybrook Church",
@@ -7045,7 +6675,8 @@
           "from": "21:50",
           "to": "1:03"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -7129,6 +6760,16 @@
           "from": "19:50",
           "to": "0:43"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441059",
+          "departure": "Bus 34B",
+          "origin": "16:30",
+          "destination": "16:45",
+          "arrival": "17:30",
+          "garageArrival": ""
+        }
       ]
     },
     {
@@ -7192,7 +6833,8 @@
           "from": "22:20",
           "to": "1:23"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -7312,7 +6954,8 @@
           "from": "13:05",
           "to": "15:30"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -7349,19 +6992,25 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "7:30",
-          "location": "Ballywaltrim",
+          "location": "Killcoole",
           "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
           "event_time": "9:30",
-          "location": "D'Brook Church",
+          "location": "Hawkins St.",
           "notes": ""
         },
         {
           "event_type": "BREAK_START",
           "event_time": "10:00",
           "location": "Garage (X1)",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:00",
+          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -7431,6 +7080,16 @@
           "part": 2,
           "from": "11:25",
           "to": "16:10"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "X1",
+          "departure": "7:30",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "9:30",
+          "garageArrival": "10:00"
         }
       ]
     },
@@ -7552,7 +7211,8 @@
           "from": "13:15",
           "to": "15:50"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -7589,19 +7249,25 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "7:40",
-          "location": "Ballywaltrim",
+          "location": "Killcoole",
           "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
           "event_time": "9:40",
-          "location": "D'Brook Church",
+          "location": "Hawkins St.",
           "notes": ""
         },
         {
           "event_type": "BREAK_START",
           "event_time": "10:10",
           "location": "Garage (X1)",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:10",
+          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -7671,6 +7337,16 @@
           "part": 2,
           "from": "13:15",
           "to": "18:10"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "X1",
+          "departure": "7:40",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "9:40",
+          "garageArrival": "10:10"
         }
       ]
     },
@@ -7765,7 +7441,8 @@
           "from": "6:43",
           "to": "11:00"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -7858,7 +7535,8 @@
           "from": "6:50",
           "to": "11:15"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -7895,19 +7573,25 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "7:50",
-          "location": "Ballywaltrim",
+          "location": "Killcoole",
           "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
           "event_time": "9:50",
-          "location": "D'Brook Church",
+          "location": "Hawkins St.",
           "notes": ""
         },
         {
           "event_type": "BREAK_START",
           "event_time": "10:20",
           "location": "Garage (X1)",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:20",
+          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -7978,6 +7662,16 @@
           "from": "13:35",
           "to": "18:33"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "X1",
+          "departure": "7:50",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "9:50",
+          "garageArrival": "10:20"
+        }
       ]
     },
     {
@@ -8043,6 +7737,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:46",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "14:15",
           "location": "Donnybrook Garage",
@@ -8065,7 +7765,8 @@
           "from": "6:50",
           "to": "10:46"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -8197,7 +7898,8 @@
           "from": "14:25",
           "to": "18:40"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -8230,30 +7932,6 @@
           "event_type": "START",
           "event_time": "7:04",
           "location": "Donnybrook Garage"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:04",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:19",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "9:13",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:25",
-          "location": "Ballywaltrim",
-          "notes": ""
         },
         {
           "event_type": "BREAK_START",
@@ -8323,6 +8001,16 @@
           "from": "14:30",
           "to": "18:50"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441053",
+          "departure": "Bus 1B",
+          "origin": "15:03",
+          "destination": "15:53",
+          "arrival": "16:13",
+          "garageArrival": "22:20"
+        }
       ]
     },
     {
@@ -8388,6 +8076,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "11:15",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "14:57",
           "location": "Donnybrook Garage",
@@ -8410,7 +8104,8 @@
           "from": "7:18",
           "to": "11:15"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -8445,30 +8140,6 @@
           "location": "Donnybrook Garage"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:24",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:39",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "9:24",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:38",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "11:13",
           "location": "Donnybrook Garage",
@@ -8496,6 +8167,16 @@
           "part": 1,
           "from": "7:24",
           "to": "11:13"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441064",
+          "departure": "Bus 14B",
+          "origin": "17:30",
+          "destination": "X1",
+          "arrival": "19:25",
+          "garageArrival": "20:15"
         }
       ]
     },
@@ -8629,7 +8310,8 @@
           "from": "14:45",
           "to": "19:10"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -8708,38 +8390,8 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "15:53",
-          "location": "Northwood",
+          "location": "14:15",
           "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:08",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:53",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:25",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "19:15",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
         },
         {
           "event_type": "SIGN_OFF",
@@ -8766,6 +8418,16 @@
           "part": 2,
           "from": "14:35",
           "to": "19:20"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441048",
+          "departure": "Bus 4B",
+          "origin": "13:30",
+          "destination": "14:15",
+          "arrival": "15:53",
+          "garageArrival": ""
         }
       ]
     },
@@ -8803,12 +8465,6 @@
         },
         {
           "event_type": "TIMING_POINT",
-          "event_time": "08:20",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
           "event_time": "9:45",
           "location": "Ballywaltrim",
           "notes": ""
@@ -8817,6 +8473,12 @@
           "event_type": "BREAK_START",
           "event_time": "10:20",
           "location": "Donnybrook Garage",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "10:20",
+          "location": "Foxrock Church",
           "notes": ""
         },
         {
@@ -8887,7 +8549,8 @@
           "from": "13:25",
           "to": "18:23"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -8920,12 +8583,6 @@
           "event_type": "START",
           "event_time": "8:42",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:42",
-          "location": "D'Brook Church",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -8968,7 +8625,8 @@
           "from": "8:42",
           "to": "11:05"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -9003,18 +8661,6 @@
           "location": "Donnybrook Church"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:54",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:05",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "10:40",
           "location": "Donnybrook Garage",
@@ -9042,6 +8688,16 @@
           "part": 1,
           "from": "8:54",
           "to": "10:40"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441051",
+          "departure": "Bus 11B",
+          "origin": "14:40",
+          "destination": "15:30",
+          "arrival": "15:50",
+          "garageArrival": "17:53"
         }
       ]
     },
@@ -9076,12 +8732,6 @@
           "event_type": "START",
           "event_time": "9:00",
           "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:00",
-          "location": "Eglinton Road",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -9142,7 +8792,8 @@
           "from": "9:00",
           "to": "13:35"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -9178,12 +8829,6 @@
         },
         {
           "event_type": "TIMING_POINT",
-          "event_time": "09:07",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
           "event_time": "10:25",
           "location": "Ballywaltrim",
           "notes": ""
@@ -9209,31 +8854,13 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "16:50",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:30",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:50",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:54",
-          "location": "Northwood",
+          "location": "14:30",
           "notes": ""
         },
         {
           "event_type": "END_OF_DUTY",
           "event_time": "19:38",
-          "location": "Ballymun Rd",
+          "location": "Donnybrook Garage",
           "notes": "End of Duty"
         },
         {
@@ -9261,6 +8888,16 @@
           "part": 2,
           "from": "15:20",
           "to": "19:38"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441049",
+          "departure": "Bus 5B",
+          "origin": "14:15",
+          "destination": "14:30",
+          "arrival": "16:50",
+          "garageArrival": "19:38"
         }
       ]
     },
@@ -9295,12 +8932,6 @@
           "event_type": "START",
           "event_time": "9:20",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:20",
-          "location": "D'Brook Church",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -9388,7 +9019,8 @@
           "from": "14:45",
           "to": "19:35"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -9421,18 +9053,6 @@
           "event_type": "START",
           "event_time": "9:23",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:23",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:35",
-          "location": "Ballywaltrim",
-          "notes": ""
         },
         {
           "event_type": "BREAK_START",
@@ -9502,6 +9122,16 @@
           "from": "15:25",
           "to": "19:47"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441062",
+          "departure": "Bus 40B",
+          "origin": "16:50",
+          "destination": "X1",
+          "arrival": "18:45",
+          "garageArrival": "19:35"
+        }
       ]
     },
     {
@@ -9535,12 +9165,6 @@
           "event_type": "START",
           "event_time": "9:30",
           "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:30",
-          "location": "Eglinton Road",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -9601,7 +9225,8 @@
           "from": "9:30",
           "to": "13:55"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -9634,12 +9259,6 @@
           "event_type": "START",
           "event_time": "9:30",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:30",
-          "location": "D'Brook Church",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -9721,7 +9340,8 @@
           "from": "15:25",
           "to": "19:40"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -9754,12 +9374,6 @@
           "event_type": "START",
           "event_time": "9:40",
           "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:40",
-          "location": "Eglinton Road",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -9847,7 +9461,8 @@
           "from": "15:05",
           "to": "19:45"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -9880,12 +9495,6 @@
           "event_type": "START",
           "event_time": "9:45",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:45",
-          "location": "D'Brook Church",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -9946,7 +9555,8 @@
           "from": "9:45",
           "to": "14:30"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -9979,12 +9589,6 @@
           "event_type": "START",
           "event_time": "9:55",
           "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:55",
-          "location": "Eglinton Road",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -10066,7 +9670,8 @@
           "from": "17:30",
           "to": "19:29"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -10168,6 +9773,16 @@
           "from": "22:55",
           "to": "2:20"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441054",
+          "departure": "Bus 25B",
+          "origin": "15:45",
+          "destination": "16:00",
+          "arrival": "16:45",
+          "garageArrival": ""
+        }
       ]
     },
     {
@@ -10209,36 +9824,6 @@
           "location": "Donnybrook Church"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:40",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:05",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:40",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:50",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "22:30",
           "location": "Donnybrook Church",
@@ -10269,6 +9854,24 @@
           "part": 2,
           "from": "23:20",
           "to": "3:45"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441047",
+          "departure": "Bus 21B",
+          "origin": "13:05",
+          "destination": "13:20",
+          "arrival": "15:25",
+          "garageArrival": ""
+        },
+        {
+          "route": "X1",
+          "departure": "7:50",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "9:50",
+          "garageArrival": "10:20"
         }
       ]
     },
@@ -10311,36 +9914,6 @@
           "location": "Eglinton Road"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:10",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:20",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:00",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:40",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "22:55",
           "location": "Eglinton Road",
@@ -10362,6 +9935,16 @@
           "part": 1,
           "from": "19:10",
           "to": "22:55"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441054",
+          "departure": "Bus 25B",
+          "origin": "15:45",
+          "destination": "16:00",
+          "arrival": "16:45",
+          "garageArrival": ""
         }
       ]
     },
@@ -10405,42 +9988,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "02:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:40",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:32",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "06:00",
-          "location": "Foxrock Church",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "6:00",
           "location": "",
@@ -10470,6 +10017,16 @@
           "part": 2,
           "from": "2:15",
           "to": "6:00"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441054",
+          "departure": "Bus 25B",
+          "origin": "15:45",
+          "destination": "16:00",
+          "arrival": "16:45",
+          "garageArrival": ""
         }
       ]
     },
@@ -10513,36 +10070,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "02:40",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:58",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "5:42",
           "location": "",
@@ -10572,6 +10099,16 @@
           "part": 2,
           "from": "2:40",
           "to": "5:42"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441047",
+          "departure": "Bus 21B",
+          "origin": "13:05",
+          "destination": "13:20",
+          "arrival": "15:25",
+          "garageArrival": ""
         }
       ]
     },
@@ -10615,51 +10152,9 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "03:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:40",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:32",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
           "event_type": "END_OF_DUTY",
           "event_time": "07:00",
-          "location": "Foxrock Church",
+          "location": "Donnybrook Garage",
           "notes": "End of Duty"
         },
         {
@@ -10692,6 +10187,16 @@
           "part": 2,
           "from": "3:15",
           "to": "7:00"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441068",
+          "departure": "Bus 42C",
+          "origin": "0:50",
+          "destination": "1:00",
+          "arrival": "1:40",
+          "garageArrival": "07:00"
         }
       ]
     },
@@ -10735,36 +10240,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "03:40",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:58",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "6:43",
           "location": "",
@@ -10794,6 +10269,24 @@
           "part": 2,
           "from": "3:40",
           "to": "6:43"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441047",
+          "departure": "Bus 21B",
+          "origin": "13:05",
+          "destination": "13:20",
+          "arrival": "15:25",
+          "garageArrival": ""
+        },
+        {
+          "route": "X1",
+          "departure": "7:50",
+          "origin": "Killcoole",
+          "destination": "Hawkins St.",
+          "arrival": "9:50",
+          "garageArrival": "10:20"
         }
       ]
     },
@@ -10900,7 +10393,8 @@
           "from": "4:55",
           "to": "9:45"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -10971,12 +10465,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:35",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "9:57",
           "location": "Donnybrook Garage",
@@ -10999,7 +10487,8 @@
           "from": "5:05",
           "to": "8:35"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -11070,12 +10559,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:05",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "9:02",
           "location": "Donnybrook Garage",
@@ -11098,7 +10581,8 @@
           "from": "5:10",
           "to": "8:05"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -11169,12 +10653,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:55",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "10:00",
           "location": "Donnybrook Church",
@@ -11224,7 +10702,8 @@
           "from": "10:00",
           "to": "12:25"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -11295,21 +10774,9 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:20",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "9:20",
           "location": "Donnybrook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:20",
-          "location": "D'Brook Church",
           "notes": ""
         },
         {
@@ -11356,7 +10823,8 @@
           "from": "9:20",
           "to": "11:45"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -11461,7 +10929,8 @@
           "from": "5:30",
           "to": "11:10"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -11532,12 +11001,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:30",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "9:22",
           "location": "Donnybrook Garage",
@@ -11560,7 +11023,8 @@
           "from": "5:40",
           "to": "8:30"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -11631,12 +11095,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:20",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "10:30",
           "location": "Donnybrook Church",
@@ -11686,7 +11144,8 @@
           "from": "10:30",
           "to": "12:55"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -11757,12 +11216,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:45",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "9:42",
           "location": "Donnybrook Garage",
@@ -11785,7 +11238,8 @@
           "from": "5:55",
           "to": "8:45"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -11890,7 +11344,8 @@
           "from": "6:00",
           "to": "11:30"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -12028,7 +11483,8 @@
           "from": "12:30",
           "to": "15:05"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -12099,12 +11555,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:20",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "10:40",
           "location": "Eglinton Road",
@@ -12172,7 +11622,8 @@
           "from": "10:40",
           "to": "15:15"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -12243,12 +11694,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:50",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "11:05",
           "location": "Donnybrook Church",
@@ -12316,7 +11761,8 @@
           "from": "11:05",
           "to": "15:45"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -12454,7 +11900,8 @@
           "from": "11:20",
           "to": "15:55"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -12574,7 +12021,8 @@
           "from": "13:00",
           "to": "15:35"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -12607,12 +12055,6 @@
           "event_type": "START",
           "event_time": "8:05",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:05",
-          "location": "D'Brook Church",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -12657,24 +12099,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:20",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "15:40",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "15:45",
           "location": "",
@@ -12699,6 +12123,16 @@
           "part": 2,
           "from": "13:10",
           "to": "15:45"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441023",
+          "departure": "Bus 23",
+          "origin": "10:10",
+          "destination": "10:50",
+          "arrival": "11:10",
+          "garageArrival": ""
         }
       ]
     },
@@ -12832,7 +12266,8 @@
           "from": "12:50",
           "to": "16:56"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -12865,12 +12300,6 @@
           "event_type": "START",
           "event_time": "8:20",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:20",
-          "location": "D'Brook Church",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -12915,24 +12344,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:55",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:40",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "16:00",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "16:05",
           "location": "",
@@ -12957,6 +12368,16 @@
           "part": 2,
           "from": "13:25",
           "to": "16:05"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441024",
+          "departure": "Bus 24A",
+          "origin": "10:30",
+          "destination": "11:10",
+          "arrival": "11:30",
+          "garageArrival": ""
         }
       ]
     },
@@ -13096,7 +12517,8 @@
           "from": "13:10",
           "to": "17:45"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -13129,12 +12551,6 @@
           "event_type": "START",
           "event_time": "8:30",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:30",
-          "location": "D'Brook Church",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -13222,7 +12638,8 @@
           "from": "11:40",
           "to": "16:15"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -13342,7 +12759,8 @@
           "from": "13:40",
           "to": "15:55"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -13375,12 +12793,6 @@
           "event_type": "START",
           "event_time": "8:35",
           "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:35",
-          "location": "Eglinton Road",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -13468,7 +12880,8 @@
           "from": "11:25",
           "to": "16:05"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -13545,42 +12958,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:35",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:50",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:30",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:50",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:30",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "17:50",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "17:55",
           "location": "",
@@ -13605,6 +12982,16 @@
           "part": 2,
           "from": "13:20",
           "to": "17:55"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441032",
+          "departure": "Bus 19B",
+          "origin": "22:35",
+          "destination": "22:45",
+          "arrival": "23:25",
+          "garageArrival": "05:10"
         }
       ]
     },
@@ -13639,12 +13026,6 @@
           "event_type": "START",
           "event_time": "8:45",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:45",
-          "location": "D'Brook Church",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -13726,7 +13107,8 @@
           "from": "14:00",
           "to": "16:05"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -13763,31 +13145,7 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "13:05",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "13:20",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:05",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:25",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:10",
-          "location": "Foxrock Church",
+          "location": "11:30",
           "notes": ""
         },
         {
@@ -13857,6 +13215,16 @@
           "part": 2,
           "from": "17:30",
           "to": "20:55"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441026",
+          "departure": "Bus 26",
+          "origin": "10:45",
+          "destination": "11:30",
+          "arrival": "13:05",
+          "garageArrival": ""
         }
       ]
     },
@@ -13935,18 +13303,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:05",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "20:00",
-          "location": "Ballymun Rd",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "20:00",
           "location": "",
@@ -13971,6 +13327,16 @@
           "part": 2,
           "from": "17:50",
           "to": "20:00"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441032",
+          "departure": "Bus 19B",
+          "origin": "22:35",
+          "destination": "22:45",
+          "arrival": "23:25",
+          "garageArrival": "05:10"
         }
       ]
     },
@@ -14065,7 +13431,8 @@
           "from": "12:00",
           "to": "16:40"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -14179,7 +13546,8 @@
           "from": "16:00",
           "to": "20:15"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -14272,7 +13640,8 @@
           "from": "17:15",
           "to": "20:50"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -14410,7 +13779,8 @@
           "from": "17:40",
           "to": "21:20"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -14524,7 +13894,8 @@
           "from": "18:50",
           "to": "20:50"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -14586,6 +13957,12 @@
           "event_type": "BREAK_START",
           "event_time": "16:45",
           "location": "Donnybrook Garage",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "16:45",
+          "location": "Ballymun Rd",
           "notes": ""
         },
         {
@@ -14656,7 +14033,8 @@
           "from": "17:50",
           "to": "21:55"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -14703,42 +14081,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:40",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:15",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:35",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:35",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:45",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "21:20",
-          "location": "D'Brook Church",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "21:25",
           "location": "",
@@ -14754,6 +14096,16 @@
           "part": 2,
           "from": "17:25",
           "to": "21:25"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441022",
+          "departure": "Bus 22",
+          "origin": "9:50",
+          "destination": "10:30",
+          "arrival": "10:50",
+          "garageArrival": ""
         }
       ]
     },
@@ -14875,7 +14227,8 @@
           "from": "18:50",
           "to": "20:45"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -14910,36 +14263,6 @@
           "location": "Donnybrook Church"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:20",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:25",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:40",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "17:25",
           "location": "Donnybrook Church",
@@ -14950,36 +14273,6 @@
           "event_time": "18:20",
           "location": "Donnybrook Church",
           "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:40",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:15",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:35",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:30",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "22:15",
-          "location": "Ballymun Rd",
-          "notes": "End of Duty"
         },
         {
           "event_type": "SIGN_OFF",
@@ -15006,6 +14299,24 @@
           "part": 2,
           "from": "18:20",
           "to": "22:15"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441022",
+          "departure": "Bus 22",
+          "origin": "9:50",
+          "destination": "10:30",
+          "arrival": "10:50",
+          "garageArrival": ""
+        },
+        {
+          "route": "02441028",
+          "departure": "Bus 28",
+          "origin": "12:55",
+          "destination": "13:10",
+          "arrival": "13:55",
+          "garageArrival": ""
         }
       ]
     },
@@ -15084,42 +14395,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:35",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:45",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:25",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "22:15",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "22:20",
           "location": "",
@@ -15144,6 +14419,16 @@
           "part": 2,
           "from": "18:30",
           "to": "22:20"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441029",
+          "departure": "Bus 29",
+          "origin": "13:05",
+          "destination": "13:50",
+          "arrival": "14:10",
+          "garageArrival": ""
         }
       ]
     },
@@ -15178,36 +14463,6 @@
           "event_type": "START",
           "event_time": "14:45",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:00",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:45",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:05",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:10",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:20",
-          "location": "Ballymun Rd",
-          "notes": ""
         },
         {
           "event_type": "BREAK_START",
@@ -15276,6 +14531,16 @@
           "part": 2,
           "from": "19:55",
           "to": "23:25"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441027",
+          "departure": "Bus 27",
+          "origin": "11:25",
+          "destination": "12:10",
+          "arrival": "12:30",
+          "garageArrival": ""
         }
       ]
     },
@@ -15397,7 +14662,8 @@
           "from": "20:45",
           "to": "22:25"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -15462,40 +14728,16 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "18:50",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "19:45",
           "location": "Eglinton Road",
           "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:40",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:50",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "23:25",
-          "location": "Foxrock Church",
-          "notes": "End of Duty"
         },
         {
           "event_type": "SIGN_OFF",
@@ -15522,6 +14764,16 @@
           "part": 2,
           "from": "19:45",
           "to": "23:25"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441023",
+          "departure": "Bus 23",
+          "origin": "10:10",
+          "destination": "10:50",
+          "arrival": "11:10",
+          "garageArrival": ""
         }
       ]
     },
@@ -15556,36 +14808,6 @@
           "event_type": "START",
           "event_time": "15:40",
           "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:45",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:40",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:55",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:30",
-          "location": "Foxrock Church",
-          "notes": ""
         },
         {
           "event_type": "BREAK_START",
@@ -15642,6 +14864,16 @@
           "part": 2,
           "from": "20:40",
           "to": "22:35"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441023",
+          "departure": "Bus 23",
+          "origin": "10:10",
+          "destination": "10:50",
+          "arrival": "11:10",
+          "garageArrival": ""
         }
       ]
     },
@@ -15720,24 +14952,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:15",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:45",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "23:00",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "23:05",
           "location": "",
@@ -15762,6 +14976,16 @@
           "part": 2,
           "from": "21:05",
           "to": "23:05"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441030",
+          "departure": "Bus 30",
+          "origin": "16:15",
+          "destination": "16:30",
+          "arrival": "17:10",
+          "garageArrival": ""
         }
       ]
     },
@@ -15847,6 +15071,16 @@
           "from": "19:00",
           "to": "0:10"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441027",
+          "departure": "Bus 27",
+          "origin": "11:25",
+          "destination": "12:10",
+          "arrival": "12:30",
+          "garageArrival": ""
+        }
       ]
     },
     {
@@ -15931,7 +15165,8 @@
           "from": "19:10",
           "to": "0:17"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -16033,6 +15268,16 @@
           "from": "21:20",
           "to": "0:47"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441022",
+          "departure": "Bus 22",
+          "origin": "9:50",
+          "destination": "10:30",
+          "arrival": "10:50",
+          "garageArrival": ""
+        }
       ]
     },
     {
@@ -16104,6 +15349,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "20:30",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "22:00",
           "location": "Eglinton Road",
@@ -16129,7 +15380,8 @@
           "from": "22:00",
           "to": "1:10"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -16170,30 +15422,6 @@
           "location": "Eglinton Road"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:40",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:50",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:30",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:46",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "20:21",
           "location": "Donnybrook Garage",
@@ -16224,6 +15452,16 @@
           "part": 2,
           "from": "21:15",
           "to": "0:25"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441026",
+          "departure": "Bus 26",
+          "origin": "10:45",
+          "destination": "11:30",
+          "arrival": "13:05",
+          "garageArrival": ""
         }
       ]
     },
@@ -16327,6 +15565,16 @@
           "from": "22:15",
           "to": "1:30"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441029",
+          "departure": "Bus 29",
+          "origin": "13:05",
+          "destination": "13:50",
+          "arrival": "14:10",
+          "garageArrival": ""
+        }
       ]
     },
     {
@@ -16398,6 +15646,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "20:40",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "21:50",
           "location": "Donnybrook Church",
@@ -16423,7 +15677,8 @@
           "from": "21:50",
           "to": "1:07"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -16555,7 +15810,8 @@
           "from": "14:20",
           "to": "18:35"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -16588,12 +15844,6 @@
           "event_type": "START",
           "event_time": "8:55",
           "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "08:55",
-          "location": "Eglinton Road",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -16638,24 +15888,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:30",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:40",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "18:20",
-          "location": "D'Brook Church",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "18:25",
           "location": "",
@@ -16680,6 +15912,16 @@
           "part": 2,
           "from": "16:20",
           "to": "18:25"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441028",
+          "departure": "Bus 28",
+          "origin": "12:55",
+          "destination": "13:10",
+          "arrival": "13:55",
+          "garageArrival": ""
         }
       ]
     },
@@ -16716,36 +15958,6 @@
           "location": "Donnybrook Garage"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:00",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:10",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:55",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "12:15",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "13:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "13:20",
           "location": "Eglinton Road",
@@ -16756,24 +15968,6 @@
           "event_time": "16:15",
           "location": "Donnybrook Church",
           "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:10",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "18:30",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
         },
         {
           "event_type": "SIGN_OFF",
@@ -16800,6 +15994,24 @@
           "part": 2,
           "from": "16:15",
           "to": "18:35"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441032",
+          "departure": "Bus 19B",
+          "origin": "22:35",
+          "destination": "22:45",
+          "arrival": "23:25",
+          "garageArrival": "05:10"
+        },
+        {
+          "route": "02441029",
+          "departure": "Bus 29",
+          "origin": "13:05",
+          "destination": "13:50",
+          "arrival": "14:10",
+          "garageArrival": ""
         }
       ]
     },
@@ -16834,12 +16046,6 @@
           "event_type": "START",
           "event_time": "9:20",
           "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:20",
-          "location": "Eglinton Road",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -16939,7 +16145,8 @@
           "from": "15:30",
           "to": "19:15"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -16972,12 +16179,6 @@
           "event_type": "START",
           "event_time": "9:40",
           "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:40",
-          "location": "Eglinton Road",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -17038,7 +16239,8 @@
           "from": "9:40",
           "to": "14:00"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -17071,12 +16273,6 @@
           "event_type": "START",
           "event_time": "9:50",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:50",
-          "location": "D'Brook Church",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -17164,7 +16360,8 @@
           "from": "17:00",
           "to": "18:55"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -17263,7 +16460,8 @@
           "from": "14:30",
           "to": "18:55"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -17310,36 +16508,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:05",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:20",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:00",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "19:45",
-          "location": "Foxrock Church",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "19:45",
           "location": "",
@@ -17355,6 +16523,16 @@
           "part": 2,
           "from": "16:00",
           "to": "19:45"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441024",
+          "departure": "Bus 24A",
+          "origin": "10:30",
+          "destination": "11:10",
+          "arrival": "11:30",
+          "garageArrival": ""
         }
       ]
     },
@@ -17458,6 +16636,16 @@
           "from": "23:00",
           "to": "3:20"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441030",
+          "departure": "Bus 30",
+          "origin": "16:15",
+          "destination": "16:30",
+          "arrival": "17:10",
+          "garageArrival": ""
+        }
       ]
     },
     {
@@ -17499,18 +16687,6 @@
           "location": "Eglinton Road"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:20",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:30",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "21:05",
           "location": "Donnybrook Church",
@@ -17541,6 +16717,16 @@
           "part": 2,
           "from": "22:20",
           "to": "2:40"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441030",
+          "departure": "Bus 30",
+          "origin": "16:15",
+          "destination": "16:30",
+          "arrival": "17:10",
+          "garageArrival": ""
         }
       ]
     },
@@ -17578,46 +16764,16 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "01:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "2:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:35",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:35",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "05:10",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "5:10",
           "location": "",
           "notes": "Sign Off"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "05:10",
+          "location": "Donnybrook Garage",
+          "notes": ""
         },
         {
           "event_type": "START",
@@ -17653,6 +16809,12 @@
           "event_time": "23:40",
           "location": "Donnybrook Garage",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:40",
+          "location": "Foxrock Church",
+          "notes": ""
         }
       ],
       "trip_parts": [
@@ -17673,6 +16835,16 @@
           "part": 2,
           "from": "1:15",
           "to": "5:10"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441032",
+          "departure": "Bus 19B",
+          "origin": "22:35",
+          "destination": "22:45",
+          "arrival": "23:25",
+          "garageArrival": "05:10"
         }
       ]
     },
@@ -17716,42 +16888,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "01:35",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:02",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "05:47",
-          "location": "Ballymun Rd",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "5:47",
           "location": "",
@@ -17781,6 +16917,24 @@
           "part": 2,
           "from": "1:35",
           "to": "5:47"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441031",
+          "departure": "Bus 1B",
+          "origin": "18:50",
+          "destination": "19:00",
+          "arrival": "19:40",
+          "garageArrival": "00:35"
+        },
+        {
+          "route": "02441026",
+          "departure": "Bus 26",
+          "origin": "10:45",
+          "destination": "11:30",
+          "arrival": "13:05",
+          "garageArrival": ""
         }
       ]
     },
@@ -17820,12 +16974,6 @@
         {
           "event_type": "RESUME",
           "event_time": "2:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "02:15",
           "location": "Eglinton Road",
           "notes": ""
         },
@@ -17875,7 +17023,8 @@
           "from": "2:15",
           "to": "6:10"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -17914,12 +17063,6 @@
           "event_type": "RESUME",
           "event_time": "2:35",
           "location": "Donnybrook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "02:35",
-          "location": "D'Brook Church",
           "notes": ""
         },
         {
@@ -17974,7 +17117,8 @@
           "from": "2:35",
           "to": "6:47"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -18016,36 +17160,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "03:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:35",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:25",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "7:00",
           "location": "",
@@ -18075,6 +17189,16 @@
           "part": 2,
           "from": "3:15",
           "to": "7:00"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441030",
+          "departure": "Bus 30",
+          "origin": "16:15",
+          "destination": "16:30",
+          "arrival": "17:10",
+          "garageArrival": ""
         }
       ]
     },
@@ -18183,7 +17307,8 @@
           "from": "4:50",
           "to": "10:05"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -18290,7 +17415,8 @@
           "from": "5:00",
           "to": "10:30"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -18397,7 +17523,8 @@
           "from": "5:50",
           "to": "11:10"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -18504,7 +17631,8 @@
           "from": "6:00",
           "to": "11:35"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -18577,12 +17705,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:20",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
           "event_type": "RESUME",
           "event_time": "10:20",
           "location": "Eglinton Road",
@@ -18650,7 +17772,8 @@
           "from": "10:20",
           "to": "14:40"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -18685,54 +17808,6 @@
           "event_type": "START",
           "event_time": "6:30",
           "location": "Donnybrook Garage"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "7:40",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:00",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "8:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "9:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "9:40",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:40",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "11:15",
-          "location": "Foxrock Church",
-          "notes": ""
         },
         {
           "event_type": "BREAK_START",
@@ -18789,6 +17864,16 @@
           "part": 2,
           "from": "12:50",
           "to": "15:00"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441019",
+          "departure": "Bus 18B",
+          "origin": "0:30",
+          "destination": "1:00",
+          "arrival": "1:10",
+          "garageArrival": ""
         }
       ]
     },
@@ -18930,7 +18015,8 @@
           "from": "11:30",
           "to": "15:45"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -19037,7 +18123,8 @@
           "from": "6:50",
           "to": "12:10"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -19116,42 +18203,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "12:35",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "12:45",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "13:25",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:50",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:30",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "15:50",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "15:55",
           "location": "",
@@ -19176,6 +18227,16 @@
           "part": 2,
           "from": "11:40",
           "to": "15:55"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441019",
+          "departure": "Bus 18B",
+          "origin": "0:30",
+          "destination": "1:00",
+          "arrival": "1:10",
+          "garageArrival": ""
         }
       ]
     },
@@ -19284,7 +18345,8 @@
           "from": "7:30",
           "to": "12:55"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -19383,7 +18445,8 @@
           "from": "7:50",
           "to": "13:10"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -19419,38 +18482,8 @@
         },
         {
           "event_type": "TIMING_POINT",
-          "event_time": "09:00",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:05",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:15",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
           "event_time": "11:00",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "12:05",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "12:45",
-          "location": "Foxrock Church",
+          "location": "10:15",
           "notes": ""
         },
         {
@@ -19509,6 +18542,16 @@
           "from": "14:05",
           "to": "16:00"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441012",
+          "departure": "Bus 12",
+          "origin": "10:05",
+          "destination": "10:15",
+          "arrival": "11:00",
+          "garageArrival": ""
+        }
       ]
     },
     {
@@ -19556,24 +18599,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "15:50",
-          "location": "D'Brook Church",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "15:55",
           "location": "",
@@ -19589,6 +18614,16 @@
           "part": 2,
           "from": "13:50",
           "to": "15:55"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441014",
+          "departure": "Bus 14",
+          "origin": "10:50",
+          "destination": "11:00",
+          "arrival": "11:45",
+          "garageArrival": ""
         }
       ]
     },
@@ -19623,12 +18658,6 @@
           "event_type": "START",
           "event_time": "9:20",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:20",
-          "location": "D'Brook Church",
-          "notes": ""
         },
         {
           "event_type": "TIMING_POINT",
@@ -19683,7 +18712,8 @@
           "from": "9:20",
           "to": "13:25"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -19724,7 +18754,8 @@
           "notes": "Sign Off"
         }
       ],
-      "trip_parts": []
+      "trip_parts": [],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -19811,7 +18842,8 @@
           "from": "10:00",
           "to": "14:10"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -19858,42 +18890,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:05",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:15",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:55",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:05",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:40",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "20:05",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "20:10",
           "location": "",
@@ -19909,6 +18905,16 @@
           "part": 2,
           "from": "16:15",
           "to": "20:10"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441015",
+          "departure": "Bus 15",
+          "origin": "10:50",
+          "destination": "11:30",
+          "arrival": "12:50",
+          "garageArrival": ""
         }
       ]
     },
@@ -19947,31 +18953,7 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "12:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "13:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "13:40",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:05",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:45",
-          "location": "Foxrock Church",
+          "location": "11:30",
           "notes": ""
         },
         {
@@ -20047,6 +19029,16 @@
           "part": 2,
           "from": "17:20",
           "to": "21:10"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441015",
+          "departure": "Bus 15",
+          "origin": "10:50",
+          "destination": "11:30",
+          "arrival": "12:50",
+          "garageArrival": ""
         }
       ]
     },
@@ -20186,7 +19178,8 @@
           "from": "17:35",
           "to": "21:25"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -20233,42 +19226,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:20",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:30",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:10",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:40",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "21:00",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "21:05",
           "location": "",
@@ -20284,6 +19241,16 @@
           "part": 2,
           "from": "17:20",
           "to": "21:05"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441012",
+          "departure": "Bus 12",
+          "origin": "10:05",
+          "destination": "10:15",
+          "arrival": "11:00",
+          "garageArrival": ""
         }
       ]
     },
@@ -20320,36 +19287,6 @@
           "location": "Donnybrook Church"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:05",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:45",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:05",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:05",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:15",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "17:00",
           "location": "Donnybrook Church",
@@ -20360,42 +19297,6 @@
           "event_time": "18:30",
           "location": "Donnybrook Church",
           "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:45",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:20",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:35",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:30",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:40",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "22:15",
-          "location": "D'Brook Church",
-          "notes": "End of Duty"
         },
         {
           "event_type": "SIGN_OFF",
@@ -20422,6 +19323,24 @@
           "part": 2,
           "from": "18:30",
           "to": "22:20"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441013",
+          "departure": "Bus 13",
+          "origin": "9:55",
+          "destination": "10:30",
+          "arrival": "10:55",
+          "garageArrival": ""
+        },
+        {
+          "route": "02441016",
+          "departure": "Bus 16",
+          "origin": "11:20",
+          "destination": "12:00",
+          "arrival": "12:20",
+          "garageArrival": ""
         }
       ]
     },
@@ -20537,7 +19456,8 @@
           "from": "18:40",
           "to": "20:30"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -20675,7 +19595,8 @@
           "from": "19:00",
           "to": "22:05"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -20708,36 +19629,6 @@
           "event_type": "START",
           "event_time": "14:20",
           "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "15:35",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:15",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:40",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:35",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:45",
-          "location": "Ballymun Rd",
-          "notes": ""
         },
         {
           "event_type": "BREAK_START",
@@ -20794,6 +19685,16 @@
           "part": 2,
           "from": "19:25",
           "to": "21:30"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441016",
+          "departure": "Bus 16",
+          "origin": "11:20",
+          "destination": "12:00",
+          "arrival": "12:20",
+          "garageArrival": ""
         }
       ]
     },
@@ -20872,18 +19773,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:50",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "21:25",
-          "location": "Foxrock Church",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "21:25",
           "location": "",
@@ -20908,6 +19797,16 @@
           "part": 2,
           "from": "19:40",
           "to": "21:25"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441014",
+          "departure": "Bus 14",
+          "origin": "10:50",
+          "destination": "11:00",
+          "arrival": "11:45",
+          "garageArrival": ""
         }
       ]
     },
@@ -21011,7 +19910,8 @@
           "from": "20:05",
           "to": "0:29"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -21088,42 +19988,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:35",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "23:10",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "23:15",
           "location": "",
@@ -21148,6 +20012,16 @@
           "part": 2,
           "from": "20:05",
           "to": "23:15"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441015",
+          "departure": "Bus 15",
+          "origin": "10:50",
+          "destination": "11:30",
+          "arrival": "12:50",
+          "garageArrival": ""
         }
       ]
     },
@@ -21190,30 +20064,6 @@
           "location": "Donnybrook Church"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:35",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:15",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:40",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:35",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "19:25",
           "location": "Donnybrook Garage",
@@ -21244,6 +20094,16 @@
           "part": 2,
           "from": "21:20",
           "to": "0:25"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441017",
+          "departure": "Bus 17",
+          "origin": "12:20",
+          "destination": "13:00",
+          "arrival": "13:25",
+          "garageArrival": "19:25"
         }
       ]
     },
@@ -21347,7 +20207,8 @@
           "from": "21:05",
           "to": "1:29"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -21388,30 +20249,6 @@
           "location": "Donnybrook Church"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:35",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:15",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:35",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:19",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "20:14",
           "location": "Donnybrook Garage",
@@ -21442,6 +20279,16 @@
           "part": 2,
           "from": "22:00",
           "to": "0:49"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441018",
+          "departure": "Bus 18A",
+          "origin": "13:20",
+          "destination": "14:00",
+          "arrival": "14:25",
+          "garageArrival": "20:14"
         }
       ]
     },
@@ -21545,6 +20392,16 @@
           "from": "22:20",
           "to": "1:09"
         }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441013",
+          "departure": "Bus 13",
+          "origin": "9:55",
+          "destination": "10:30",
+          "arrival": "10:55",
+          "garageArrival": ""
+        }
       ]
     },
     {
@@ -21586,18 +20443,6 @@
           "location": "Donnybrook Church"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:45",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "19:10",
           "location": "Eglinton Road",
@@ -21628,6 +20473,16 @@
           "part": 2,
           "from": "20:25",
           "to": "0:55"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441013",
+          "departure": "Bus 13",
+          "origin": "9:55",
+          "destination": "10:30",
+          "arrival": "10:55",
+          "garageArrival": ""
         }
       ]
     },
@@ -21676,42 +20531,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:05",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:15",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "14:55",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:20",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "17:20",
-          "location": "Eglinton Road",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "17:25",
           "location": "",
@@ -21727,6 +20546,16 @@
           "part": 2,
           "from": "13:05",
           "to": "17:25"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441012",
+          "departure": "Bus 12",
+          "origin": "10:05",
+          "destination": "10:15",
+          "arrival": "11:00",
+          "garageArrival": ""
         }
       ]
     },
@@ -21805,42 +20634,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:05",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:45",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:05",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "18:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "19:40",
-          "location": "D'Brook Church",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "19:45",
           "location": "",
@@ -21865,6 +20658,16 @@
           "part": 2,
           "from": "15:50",
           "to": "19:45"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441014",
+          "departure": "Bus 14",
+          "origin": "10:50",
+          "destination": "11:00",
+          "arrival": "11:45",
+          "garageArrival": ""
         }
       ]
     },
@@ -21943,36 +20746,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "16:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "17:50",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:05",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "19:40",
-          "location": "Foxrock Church",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "19:40",
           "location": "",
@@ -21997,6 +20770,16 @@
           "part": 2,
           "from": "15:50",
           "to": "19:40"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441019",
+          "departure": "Bus 18B",
+          "origin": "0:30",
+          "destination": "1:00",
+          "arrival": "1:10",
+          "garageArrival": ""
         }
       ]
     },
@@ -22097,7 +20880,8 @@
           "from": "15:40",
           "to": "19:30"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -22211,7 +20995,8 @@
           "from": "14:35",
           "to": "18:19"
         }
-      ]
+      ],
+      "route_instructions": []
     },
     {
       "garage": "DB2",
@@ -22264,6 +21049,12 @@
           "notes": ""
         },
         {
+          "event_type": "TIMING_POINT",
+          "event_time": "20:45",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
           "event_type": "RESUME",
           "event_time": "23:10",
           "location": "Eglinton Road",
@@ -22288,6 +21079,16 @@
           "part": 2,
           "from": "23:10",
           "to": "3:30"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441015",
+          "departure": "Bus 15",
+          "origin": "10:50",
+          "destination": "11:30",
+          "arrival": "12:50",
+          "garageArrival": ""
         }
       ]
     },
@@ -22330,36 +21131,6 @@
           "location": "Eglinton Road"
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "19:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:35",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
           "event_type": "BREAK_START",
           "event_time": "22:20",
           "location": "Eglinton Road",
@@ -22381,6 +21152,16 @@
           "part": 1,
           "from": "19:10",
           "to": "22:20"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441013",
+          "departure": "Bus 13",
+          "origin": "9:55",
+          "destination": "10:30",
+          "arrival": "10:55",
+          "garageArrival": ""
         }
       ]
     },
@@ -22424,42 +21205,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "03:25",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:10",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "06:35",
-          "location": "Ballymun Rd",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "6:35",
           "location": "",
@@ -22489,6 +21234,24 @@
           "part": 2,
           "from": "3:25",
           "to": "6:35"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441012",
+          "departure": "Bus 12",
+          "origin": "10:05",
+          "destination": "10:15",
+          "arrival": "11:00",
+          "garageArrival": ""
+        },
+        {
+          "route": "02441015",
+          "departure": "Bus 15",
+          "origin": "10:50",
+          "destination": "11:30",
+          "arrival": "12:50",
+          "garageArrival": ""
         }
       ]
     },
@@ -22532,60 +21295,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "01:30",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "2:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:10",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:25",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:22",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "05:52",
-          "location": "Foxrock Church",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "5:52",
           "location": "",
@@ -22615,6 +21324,16 @@
           "part": 2,
           "from": "1:30",
           "to": "5:52"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441016",
+          "departure": "Bus 16",
+          "origin": "11:20",
+          "destination": "12:00",
+          "arrival": "12:20",
+          "garageArrival": ""
         }
       ]
     },
@@ -22658,54 +21377,6 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "02:30",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:10",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "5:25",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "6:22",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "6:52",
           "location": "",
@@ -22735,6 +21406,24 @@
           "part": 2,
           "from": "2:30",
           "to": "6:52"
+        }
+      ],
+      "route_instructions": [
+        {
+          "route": "02441016",
+          "departure": "Bus 16",
+          "origin": "11:20",
+          "destination": "12:00",
+          "arrival": "12:20",
+          "garageArrival": ""
+        },
+        {
+          "route": "02441019",
+          "departure": "Bus 18B",
+          "origin": "0:30",
+          "destination": "1:00",
+          "arrival": "1:10",
+          "garageArrival": ""
         }
       ]
     }

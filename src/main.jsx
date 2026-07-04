@@ -257,6 +257,17 @@ function TimelineItem({ event }) {
     </div>
   );
 }
+if (type === 'GARAGE') {
+  return (
+    <div className="timeline-item">
+      <span className="dot" />
+      <div>
+        <strong>{event.event_time} <span>{event.location}</span></strong>
+        <p>Garage</p>
+      </div>
+    </div>
+  );
+}
 
   return (
     <div className="timeline-item">
@@ -304,6 +315,7 @@ function DriverInfo({ route, info }) {
 function filterDriverEvents(events = []) {
   const importantTypes = new Set([
     'START',
+    'GARAGE',
     'BREAK_START',
     'RESUME',
     'END_OF_DUTY',
@@ -316,7 +328,10 @@ function filterDriverEvents(events = []) {
     'ballywaltrim',
     "d'brook church",
     'donnybrook church',
-    'eglinton'
+    'eglinton',
+    'killcoole',
+    'kilcoole',
+    'hawkins'
   ];
 
   const cleaned = events.filter((event) => {
@@ -335,19 +350,56 @@ function filterDriverEvents(events = []) {
   return removeDuplicateDriverEvents(cleaned);
 }
 function removeDuplicateDriverEvents(events = []) {
+  const priority = {
+    START: 1,
+    BREAK_START: 1,
+    RESUME: 1,
+    END_OF_DUTY: 1,
+    SIGN_OFF: 1,
+    FINISH: 1,
+    TIMING_POINT: 2
+  };
+
+  const sorted = [...events].sort((a, b) => {
+    const timeA = timeToMinutes(a.event_time);
+    const timeB = timeToMinutes(b.event_time);
+
+    if (timeA !== timeB) return timeA - timeB;
+
+    return (priority[a.event_type] || 9) - (priority[b.event_type] || 9);
+  });
+
   const seen = new Set();
 
-  return events.filter((event) => {
-    const location = String(event.location || '').toLowerCase().trim();
-    const time = String(event.event_time || '').trim();
-    const key = `${time}|${location}`;
+  return sorted.filter((event) => {
+    const key = `${event.event_time}|${normalizeDriverLocation(event.location)}`;
 
     if (seen.has(key)) return false;
+
     seen.add(key);
     return true;
   });
 }
 
+function normalizeDriverLocation(value = '') {
+  return String(value)
+    .toLowerCase()
+    .replace(/donnybrook/g, "d'brook")
+    .replace(/dbrk/g, "d'brook")
+    .replace(/d brook/g, "d'brook")
+    .replace(/eglington/g, 'eglinton')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function timeToMinutes(value) {
+  const text = String(value || '').trim();
+  const match = text.match(/^(\d{1,2}):(\d{2})$/);
+
+  if (!match) return 0;
+
+  return Number(match[1]) * 60 + Number(match[2]);
+}
 function getLocationClass(location = '') {
   const value = location.toLowerCase();
   if (value.includes('northwood')) return 'northwood';

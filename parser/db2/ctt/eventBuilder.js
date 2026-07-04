@@ -14,39 +14,30 @@ export function buildDriverTimeline(baseEvents = [], timingPointsByPart = [], du
 
   const merged = [...baseWithoutFinish, ...timingEvents]
     .filter((event) => event.event_time)
-    .filter(removeTimingConflicts)
-    .sort((a, b) => timeToMinutes(a.event_time) - timeToMinutes(b.event_time))
-    .filter(removeDuplicates);
+    .sort((a, b) => timeToMinutes(a.event_time) - timeToMinutes(b.event_time));
 
-  return addDutyCompletion(merged, duty);
+  const cleaned = removeDuplicateSameTimeSamePlace(merged);
+
+  return addDutyCompletion(cleaned, duty);
 }
 
 function addDutyCompletion(events = [], duty = {}) {
   const finishTime = duty.finish_time;
   const finishMinutes = timeToMinutes(finishTime);
-
-  const lastTimingPoint = [...events]
-    .reverse()
-    .find((event) => event.event_type === 'TIMING_POINT');
-
   let finalEvents = [...events];
+
+  const lastTimingPoint = [...finalEvents].reverse().find((event) => event.event_type === 'TIMING_POINT');
 
   if (lastTimingPoint) {
     const lastMinutes = timeToMinutes(lastTimingPoint.event_time);
     const gap = finishMinutes !== null && lastMinutes !== null ? finishMinutes - lastMinutes : null;
 
     if (gap !== null && gap >= 0 && gap <= 10) {
-      finalEvents = finalEvents.map((event) => {
-        if (event === lastTimingPoint) {
-          return {
-            ...event,
-            event_type: 'END_OF_DUTY',
-            notes: 'End of Duty'
-          };
-        }
-
-        return event;
-      });
+      finalEvents = finalEvents.map((event) =>
+        event === lastTimingPoint
+          ? { ...event, event_type: 'END_OF_DUTY', notes: 'End of Duty' }
+          : event
+      );
     }
   }
 
@@ -57,30 +48,37 @@ function addDutyCompletion(events = [], duty = {}) {
     notes: 'Sign Off'
   });
 
-  return finalEvents
-    .sort((a, b) => timeToMinutes(a.event_time) - timeToMinutes(b.event_time))
-    .filter(removeDuplicates);
-}
-
-function removeTimingConflicts(event, index, events) {
-  if (event.event_type !== 'TIMING_POINT') return true;
-
-  const protectedTypes = new Set(['START', 'BREAK_START', 'RESUME']);
-
-  return !events.some(
-    (item) => protectedTypes.has(item.event_type) && item.event_time === event.event_time
+  return removeDuplicateSameTimeSamePlace(
+    finalEvents.sort((a, b) => timeToMinutes(a.event_time) - timeToMinutes(b.event_time))
   );
 }
 
-function removeDuplicates(event, index, events) {
-  const key = `${event.event_time}|${event.event_type}|${String(event.location || '').toLowerCase()}`;
+function removeDuplicateSameTimeSamePlace(events = []) {
+  const priority = {
+    START: 1,
+    BREAK_START: 1,
+    RESUME: 1,
+    END_OF_DUTY: 1,
+    SIGN_OFF: 1,
+    TIMING_POINT: 2
+  };
 
-  return (
-    events.findIndex(
-      (item) =>
-        `${item.event_time}|${item.event_type}|${String(item.location || '').toLowerCase()}` === key
-    ) === index
-  );
+  const seen = new Set();
+
+  return events
+    .sort((a, b) => {
+      const timeDiff = timeToMinutes(a.event_time) - timeToMinutes(b.event_time);
+      if (timeDiff !== 0) return timeDiff;
+      return (priority[a.event_type] || 9) - (priority[b.event_type] || 9);
+    })
+    .filter((event) => {
+      const key = `${timeToMinutes(event.event_time)}|${normalizeLocation(event.location)}`;
+
+      if (seen.has(key)) return false;
+
+      seen.add(key);
+      return true;
+    });
 }
 
 function isBetween(time, from, to) {
@@ -102,4 +100,16 @@ function timeToMinutes(value) {
   if (!match) return null;
 
   return Number(match[1]) * 60 + Number(match[2]);
+}
+
+function normalizeLocation(value = '') {
+  return String(value)
+    .toLowerCase()
+    .replace(/donnybrook church/g, "d'brook church")
+    .replace(/donnybrook/g, "d'brook")
+    .replace(/d brook/g, "d'brook")
+    .replace(/dbrk/g, "d'brook")
+    .replace(/eglington/g, 'eglinton')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
