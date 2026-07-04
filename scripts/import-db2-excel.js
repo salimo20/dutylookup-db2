@@ -112,15 +112,15 @@ console.log('Created: output/import-report-db2-dz4.json');
 function buildRouteInstructionTimingPoints(instruction, columnIndex) {
   const points = [
     {
-      event_type: 'TIMING_POINT',
+      event_type: 'ROUTE_START',
       event_time: instruction.departure,
       time: instruction.departure,
       location: instruction.origin,
       columnIndex,
-      notes: instruction.route
+      notes: `${instruction.route} to ${instruction.destination}`
     },
     {
-      event_type: 'TIMING_POINT',
+      event_type: 'ROUTE_FINISH',
       event_time: instruction.arrival,
       time: instruction.arrival,
       location: instruction.destination,

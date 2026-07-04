@@ -3,11 +3,11 @@ export function buildDriverTimeline(baseEvents = [], timingPointsByPart = [], du
     (part.timingPoints || [])
       .filter((point) => isBetween(point.time, part.from, part.to))
       .map((point) => ({
-        event_type: 'TIMING_POINT',
-        event_time: point.time,
-        location: point.location,
-        notes: ''
-      }))
+  event_type: point.event_type || 'TIMING_POINT',
+  event_time: point.time,
+  location: point.location,
+  notes: point.notes || ''
+}))
   );
 
   const baseWithoutFinish = baseEvents.filter((event) => event.event_type !== 'FINISH');
@@ -59,14 +59,19 @@ function addDutyCompletion(events = [], duty = {}) {
 
 function removeDuplicateSameTimeSamePlace(events = []) {
   const priority = {
-    START: 1,
-    BREAK_START: 1,
-    RESUME: 1,
-    END_OF_DUTY: 1,
-    SIGN_OFF: 1,
-    GARAGE: 1,
-    TIMING_POINT: 2
-  };
+  START: 1,
+  BREAK_START: 1,
+  RESUME: 1,
+  END_OF_DUTY: 1,
+  SIGN_OFF: 1,
+
+  ROUTE_START: 1,
+  ROUTE_FINISH: 1,
+
+  GARAGE: 2,
+
+  TIMING_POINT: 3
+};
 
   const seen = new Set();
 
@@ -124,8 +129,11 @@ function timeToMinutes(value) {
 }
 
 function normalizeLocation(value = '') {
-  return String(value)
-    .toLowerCase()
+  const text = String(value || '').toLowerCase();
+
+  if (text.includes('garage')) return 'garage';
+
+  return text
     .replace(/donnybrook church/g, "d'brook church")
     .replace(/donnybrook/g, "d'brook")
     .replace(/d brook/g, "d'brook")

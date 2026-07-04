@@ -3,7 +3,7 @@
   "garage": "DB2",
   "zone": "DZ4",
   "sourceFile": "DB2-Z4-Routes E1-X1 Oct 2025.xlsx",
-  "generatedAt": "2026-07-04T01:09:27.204Z",
+  "generatedAt": "2026-07-04T01:49:59.155Z",
   "duties": [
     {
       "garage": "DB2",
@@ -2128,10 +2128,10 @@
           "location": "Donnybrook Garage"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "GARAGE",
           "event_time": "07:00",
           "location": "Donnybrook Garage",
-          "notes": ""
+          "notes": "Garage"
         },
         {
           "event_type": "BREAK_START",
@@ -2631,27 +2631,21 @@
           "location": "Garage (X1)"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_START",
           "event_time": "6:50",
           "location": "Killcoole",
-          "notes": ""
+          "notes": "X1 to Hawkins St."
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "8:45",
           "location": "Hawkins St.",
-          "notes": ""
+          "notes": "X1"
         },
         {
           "event_type": "BREAK_START",
           "event_time": "9:15",
           "location": "Garage (X1)",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:15",
-          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -2961,27 +2955,21 @@
           "location": "Garage (X1)"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_START",
           "event_time": "7:00",
           "location": "Killcoole",
-          "notes": ""
+          "notes": "X1 to Hawkins St."
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "9:00",
           "location": "Hawkins St.",
-          "notes": ""
+          "notes": "X1"
         },
         {
           "event_type": "BREAK_START",
           "event_time": "9:30",
           "location": "Garage (X1)",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:30",
-          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -3097,27 +3085,21 @@
           "location": "Garage (X1)"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_START",
           "event_time": "7:10",
           "location": "Killcoole",
-          "notes": ""
+          "notes": "X1 to Hawkins St."
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "9:10",
           "location": "Hawkins St.",
-          "notes": ""
+          "notes": "X1"
         },
         {
           "event_type": "BREAK_START",
           "event_time": "9:40",
           "location": "Garage (X1)",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "09:40",
-          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -4307,16 +4289,16 @@
           "notes": ""
         },
         {
-          "event_type": "END_OF_DUTY",
-          "event_time": "22:20",
-          "location": "Donnybrook Garage",
-          "notes": "End of Duty"
-        },
-        {
           "event_type": "SIGN_OFF",
           "event_time": "22:20",
           "location": "",
           "notes": "Sign Off"
+        },
+        {
+          "event_type": "GARAGE",
+          "event_time": "22:20",
+          "location": "Donnybrook Garage",
+          "notes": "Garage"
         }
       ],
       "trip_parts": [
@@ -4967,10 +4949,10 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "18:30",
           "location": "16:57",
-          "notes": ""
+          "notes": "02441058"
         },
         {
           "event_type": "SIGN_OFF",
@@ -5155,10 +5137,10 @@
           "location": "Donnybrook Church"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "15:25",
           "location": "13:20",
-          "notes": ""
+          "notes": "02441047"
         },
         {
           "event_type": "BREAK_START",
@@ -6078,10 +6060,10 @@
           "location": "Donnybrook Church"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "17:20",
           "location": "15:00",
-          "notes": ""
+          "notes": "02441050"
         },
         {
           "event_type": "BREAK_START",
@@ -7218,27 +7200,21 @@
           "location": "Garage (X1)"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_START",
           "event_time": "7:30",
           "location": "Killcoole",
-          "notes": ""
+          "notes": "X1 to Hawkins St."
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "9:30",
           "location": "Hawkins St.",
-          "notes": ""
+          "notes": "X1"
         },
         {
           "event_type": "BREAK_START",
           "event_time": "10:00",
           "location": "Garage (X1)",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:00",
-          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -7475,27 +7451,21 @@
           "location": "Garage (X1)"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_START",
           "event_time": "7:40",
           "location": "Killcoole",
-          "notes": ""
+          "notes": "X1 to Hawkins St."
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "9:40",
           "location": "Hawkins St.",
-          "notes": ""
+          "notes": "X1"
         },
         {
           "event_type": "BREAK_START",
           "event_time": "10:10",
           "location": "Garage (X1)",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:10",
-          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -7799,27 +7769,21 @@
           "location": "Garage (X1)"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_START",
           "event_time": "7:50",
           "location": "Killcoole",
-          "notes": ""
+          "notes": "X1 to Hawkins St."
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "9:50",
           "location": "Hawkins St.",
-          "notes": ""
+          "notes": "X1"
         },
         {
           "event_type": "BREAK_START",
           "event_time": "10:20",
           "location": "Garage (X1)",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "10:20",
-          "location": "Donnybrook Garage",
           "notes": ""
         },
         {
@@ -8616,10 +8580,10 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "15:53",
           "location": "14:15",
-          "notes": ""
+          "notes": "02441048"
         },
         {
           "event_type": "SIGN_OFF",
@@ -9080,22 +9044,22 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "16:50",
           "location": "14:30",
-          "notes": ""
-        },
-        {
-          "event_type": "END_OF_DUTY",
-          "event_time": "19:38",
-          "location": "Donnybrook Garage",
-          "notes": "End of Duty"
+          "notes": "02441049"
         },
         {
           "event_type": "SIGN_OFF",
           "event_time": "19:38",
           "location": "",
           "notes": "Sign Off"
+        },
+        {
+          "event_type": "GARAGE",
+          "event_time": "19:38",
+          "location": "Donnybrook Garage",
+          "notes": "Garage"
         }
       ],
       "trip_parts": [
@@ -10482,10 +10446,10 @@
           "notes": "Sign Off"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "GARAGE",
           "event_time": "07:00",
           "location": "Donnybrook Garage",
-          "notes": ""
+          "notes": "Garage"
         },
         {
           "event_type": "START",
@@ -13479,10 +13443,10 @@
           "location": "Eglinton Road"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "13:05",
           "location": "11:30",
-          "notes": ""
+          "notes": "02441026"
         },
         {
           "event_type": "BREAK_START",
@@ -17280,10 +17244,10 @@
           "notes": "Sign Off"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "GARAGE",
           "event_time": "05:10",
           "location": "Donnybrook Garage",
-          "notes": ""
+          "notes": "Garage"
         },
         {
           "event_type": "START",
@@ -19021,10 +18985,10 @@
           "location": "Donnybrook Garage"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "11:00",
           "location": "10:15",
-          "notes": ""
+          "notes": "02441012"
         },
         {
           "event_type": "BREAK_START",
@@ -19491,10 +19455,10 @@
           "location": "Eglinton Road"
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "ROUTE_FINISH",
           "event_time": "12:50",
           "location": "11:30",
-          "notes": ""
+          "notes": "02441015"
         },
         {
           "event_type": "BREAK_START",

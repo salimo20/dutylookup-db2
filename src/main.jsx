@@ -314,14 +314,16 @@ function DriverInfo({ route, info }) {
 
 function filterDriverEvents(events = []) {
   const importantTypes = new Set([
-    'START',
-    'GARAGE',
-    'BREAK_START',
-    'RESUME',
-    'END_OF_DUTY',
-    'SIGN_OFF',
-    'FINISH'
-  ]);
+  'START',
+  'GARAGE',
+  'ROUTE_START',
+  'ROUTE_FINISH',
+  'BREAK_START',
+  'RESUME',
+  'END_OF_DUTY',
+  'SIGN_OFF',
+  'FINISH'
+]);
 
   const importantTimingPlaces = [
     'northwood',

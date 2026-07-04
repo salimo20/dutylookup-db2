@@ -1,6 +1,5 @@
 export function findDutyTripPartsFromHeaders(timetableRows = [], duty = {}) {
   const dutyNumber = padDutyNumber(duty.duty_number || duty.display_duty_number);
-
   if (!dutyNumber) return [];
 
   const parts = [];
@@ -37,6 +36,7 @@ function findTripColumnByHeader(timetableRows = [], dutyNumber, time, label) {
   if (!normalizedTime) return null;
 
   const targetHeader = `${dutyNumber}-${normalizedTime}`;
+  const targetHeaderGarage = `${targetHeader}g`;
 
   for (let rowIndex = 0; rowIndex < timetableRows.length; rowIndex++) {
     const row = timetableRows[rowIndex] || [];
@@ -44,7 +44,7 @@ function findTripColumnByHeader(timetableRows = [], dutyNumber, time, label) {
     for (let columnIndex = 0; columnIndex < row.length; columnIndex++) {
       const value = String(row[columnIndex] || '').trim();
 
-      if (value === targetHeader) {
+      if (value === targetHeader || value === targetHeaderGarage) {
         return { label, header: value, rowIndex, columnIndex };
       }
     }
@@ -60,7 +60,7 @@ function padDutyNumber(value) {
 }
 
 function normalizeTime(value) {
-  const text = String(value || '').trim();
+  const text = String(value || '').trim().replace(/g$/i, '');
   const match = text.match(/^(\d{1,2}):(\d{2})$/);
   if (!match) return '';
   return `${String(Number(match[1])).padStart(2, '0')}:${match[2]}`;

@@ -1,18 +1,22 @@
 export function extractRouteInstructionFromColumn(timetableRows = [], columnIndex) {
   for (let rowIndex = 0; rowIndex < timetableRows.length; rowIndex++) {
-    const route = String(timetableRows[rowIndex]?.[columnIndex] || '').trim();
+    const route = cleanText(timetableRows[rowIndex]?.[columnIndex]);
+    const nextLine = cleanText(timetableRows[rowIndex + 1]?.[columnIndex]).toLowerCase();
 
     if (!isRouteCode(route)) continue;
+    if (nextLine !== 'from') continue;
 
     const departure = cleanTime(timetableRows[rowIndex - 1]?.[columnIndex]);
     const line1 = cleanText(timetableRows[rowIndex + 2]?.[columnIndex]);
     const line2 = cleanText(timetableRows[rowIndex + 3]?.[columnIndex]);
+
+    if (!departure || !line1 || !line2) continue;
+
+    const { origin, destination } = parseOriginDestination(line1, line2);
     const arrival = findNextTime(timetableRows, columnIndex, rowIndex + 4);
     const garageArrival = findNextGarageTime(timetableRows, columnIndex, rowIndex + 4);
 
-    if (!departure || !line1 || !line2 || !arrival) continue;
-
-    const { origin, destination } = parseOriginDestination(line1, line2);
+    if (!arrival) continue;
 
     return {
       route,
@@ -28,7 +32,13 @@ export function extractRouteInstructionFromColumn(timetableRows = [], columnInde
 }
 
 function isRouteCode(value = '') {
-  return /^[A-Z]?\d+[A-Z]?$/i.test(value);
+  const text = cleanText(value);
+
+  if (!text) return false;
+  if (/^bus/i.test(text)) return false;
+  if (/^\d{6,}$/.test(text)) return false;
+
+  return /^[A-Z]?\d+[A-Z]?$/i.test(text);
 }
 
 function parseOriginDestination(line1, line2) {
