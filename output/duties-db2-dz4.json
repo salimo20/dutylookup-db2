@@ -3,7 +3,7 @@
   "garage": "DB2",
   "zone": "DZ4",
   "sourceFile": "DB2-Z4-Routes E1-X1 Oct 2025.xlsx",
-  "generatedAt": "2026-07-04T02:12:42.918Z",
+  "generatedAt": "2026-07-04T02:29:47.379Z",
   "duties": [
     {
       "garage": "DB2",
@@ -6064,18 +6064,6 @@
       "break_duration": "2:23",
       "events": [
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:33",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:33",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
           "event_type": "START",
           "event_time": "15:22",
           "location": "Donnybrook Garage"
@@ -6151,6 +6139,18 @@
           "event_time": "23:48",
           "location": "Northwood",
           "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:33",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:33",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -6318,12 +6318,6 @@
       "break_duration": "0:57",
       "events": [
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:02",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
           "event_type": "START",
           "event_time": "15:45",
           "location": "Eglinton Road"
@@ -6351,6 +6345,12 @@
           "event_time": "19:05",
           "location": "Donnybrook Church",
           "notes": ""
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:02",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -6411,18 +6411,6 @@
       "work_time": "7:24",
       "break_duration": "1:06",
       "events": [
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:12",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:12",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "15:50",
@@ -6493,6 +6481,18 @@
           "event_time": "23:42",
           "location": "Ballywaltrim",
           "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:12",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:12",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -6545,18 +6545,6 @@
       "break_duration": "1:05",
       "events": [
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:22",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:22",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
           "event_type": "START",
           "event_time": "15:50",
           "location": "Donnybrook Garage"
@@ -6596,6 +6584,18 @@
           "event_time": "23:52",
           "location": "Ballywaltrim",
           "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:22",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:22",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -6656,24 +6656,6 @@
       "work_time": "7:15",
       "break_duration": "1:27",
       "events": [
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:02",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:32",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:32",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "15:58",
@@ -6738,6 +6720,24 @@
           "event_time": "23:10",
           "location": "D'Brook Church",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:02",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:32",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:32",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -6905,24 +6905,6 @@
       "break_duration": "1:44",
       "events": [
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:22",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:52",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:52",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
           "event_type": "START",
           "event_time": "16:05",
           "location": "Eglinton Road"
@@ -6986,6 +6968,24 @@
           "event_time": "23:30",
           "location": "D'Brook Church",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:22",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:52",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:52",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7037,24 +7037,6 @@
       "work_time": "7:37",
       "break_duration": "1:20",
       "events": [
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:32",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "1:02",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "01:02",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "16:13",
@@ -7119,6 +7101,24 @@
           "event_time": "23:40",
           "location": "D'Brook Church",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:32",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "01:02",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "1:02",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7170,24 +7170,6 @@
       "work_time": "7:27",
       "break_duration": "1:24",
       "events": [
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:18",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "1:03",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "01:03",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "16:20",
@@ -7252,6 +7234,24 @@
           "event_time": "23:35",
           "location": "Eglinton Road",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:18",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "01:03",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "1:03",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7303,18 +7303,6 @@
       "work_time": "7:28",
       "break_duration": "0:55",
       "events": [
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:43",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:43",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "16:28",
@@ -7385,6 +7373,18 @@
           "event_time": "23:58",
           "location": "Northwood",
           "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:43",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:43",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -7437,24 +7437,6 @@
       "break_duration": "2:05",
       "events": [
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:38",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "1:23",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "01:23",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
           "event_type": "START",
           "event_time": "17:00",
           "location": "Garage (X1)"
@@ -7500,6 +7482,24 @@
           "event_time": "23:55",
           "location": "Eglinton Road",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:38",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "01:23",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "1:23",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -10434,42 +10434,6 @@
       "break_duration": "0:50",
       "events": [
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:40",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "1:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "1:40",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "02:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "2:20",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
           "event_type": "START",
           "event_time": "18:18",
           "location": "Eglinton Road"
@@ -10521,6 +10485,42 @@
           "event_time": "23:50",
           "location": "Northwood",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:00",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:40",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "1:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "1:40",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "02:15",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "2:20",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -10573,12 +10573,6 @@
       "break_duration": "0:50",
       "events": [
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "3:45",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
           "event_type": "START",
           "event_time": "19:00",
           "location": "Donnybrook Church"
@@ -10624,6 +10618,12 @@
           "event_time": "23:20",
           "location": "Donnybrook Church",
           "notes": ""
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "3:45",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -10685,12 +10685,6 @@
       "break_duration": "1:02",
       "events": [
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "3:20",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
           "event_type": "START",
           "event_time": "19:10",
           "location": "Eglinton Road"
@@ -10736,6 +10730,12 @@
           "event_time": "23:57",
           "location": "Donnybrook Garage",
           "notes": ""
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "3:20",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -10779,6 +10779,35 @@
       "break_duration": "2:04",
       "events": [
         {
+          "event_type": "START",
+          "event_time": "20:45",
+          "location": "Donnybrook Church"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "21:50",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:20",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:35",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:26",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "BREAK_START",
           "event_time": "0:11",
           "location": "Donnybrook Garage",
@@ -10821,45 +10850,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "06:00",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "6:00",
           "location": "",
           "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "06:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "START",
-          "event_time": "20:45",
-          "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:50",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:20",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:35",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:26",
-          "location": "Northwood",
-          "notes": ""
         }
       ],
       "trip_parts": [
@@ -10911,6 +10911,41 @@
       "work_time": "8:02",
       "break_duration": "0:58",
       "events": [
+        {
+          "event_type": "START",
+          "event_time": "20:50",
+          "location": "Donnybrook Church"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:00",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:30",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:45",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:40",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
         {
           "event_type": "TIMING_POINT",
           "event_time": "0:20",
@@ -10970,41 +11005,6 @@
           "event_time": "5:42",
           "location": "",
           "notes": "Sign Off"
-        },
-        {
-          "event_type": "START",
-          "event_time": "20:50",
-          "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:00",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:30",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:45",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:30",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:40",
-          "location": "Ballymun Rd",
-          "notes": ""
         }
       ],
       "trip_parts": [
@@ -11056,6 +11056,23 @@
       "work_time": "6:50",
       "break_duration": "1:53",
       "events": [
+        {
+          "event_type": "START",
+          "event_time": "22:25",
+          "location": "Eglinton Road"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:20",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
         {
           "event_type": "TIMING_POINT",
           "event_time": "0:00",
@@ -11117,6 +11134,12 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "07:00",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "7:00",
           "location": "",
@@ -11125,29 +11148,6 @@
         {
           "event_type": "TIMING_POINT",
           "event_time": "7:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "07:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "START",
-          "event_time": "22:25",
-          "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:10",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:20",
           "location": "Ballymun Rd",
           "notes": ""
         }
@@ -11202,6 +11202,23 @@
       "break_duration": "1:00",
       "events": [
         {
+          "event_type": "START",
+          "event_time": "22:30",
+          "location": "Donnybrook Church"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:40",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
           "event_type": "TIMING_POINT",
           "event_time": "0:15",
           "location": "Eglinton Road",
@@ -11236,23 +11253,6 @@
           "event_time": "6:43",
           "location": "",
           "notes": "Sign Off"
-        },
-        {
-          "event_type": "START",
-          "event_time": "22:30",
-          "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:40",
-          "location": "Foxrock Church",
-          "notes": ""
         }
       ],
       "trip_parts": [
@@ -16335,18 +16335,6 @@
       "break_duration": "1:10",
       "events": [
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:10",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:10",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
           "event_type": "START",
           "event_time": "15:50",
           "location": "Eglinton Road"
@@ -16416,6 +16404,18 @@
           "event_time": "23:35",
           "location": "Ballywaltrim",
           "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:10",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:10",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -16467,18 +16467,6 @@
       "work_time": "7:35",
       "break_duration": "1:00",
       "events": [
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:17",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:17",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "15:50",
@@ -16549,6 +16537,18 @@
           "event_time": "23:32",
           "location": "Northwood",
           "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:17",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:17",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -16600,24 +16600,6 @@
       "work_time": "7:45",
       "break_duration": "1:00",
       "events": [
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:02",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:47",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:47",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "16:10",
@@ -16682,6 +16664,24 @@
           "event_time": "23:15",
           "location": "Eglinton Road",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:02",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:47",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:47",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -16733,24 +16733,6 @@
       "work_time": "7:23",
       "break_duration": "1:30",
       "events": [
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:35",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "1:10",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "01:10",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "16:25",
@@ -16815,6 +16797,24 @@
           "event_time": "23:35",
           "location": "D'Brook Church",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "01:10",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "1:10",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -16866,18 +16866,6 @@
       "work_time": "7:09",
       "break_duration": "0:54",
       "events": [
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:25",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:25",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "16:30",
@@ -16948,6 +16936,18 @@
           "event_time": "23:50",
           "location": "Ballywaltrim",
           "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:25",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:25",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -16999,24 +16999,6 @@
       "work_time": "7:28",
       "break_duration": "1:30",
       "events": [
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:55",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "1:30",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "01:30",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "16:40",
@@ -17081,6 +17063,24 @@
           "event_time": "23:55",
           "location": "D'Brook Church",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:55",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "01:30",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "1:30",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -17132,24 +17132,6 @@
       "work_time": "7:15",
       "break_duration": "1:10",
       "events": [
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:22",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "1:07",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "01:07",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "16:50",
@@ -17214,6 +17196,24 @@
           "event_time": "23:35",
           "location": "Eglinton Road",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:22",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "01:07",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "1:07",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18273,42 +18273,6 @@
       "break_duration": "1:00",
       "events": [
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:50",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "2:30",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "03:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "3:20",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
           "event_type": "START",
           "event_time": "18:10",
           "location": "Eglinton Road"
@@ -18360,6 +18324,42 @@
           "event_time": "23:50",
           "location": "Northwood",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:00",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:50",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "2:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "3:00",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "03:15",
+          "location": "Eglinton Road",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "3:20",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18412,42 +18412,6 @@
       "break_duration": "1:15",
       "events": [
         {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:00",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:20",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "1:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "2:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "02:35",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "2:40",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
           "event_type": "START",
           "event_time": "19:20",
           "location": "Eglinton Road"
@@ -18481,6 +18445,42 @@
           "event_time": "23:30",
           "location": "Ballywaltrim",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:00",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:20",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "1:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "2:00",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "02:35",
+          "location": "D'Brook Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "2:40",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18533,48 +18533,6 @@
       "break_duration": "1:35",
       "events": [
         {
-          "event_type": "RESUME",
-          "event_time": "1:15",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "2:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "3:35",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "4:35",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "5:10",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "05:10",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
           "event_type": "START",
           "event_time": "20:20",
           "location": "Eglinton Road"
@@ -18614,6 +18572,48 @@
           "event_time": "23:40",
           "location": "Foxrock Church",
           "notes": ""
+        },
+        {
+          "event_type": "RESUME",
+          "event_time": "1:15",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "2:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "3:00",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "3:35",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "4:35",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "05:10",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "5:10",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -18666,6 +18666,29 @@
       "break_duration": "1:00",
       "events": [
         {
+          "event_type": "START",
+          "event_time": "21:30",
+          "location": "Eglinton Road"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:20",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:30",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:10",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
           "event_type": "TIMING_POINT",
           "event_time": "0:05",
           "location": "Ballywaltrim",
@@ -18714,39 +18737,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "05:47",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "5:47",
           "location": "",
           "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "05:47",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "START",
-          "event_time": "21:30",
-          "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:20",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:30",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:10",
-          "location": "D'Brook Church",
-          "notes": ""
         }
       ],
       "trip_parts": [
@@ -18798,6 +18798,35 @@
       "work_time": "7:33",
       "break_duration": "1:00",
       "events": [
+        {
+          "event_type": "START",
+          "event_time": "21:45",
+          "location": "Donnybrook Garage"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "21:45",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:35",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:45",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:25",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
         {
           "event_type": "TIMING_POINT",
           "event_time": "0:30",
@@ -18851,35 +18880,6 @@
           "event_time": "6:10",
           "location": "",
           "notes": "Sign Off"
-        },
-        {
-          "event_type": "START",
-          "event_time": "21:45",
-          "location": "Donnybrook Garage"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:45",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:35",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:45",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:25",
-          "location": "D'Brook Church",
-          "notes": ""
         }
       ],
       "trip_parts": [
@@ -18932,6 +18932,35 @@
       "break_duration": "1:00",
       "events": [
         {
+          "event_type": "START",
+          "event_time": "22:30",
+          "location": "Donnybrook Garage"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:30",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:40",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:55",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
           "event_type": "TIMING_POINT",
           "event_time": "0:50",
           "location": "Northwood",
@@ -18980,45 +19009,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "06:47",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "6:47",
           "location": "",
           "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "06:47",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "START",
-          "event_time": "22:30",
-          "location": "Donnybrook Garage"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:30",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:40",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:55",
-          "location": "Eglinton Road",
-          "notes": ""
         }
       ],
       "trip_parts": [
@@ -19070,6 +19070,23 @@
       "work_time": "7:38",
       "break_duration": "1:00",
       "events": [
+        {
+          "event_type": "START",
+          "event_time": "22:30",
+          "location": "Eglinton Road"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:30",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:40",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
         {
           "event_type": "TIMING_POINT",
           "event_time": "0:20",
@@ -19129,23 +19146,6 @@
           "event_time": "7:00",
           "location": "",
           "notes": "Sign Off"
-        },
-        {
-          "event_type": "START",
-          "event_time": "22:30",
-          "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:30",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:40",
-          "location": "Ballymun Rd",
-          "notes": ""
         }
       ],
       "trip_parts": [
@@ -22231,18 +22231,6 @@
       "break_duration": "1:00",
       "events": [
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:29",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:29",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
           "event_type": "START",
           "event_time": "14:55",
           "location": "Donnybrook Church"
@@ -22330,6 +22318,18 @@
           "event_time": "23:54",
           "location": "Ballywaltrim",
           "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:29",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:29",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -22521,18 +22521,6 @@
       "break_duration": "1:55",
       "events": [
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:25",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:25",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
           "event_type": "START",
           "event_time": "15:20",
           "location": "Donnybrook Church"
@@ -22602,6 +22590,18 @@
           "event_time": "23:40",
           "location": "Northwood",
           "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:25",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:25",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -22653,30 +22653,6 @@
       "work_time": "8:42",
       "break_duration": "1:00",
       "events": [
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:15",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:54",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "1:29",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "01:29",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "15:55",
@@ -22753,6 +22729,30 @@
           "event_time": "23:40",
           "location": "Ballymun Rd",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:15",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:54",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "01:29",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "1:29",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -22804,24 +22804,6 @@
       "work_time": "6:51",
       "break_duration": "1:46",
       "events": [
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:14",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:49",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:49",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "16:20",
@@ -22886,6 +22868,24 @@
           "event_time": "23:35",
           "location": "D'Brook Church",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:14",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:49",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:49",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -22937,24 +22937,6 @@
       "work_time": "7:02",
       "break_duration": "1:55",
       "events": [
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:34",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "1:09",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "01:09",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "16:20",
@@ -23019,6 +23001,24 @@
           "event_time": "23:55",
           "location": "D'Brook Church",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:34",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "01:09",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "1:09",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -23070,24 +23070,6 @@
       "work_time": "6:48",
       "break_duration": "1:15",
       "events": [
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "0:10",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "SIGN_OFF",
-          "event_time": "0:55",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "00:55",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
         {
           "event_type": "START",
           "event_time": "17:00",
@@ -23152,6 +23134,24 @@
           "event_time": "23:35",
           "location": "Eglinton Road",
           "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "0:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "END_OF_DUTY",
+          "event_time": "00:55",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "0:55",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -23863,6 +23863,41 @@
       "break_duration": "2:25",
       "events": [
         {
+          "event_type": "START",
+          "event_time": "19:05",
+          "location": "Donnybrook Church"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "20:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "BREAK_START",
+          "event_time": "20:45",
+          "location": "Donnybrook Garage",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "20:45",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
+          "event_type": "RESUME",
+          "event_time": "23:10",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
           "event_type": "TIMING_POINT",
           "event_time": "0:00",
           "location": "Ballymun Rd",
@@ -23905,51 +23940,16 @@
           "notes": ""
         },
         {
-          "event_type": "TIMING_POINT",
+          "event_type": "END_OF_DUTY",
           "event_time": "03:25",
           "location": "D'Brook Church",
-          "notes": ""
+          "notes": "End of Duty"
         },
         {
           "event_type": "SIGN_OFF",
           "event_time": "3:30",
           "location": "",
           "notes": "Sign Off"
-        },
-        {
-          "event_type": "START",
-          "event_time": "19:05",
-          "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "BREAK_START",
-          "event_time": "20:45",
-          "location": "Donnybrook Garage",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "20:45",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "RESUME",
-          "event_time": "23:10",
-          "location": "Eglinton Road",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:50",
-          "location": "Northwood",
-          "notes": ""
         }
       ],
       "trip_parts": [
@@ -24002,12 +24002,6 @@
       "break_duration": "1:27",
       "events": [
         {
-          "event_type": "SIGN_OFF",
-          "event_time": "2:35",
-          "location": "",
-          "notes": "Sign Off"
-        },
-        {
           "event_type": "START",
           "event_time": "19:10",
           "location": "Eglinton Road"
@@ -24053,6 +24047,12 @@
           "event_time": "23:47",
           "location": "Donnybrook Garage",
           "notes": ""
+        },
+        {
+          "event_type": "SIGN_OFF",
+          "event_time": "2:35",
+          "location": "",
+          "notes": "Sign Off"
         }
       ],
       "trip_parts": [
@@ -24095,6 +24095,35 @@
       "work_time": "8:03",
       "break_duration": "1:40",
       "events": [
+        {
+          "event_type": "START",
+          "event_time": "21:00",
+          "location": "Eglinton Road"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "21:50",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:00",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:35",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:30",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
         {
           "event_type": "TIMING_POINT",
           "event_time": "0:00",
@@ -24156,45 +24185,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "06:35",
+          "location": "Ballymun Rd",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "6:35",
           "location": "",
           "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "06:35",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "START",
-          "event_time": "21:00",
-          "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "21:50",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:00",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:35",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:30",
-          "location": "Ballywaltrim",
-          "notes": ""
         }
       ],
       "trip_parts": [
@@ -24246,6 +24246,35 @@
       "work_time": "7:22",
       "break_duration": "1:13",
       "events": [
+        {
+          "event_type": "START",
+          "event_time": "21:25",
+          "location": "Eglinton Road"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:10",
+          "location": "Northwood",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:20",
+          "location": "Ballymun Rd",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "22:55",
+          "location": "D'Brook Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:42",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
         {
           "event_type": "BREAK_START",
           "event_time": "0:17",
@@ -24307,45 +24336,16 @@
           "notes": ""
         },
         {
+          "event_type": "END_OF_DUTY",
+          "event_time": "05:52",
+          "location": "Foxrock Church",
+          "notes": "End of Duty"
+        },
+        {
           "event_type": "SIGN_OFF",
           "event_time": "5:52",
           "location": "",
           "notes": "Sign Off"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "05:52",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "START",
-          "event_time": "21:25",
-          "location": "Eglinton Road"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:10",
-          "location": "Northwood",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:20",
-          "location": "Ballymun Rd",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "22:55",
-          "location": "D'Brook Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:42",
-          "location": "Ballywaltrim",
-          "notes": ""
         }
       ],
       "trip_parts": [
@@ -24397,6 +24397,29 @@
       "work_time": "7:45",
       "break_duration": "1:00",
       "events": [
+        {
+          "event_type": "START",
+          "event_time": "22:15",
+          "location": "Donnybrook Church"
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:10",
+          "location": "Ballywaltrim",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:40",
+          "location": "Foxrock Church",
+          "notes": ""
+        },
+        {
+          "event_type": "TIMING_POINT",
+          "event_time": "23:55",
+          "location": "Eglinton Road",
+          "notes": ""
+        },
         {
           "event_type": "TIMING_POINT",
           "event_time": "0:50",
@@ -24468,29 +24491,6 @@
           "event_time": "6:52",
           "location": "",
           "notes": "Sign Off"
-        },
-        {
-          "event_type": "START",
-          "event_time": "22:15",
-          "location": "Donnybrook Church"
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:10",
-          "location": "Ballywaltrim",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:40",
-          "location": "Foxrock Church",
-          "notes": ""
-        },
-        {
-          "event_type": "TIMING_POINT",
-          "event_time": "23:55",
-          "location": "Eglinton Road",
-          "notes": ""
         }
       ],
       "trip_parts": [

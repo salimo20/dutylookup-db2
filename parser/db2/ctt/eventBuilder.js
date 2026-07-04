@@ -3,11 +3,11 @@ export function buildDriverTimeline(baseEvents = [], timingPointsByPart = [], du
     (part.timingPoints || [])
       .filter((point) => isBetween(point.time, part.from, part.to))
       .map((point) => ({
-  event_type: point.event_type || 'TIMING_POINT',
-  event_time: point.time,
-  location: point.location,
-  notes: point.notes || ''
-}))
+        event_type: point.event_type || 'TIMING_POINT',
+        event_time: point.time,
+        location: point.location,
+        notes: point.notes || ''
+      }))
   );
 
   const baseWithoutFinish = baseEvents.filter((event) => event.event_type !== 'FINISH');
@@ -16,7 +16,7 @@ export function buildDriverTimeline(baseEvents = [], timingPointsByPart = [], du
     .filter((event) => event.event_time)
     .sort((a, b) => timelineMinutes(a.event_time, duty.start_time) - timelineMinutes(b.event_time, duty.start_time));
 
-  const cleaned = removeDuplicateSameTimeSamePlace(merged);
+  const cleaned = removeDuplicateSameTimeSamePlace(merged, duty.start_time);
 
   return addDutyCompletion(cleaned, duty);
 }
@@ -28,7 +28,7 @@ function addDutyCompletion(events = [], duty = {}) {
 
   const lastTimingPoint = [...finalEvents]
     .reverse()
-    .find((event) => event.event_type === 'TIMING_POINT');
+    .find((event) => event.event_type === 'TIMING_POINT' || event.event_type === 'ROUTE_FINISH');
 
   if (lastTimingPoint) {
     const lastMinutes = timelineMinutes(lastTimingPoint.event_time, duty.start_time);
@@ -53,36 +53,38 @@ function addDutyCompletion(events = [], duty = {}) {
   return removeDuplicateSameTimeSamePlace(
     finalEvents.sort(
       (a, b) => timelineMinutes(a.event_time, duty.start_time) - timelineMinutes(b.event_time, duty.start_time)
-    )
+    ),
+    duty.start_time
   );
 }
 
-function removeDuplicateSameTimeSamePlace(events = []) {
+function removeDuplicateSameTimeSamePlace(events = [], dutyStart) {
   const priority = {
-  START: 1,
-  BREAK_START: 1,
-  RESUME: 1,
-  END_OF_DUTY: 1,
-  SIGN_OFF: 1,
-
-  ROUTE_START: 1,
-  ROUTE_FINISH: 1,
-
-  GARAGE: 2,
-
-  TIMING_POINT: 3
-};
+    START: 1,
+    BREAK_START: 1,
+    RESUME: 1,
+    END_OF_DUTY: 1,
+    SIGN_OFF: 1,
+    ROUTE_START: 1,
+    ROUTE_FINISH: 1,
+    GARAGE: 2,
+    TIMING_POINT: 3
+  };
 
   const seen = new Set();
 
   return events
     .sort((a, b) => {
-      const timeDiff = timeToMinutes(a.event_time) - timeToMinutes(b.event_time);
+      const timeDiff =
+        timelineMinutes(a.event_time, dutyStart) -
+        timelineMinutes(b.event_time, dutyStart);
+
       if (timeDiff !== 0) return timeDiff;
+
       return (priority[a.event_type] || 9) - (priority[b.event_type] || 9);
     })
     .filter((event) => {
-      const key = `${timeToMinutes(event.event_time)}|${normalizeLocation(event.location)}`;
+      const key = `${timelineMinutes(event.event_time, dutyStart)}|${normalizeLocation(event.location)}`;
 
       if (seen.has(key)) return false;
 
@@ -120,7 +122,7 @@ function timelineMinutes(value, dutyStart) {
 }
 
 function timeToMinutes(value) {
-  const text = String(value || '').trim();
+  const text = String(value || '').trim().replace(/g$/i, '');
   const match = text.match(/^(\d{1,2}):(\d{2})$/);
 
   if (!match) return null;
